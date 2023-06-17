@@ -1,4 +1,4 @@
-# Proyecto Lauro Ayestarán
+# El viaje de Lauro Ayestarán
 
 ![Imagen del Proyecto](/ruta/a/la/imagen.png)
 
