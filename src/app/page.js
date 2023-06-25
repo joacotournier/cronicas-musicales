@@ -91,21 +91,14 @@ export default function Example() {
         <div className="py-24 sm:py-32 lg:pb-40">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
-              <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
+              <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
                 Data to enrich your online business
-              </h1>
-              <p className="mt-6 text-lg leading-8 text-gray-300">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-                fugiat aliqua.
-              </p>
-            </div>
-            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-              <div className="overflow-hidden rounded-lg bg-white shadow mt-12">
-                <div className="px-4 py-5 sm:p-6">
-                  {/* Content goes here */}
-                </div>
-              </div>
+              </h2>
+              <img
+                src="/grabadora.png"
+                alt="grabadora"
+                className="drop-shadow-xl"
+              />
             </div>
           </div>
         </div>
