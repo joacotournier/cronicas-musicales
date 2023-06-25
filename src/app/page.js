@@ -22,7 +22,10 @@ export default function Page() {
 
       <div className="relative isolate pt-14">
         {data.map((section) => (
-          <div className="py-24 sm:py-32 lg:pb-40" key={section.id}>
+          <div
+            className="py-24 sm:py-32 lg:pb-40 h-[200vh] sticky top-[50vh] transform -translate-y-1/2 animate-fadeIn"
+            key={section.id}
+          >
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto max-w-2xl text-center">
                 {section.titulo && (
@@ -55,7 +58,7 @@ export default function Page() {
                 )}
                 {section.quote && (
                   <blockquote className="text-lg font-medium italic text-white mt-4">
-                    "{section.quote}"
+                    &quot{section.quote}&quot
                   </blockquote>
                 )}
                 {section.imagenQuote && (
