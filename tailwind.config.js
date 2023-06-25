@@ -16,6 +16,10 @@ module.exports = {
       fontFamily: {
         sans: ["EB Garamond", "serif"],
       },
+      animation: {
+        fadeIn: "fadeIn 2s",
+        fadeOut: "fadeOut 2s",
+      },
     },
   },
   plugins: [],
