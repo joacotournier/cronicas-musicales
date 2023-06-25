@@ -1,14 +1,12 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
-import { Dialog } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import useSWR from "swr";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
 export default function Page() {
-  const { data, error } = useSWR("/sections.json", fetcher);
+  const { data, error } = useSWR("/lauro-ayestaran/sections.json", fetcher);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   if (error) return <div>Failed to load</div>;
