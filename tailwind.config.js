@@ -16,9 +16,20 @@ module.exports = {
       fontFamily: {
         sans: ["EB Garamond", "serif"],
       },
+      keyframes: {
+        "fade-in": {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+      },
       animation: {
-        fadeIn: "fadeIn 2s",
-        fadeOut: "fadeOut 2s",
+        "fade-in": "fade-in 2s ease-in-out",
+      },
+      transitionProperty: {
+        opacity: "opacity",
+      },
+      transitionDuration: {
+        500: "500ms",
       },
     },
   },
