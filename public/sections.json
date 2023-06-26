@@ -13,7 +13,8 @@
     "descripcion": null,
     "imagen": "/camara.png",
     "caption": null,
-    "imagenSola": false
+    "imagenSola": false,
+    "esEtapa": true
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     "descripcion": null,
     "imagen": "/diario.png",
     "caption": null,
-    "imagenSola": false
+    "imagenSola": false,
+    "esEtapa": false
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     "descripcion": null,
     "imagen": "/camara.png",
     "caption": null,
-    "imagenSola": false
+    "imagenSola": false,
+    "esEtapa": false
   },
   {
     "id": 4,
@@ -61,6 +64,7 @@
     "descripcion": null,
     "imagen": "/diario.png",
     "caption": null,
-    "imagenSola": false
+    "imagenSola": false,
+    "esEtapa": false
   }
 ]
