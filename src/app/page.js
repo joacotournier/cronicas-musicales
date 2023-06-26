@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import useSWR from "swr";
-import Section from "./components/Section";
+import Section from "./components/section";
 import LoadingScreen from "./components/LoadingScreen";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
