@@ -1,6 +1,6 @@
 # El viaje de Lauro Ayestarán
 
-![Imagen del Proyecto](/ruta/a/la/imagen.png)
+![Imagen del Proyecto](/public/lauro-banner.jpg)
 
 Este proyecto es una exploración interactiva de la vida y el legado de Lauro Ayestarán, el reconocido musicólogo uruguayo. Es un viaje virtual a través de su vida, sus contribuciones a la música y su impacto cultural. 
 
