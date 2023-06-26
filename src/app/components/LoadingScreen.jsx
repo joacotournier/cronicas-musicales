@@ -24,6 +24,7 @@ const LoadingScreen = () => {
 
   useEffect(() => {
     if (typeof window !== "undefined") {
+      document.body.style.overflow = "hidden"; // Disable scrolling
       const timeline = gsap.timeline();
       timeline
         .from(".logo", {
@@ -49,8 +50,6 @@ const LoadingScreen = () => {
   }, [logoLoaded]);
 
   if (hideComponent) return null;
-
-  document.body.style.overflow = "hidden"; // Disable scrolling
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-main-pattern bg-cover overflow-hidden">
