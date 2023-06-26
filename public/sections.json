@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "url": "/",
+    "url": null,
     "objetoURL": null,
     "etapa": 1,
     "periodo": "1943 — 1948",
@@ -11,7 +11,7 @@
     "titulo": null,
     "sobreTitulo": null,
     "descripcion": null,
-    "imagen": "/camara.png",
+    "imagen": null,
     "caption": null,
     "imagenSola": false,
     "esEtapa": true

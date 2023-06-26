@@ -46,7 +46,12 @@ function Section({ section }) {
           </h3>
         )}
         {section.periodo && (
-          <p className="text-xl text-white">{section.periodo}</p>
+          <div className="flex flex-col align-center items-center">
+            <p className="text-xl text-white">{section.periodo}</p>
+            <h1 className="text-4xl font-sans etapa-title">
+              Etapa {section.etapa}
+            </h1>
+          </div>
         )}
         {section.description && (
           <p className="text-lg text-white mt-2">{section.description}</p>
