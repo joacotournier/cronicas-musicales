@@ -25,15 +25,20 @@ const LoadingScreen = () => {
   useEffect(() => {
     const timeline = gsap.timeline();
     timeline
-      .from(".logo", { duration: 2, scale: 1, opacity: 0, ease: "power3.out" })
-      .to(".logo", { duration: 2, opacity: 0, ease: "power3.in" }, "+=2")
+      .from(".logo", {
+        duration: 0.4,
+        scale: 1,
+        opacity: 0,
+        ease: "power3.out",
+      })
+      .to(".logo", { duration: 0.4, opacity: 0, ease: "power3.in" }, "+=2")
       .eventCallback("onComplete", () => setLogoLoaded(true));
 
     if (logoLoaded) {
-      setTimeout(() => setShowPhrase1(true), 1000);
-      setTimeout(() => setShowPhrase1(false), 5000);
-      setTimeout(() => setShowPhrase2(true), 5000);
-      setTimeout(() => setShowPhrase2(false), 9000);
+      setTimeout(() => setShowPhrase1(true), 200);
+      setTimeout(() => setShowPhrase1(false), 3000);
+      setTimeout(() => setShowPhrase2(true), 3000);
+      setTimeout(() => setShowPhrase2(false), 5000);
       setTimeout(() => {
         setHideComponent(true);
         document.body.style.overflow = "auto"; // Enable scrolling
