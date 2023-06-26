@@ -34,11 +34,16 @@ const LoadingScreen = () => {
       setTimeout(() => setShowPhrase1(false), 5000);
       setTimeout(() => setShowPhrase2(true), 5000);
       setTimeout(() => setShowPhrase2(false), 9000);
-      setTimeout(() => setHideComponent(true), 10000);
+      setTimeout(() => {
+        setHideComponent(true);
+        document.body.style.overflow = "auto"; // Enable scrolling
+      }, 10000);
     }
   }, [logoLoaded]);
 
   if (hideComponent) return null;
+
+  document.body.style.overflow = "hidden"; // Disable scrolling
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-main-pattern bg-cover overflow-hidden">
