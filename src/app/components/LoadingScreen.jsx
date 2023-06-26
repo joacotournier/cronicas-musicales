@@ -38,11 +38,11 @@ const LoadingScreen = () => {
       setTimeout(() => setShowPhrase1(true), 200);
       setTimeout(() => setShowPhrase1(false), 3000);
       setTimeout(() => setShowPhrase2(true), 3000);
-      setTimeout(() => setShowPhrase2(false), 5000);
+      setTimeout(() => setShowPhrase2(false), 6500);
       setTimeout(() => {
         setHideComponent(true);
         document.body.style.overflow = "auto"; // Enable scrolling
-      }, 10000);
+      }, 7000);
     }
   }, [logoLoaded]);
 
