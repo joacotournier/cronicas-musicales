@@ -28,7 +28,7 @@ function Section({ section }) {
   }, []);
 
   return (
-    <div className="h-[200vh] flex items-top justify-center">
+    <div className="h-[150vh] flex items-top justify-center">
       <div
         ref={sectionRef}
         className={`py-24 sm:py-32 lg:pb-40 h-[100vh] flex items-center justify-center sticky top-0 transition-opacity duration-500 ease-in-out ${
@@ -49,7 +49,7 @@ function Section({ section }) {
           <div className="flex flex-col align-center items-center">
             <p className="text-xl text-white">{section.periodo}</p>
             <h1 className="text-4xl font-sans etapa-title">
-              Etapa {section.etapa}
+              etapa {section.etapa}
             </h1>
           </div>
         )}

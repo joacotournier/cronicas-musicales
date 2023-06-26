@@ -1,5 +1,5 @@
 import "./globals.css";
-import { EB_Garamond, Lato } from "next/font/google";
+import { EB_Garamond } from "next/font/google";
 
 const garamond = EB_Garamond({ subsets: ["latin"] });
 
