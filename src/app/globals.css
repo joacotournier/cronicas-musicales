@@ -43,3 +43,8 @@ body {
     opacity: 0;
   }
 }
+
+.small-title {
+  font-variant: small-caps;
+  letter-spacing: 3px;
+}
