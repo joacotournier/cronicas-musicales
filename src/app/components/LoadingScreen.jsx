@@ -23,26 +23,28 @@ const LoadingScreen = () => {
   });
 
   useEffect(() => {
-    const timeline = gsap.timeline();
-    timeline
-      .from(".logo", {
-        duration: 0.4,
-        scale: 1,
-        opacity: 0,
-        ease: "power3.out",
-      })
-      .to(".logo", { duration: 0.4, opacity: 0, ease: "power3.in" }, "+=2")
-      .eventCallback("onComplete", () => setLogoLoaded(true));
+    if (typeof window !== "undefined") {
+      const timeline = gsap.timeline();
+      timeline
+        .from(".logo", {
+          duration: 0.4,
+          scale: 1,
+          opacity: 0,
+          ease: "power3.out",
+        })
+        .to(".logo", { duration: 0.4, opacity: 0, ease: "power3.in" }, "+=2")
+        .eventCallback("onComplete", () => setLogoLoaded(true));
 
-    if (logoLoaded) {
-      setTimeout(() => setShowPhrase1(true), 200);
-      setTimeout(() => setShowPhrase1(false), 3000);
-      setTimeout(() => setShowPhrase2(true), 3000);
-      setTimeout(() => setShowPhrase2(false), 6500);
-      setTimeout(() => {
-        setHideComponent(true);
-        document.body.style.overflow = "auto"; // Enable scrolling
-      }, 7000);
+      if (logoLoaded) {
+        setTimeout(() => setShowPhrase1(true), 200);
+        setTimeout(() => setShowPhrase1(false), 3000);
+        setTimeout(() => setShowPhrase2(true), 3000);
+        setTimeout(() => setShowPhrase2(false), 6500);
+        setTimeout(() => {
+          setHideComponent(true);
+          document.body.style.overflow = "auto"; // Enable scrolling
+        }, 7000);
+      }
     }
   }, [logoLoaded]);
 
