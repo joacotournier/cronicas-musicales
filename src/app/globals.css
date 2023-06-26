@@ -49,3 +49,12 @@ body {
   letter-spacing: 6px;
   font-size: 1.5rem;
 }
+
+.etapa-title {
+  font-size: 7rem;
+  font-weight: 100;
+  margin-top: 25px;
+  margin-bottom: 100px;
+  letter-spacing: 6px;
+  font-variant: small-caps;
+}
