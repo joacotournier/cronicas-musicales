@@ -43,3 +43,9 @@ body {
     opacity: 0;
   }
 }
+
+.small-title {
+  font-variant: small-caps;
+  letter-spacing: 6px;
+  font-size: 1.5rem;
+}
