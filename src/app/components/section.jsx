@@ -30,6 +30,7 @@ function Section({ section }) {
   return (
     <div className="h-[150vh] flex items-top justify-center">
       <div
+        key={section.id}
         ref={sectionRef}
         className={`py-24 sm:py-32 lg:pb-40 h-[100vh] flex items-center justify-center sticky top-0 transition-opacity duration-500 ease-in-out ${
           isVisible ? "opacity-100" : "opacity-0"
@@ -53,15 +54,42 @@ function Section({ section }) {
             </h1>
           </div>
         )}
-        {section.description && (
-          <p className="text-lg text-white mt-2">{section.description}</p>
+        {section.descripcion && (
+          <p className="text-lg text-white mt-2">{section.descripcion}</p>
         )}
         {section.imagen && (
           <img
             src={section.imagen}
             alt={section.caption || "Section image"}
-            className="drop-shadow-xl"
+            className={`drop-shadow-xl ${
+              section.imagenSola ? "max-w-xs mx-auto" : ""
+            }`}
           />
+        )}
+        {(section.imagen2 || section.imagen3 || section.imagen4) && (
+          <div className="flex flex-wrap justify-center">
+            {section.imagen2 && (
+              <img
+                src={section.imagen2}
+                alt="Image 2"
+                className="drop-shadow-xl m-2"
+              />
+            )}
+            {section.imagen3 && (
+              <img
+                src={section.imagen3}
+                alt="Image 3"
+                className="drop-shadow-xl m-2"
+              />
+            )}
+            {section.imagen4 && (
+              <img
+                src={section.imagen4}
+                alt="Image 4"
+                className="drop-shadow-xl m-2"
+              />
+            )}
+          </div>
         )}
         {section.caption && (
           <p className="text-sm text-white mt-2">{section.caption}</p>
@@ -75,6 +103,26 @@ function Section({ section }) {
           <figcaption className="text-sm text-white mt-2">
             {section.imagenQuote}
           </figcaption>
+        )}
+        {section.esAudio && (
+          <div>
+            <audio controls>
+              <source src={section.url} type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+            {section.audioTitulo && (
+              <p className="text-sm text-white mt-2">{section.audioTitulo}</p>
+            )}
+            {section.url2 && (
+              <audio controls>
+                <source src={section.url2} type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            )}
+            {section.audioTitulo2 && (
+              <p className="text-sm text-white mt-2">{section.audioTitulo2}</p>
+            )}
+          </div>
         )}
       </div>
     </div>
