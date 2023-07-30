@@ -15,6 +15,7 @@ module.exports = {
       },
       fontFamily: {
         serif: ["EB Garamond", "serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
       keyframes: {
         "fade-in": {
