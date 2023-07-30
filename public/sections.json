@@ -525,12 +525,31 @@
     "kilometros": 0,
     "quote": null,
     "imagenQuote": null,
+    "titulo": "Pero podés encontrar su registro en el Centro de Documentación Musical «Lauro Ayestarán» en la Biblioteca Nacional de Uruguay.",
+    "sobreTitulo": null,
+    "descripcion": null,
+    "imagen": null,
+    "caption": null,
+    "imagenSola": false,
+    "esEtapa": false,
+    "isCDM": true
+  },
+  {
+    "id": 31,
+    "url": null,
+    "objetoURL": null,
+    "etapa": "LEGADO",
+    "periodo": null,
+    "kilometros": 0,
+    "quote": null,
+    "imagenQuote": null,
     "titulo": null,
     "sobreTitulo": null,
     "descripcion": null,
     "imagen": null,
     "caption": null,
     "imagenSola": false,
-    "esEtapa": false
+    "esEtapa": false,
+    "isEnd": true
   }
 ]

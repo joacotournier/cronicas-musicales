@@ -38,7 +38,7 @@ function NavBar({ currentSection }) {
     <nav className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-8 py-6 bg-transparent">
       <span className="text-white text-xl">Lauro Ayestaran</span>
       <div
-        className="rounded-full bg-white bg-opacity-10 flex items-center p-2 pl-4 pr-5 cursor-pointer font-poppins tracking-widest text-sm"
+        className="rounded-full bg-white bg-opacity-10 hover:bg-opacity-20 transition-all flex items-center p-3 pl-5 pr-6 cursor-pointer font-poppins tracking-widest text-sm"
         onClick={toggleMenu}
       >
         <span className="mr-4">{`${

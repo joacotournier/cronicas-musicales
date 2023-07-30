@@ -54,6 +54,42 @@ function Section({ section, onVisible }) {
             </h2>
           </div>
         )}
+        {section.isCDM && (
+          <div className="flex flex-col justify-center items-center">
+            <img src="/cdm.png" alt="cdm" className="w-40" />
+            <h2 className="text-2xl text-center max-w-6xl mt-8 tracking-tight text-white sm:text-4xl">
+              {section.titulo}
+            </h2>
+            <a
+              href="http://cdm.gub.uy"
+              target="_blank"
+              className="mt-12 border-2 p-4 px-8 text-xl"
+            >
+              Sitio web del CDM
+            </a>
+          </div>
+        )}
+        {section.isEnd && (
+          <div className="flex justify-center items-center">
+            <img src="/logo.svg" alt="logo" className="w-120" />
+            <div className="flex flex-col items-left ml-20 pl-20 border-l-2 border-gray-600">
+              <h2 className="text-2xl max-w-6xl mt-8 tracking-tight text-white sm:text-4xl">
+                Contacto
+              </h2>
+              <h4 className="text-xl max-w-6xl text-poppins mt-8 tracking-tight text-white sm:text-2xl">
+                PROYECTO
+              </h4>
+              <a href="mailto:contacto@cronicasmusicales.com">
+                contacto@cronicasmusicales.com
+              </a>
+              <h4 className="text-xl max-w-6xl text-poppins mt-8 tracking-tight text-white sm:text-2xl">
+                CDM | CENTRO DE DOCUMENTACIÓN MUSICAL
+              </h4>
+              <a href="mailto:consulta@cdm.gub.uy">consulta@cdm.gub.uy</a>
+              <img src="/mec.png" alt="logo" className="w-80 mt-10 mb-10" />
+            </div>
+          </div>
+        )}
         {section.imagen && !isPopupOpen && (
           <img
             src={
@@ -121,7 +157,7 @@ function Section({ section, onVisible }) {
             )}
           </div>
         )}
-        {section.titulo && !section.isQuestion && (
+        {section.titulo && !section.isQuestion && !section.isCDM && (
           <div
             className={`flex flex-col justify-center ${
               section.imagen ? "items-left" : "items-center"
