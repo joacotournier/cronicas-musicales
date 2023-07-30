@@ -304,7 +304,7 @@
     "descripcion": null,
     "imagen": null,
     "caption": null,
-    "imagenSola": true,
+    "imagenSola": false,
     "esEtapa": false
   },
   {
@@ -321,7 +321,7 @@
     "descripcion": null,
     "imagen": "/lauro-butoba.png",
     "caption": null,
-    "imagenSola": false,
+    "imagenSola": true,
     "esEtapa": false
   },
   {
@@ -356,7 +356,7 @@
     "descripcion": null,
     "imagen": "/guitarra-butoba.png",
     "caption": null,
-    "imagenSola": false,
+    "imagenSola": true,
     "esEtapa": false,
     "esAudio": true
   },
@@ -391,7 +391,7 @@
     "descripcion": null,
     "imagen": "/candombe.png",
     "caption": null,
-    "imagenSola": false,
+    "imagenSola": true,
     "esEtapa": false
   },
   {
@@ -427,7 +427,7 @@
     "descripcion": null,
     "imagen": "/lauro.jpg",
     "caption": null,
-    "imagenSola": false,
+    "imagenSola": true,
     "esEtapa": false
   },
   {
@@ -461,7 +461,7 @@
     "descripcion": null,
     "imagen": "/firma.png",
     "caption": null,
-    "imagenSola": false,
+    "imagenSola": true,
     "esEtapa": false
   },
   {
