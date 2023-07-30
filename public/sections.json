@@ -232,7 +232,7 @@
     "descripcion": null,
     "imagen": "/radio.png",
     "caption": null,
-    "imagenSola": false,
+    "imagenSola": true,
     "esEtapa": false
   },
   {
@@ -304,7 +304,7 @@
     "descripcion": null,
     "imagen": null,
     "caption": null,
-    "imagenSola": false,
+    "imagenSola": true,
     "esEtapa": false
   },
   {

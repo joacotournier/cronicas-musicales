@@ -48,7 +48,7 @@ function Section({ section }) {
             </h2>
           </div>
         )}
-        {section.imagen && (
+        {section.imagen && !isPopupOpen && (
           <img
             src={
               isHovered && section.hover ? section.hoverImage : section.imagen
