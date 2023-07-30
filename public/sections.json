@@ -177,7 +177,7 @@
     "descripcion": null,
     "imagen": "/diario.png",
     "hover": true,
-    "hoverImage": "/diario-abierto.png",
+    "hoverImage": "/diario-hover.png",
     "popImage": "/diario-abierto.png",
     "caption": null,
     "imagenSola": true,
