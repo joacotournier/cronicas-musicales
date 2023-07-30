@@ -5,25 +5,25 @@ const sections = [
     title: "Etapa I",
     href: "#i",
     date: "1942 - 1950",
-    image: "/paysandu-1.jpg",
+    image: "/hover1.jpg",
   },
   {
     title: "Etapa II",
     href: "#ii",
     date: "1951 - 1960",
-    image: "/paysandu-1.jpg",
+    image: "/hover2.jpg",
   },
   {
     title: "Etapa III",
     href: "#iii",
     date: "1961 - 1970",
-    image: "/paysandu-1.jpg",
+    image: "/hover3.jpg",
   },
   {
     title: "Legado",
     href: "#legado",
     date: "1971 - 1980",
-    image: "/paysandu-1.jpg",
+    image: "/hover4.jpg",
   },
 ];
 
@@ -58,12 +58,12 @@ function NavBar({ currentSection }) {
               className={`relative flex-1 h-full flex flex-col justify-center items-center ${
                 index === sections.length - 1
                   ? ""
-                  : "border-r border-gray-500 border-opacity-15"
+                  : "border-r border-gray-500 border-opacity-50"
               }`}
               key={section.title}
             >
               <div
-                className="absolute z-10 inset-0 bg-center bg-cover opacity-0 hover:opacity-20 transition-opacity duration-200"
+                className="absolute z-10 inset-0 bg-center bg-cover opacity-0 hover:opacity-30 transition-opacity duration-300"
                 style={{ backgroundImage: `url(${section.image})` }}
               ></div>
               <div className="font-bold text-3xl text-white w-full h-full flex flex-col justify-center items-center">
