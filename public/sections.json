@@ -184,6 +184,23 @@
     "esEtapa": false
   },
   {
+    "id": 13.5,
+    "url": null,
+    "objetoURL": null,
+    "etapa": "ii",
+    "periodo": "1943 — 1948",
+    "kilometros": 0,
+    "quote": null,
+    "imagenQuote": null,
+    "titulo": null,
+    "sobreTitulo": null,
+    "descripcion": null,
+    "imagen": null,
+    "caption": null,
+    "imagenSola": false,
+    "esEtapa": true
+  },
+  {
     "id": 14,
     "url": null,
     "objetoURL": null,
@@ -289,6 +306,23 @@
     "imagenSola": false,
     "esEtapa": false,
     "esAudio": true
+  },
+  {
+    "id": 19.5,
+    "url": null,
+    "objetoURL": null,
+    "etapa": "iii",
+    "periodo": "1943 — 1948",
+    "kilometros": 0,
+    "quote": null,
+    "imagenQuote": null,
+    "titulo": null,
+    "sobreTitulo": null,
+    "descripcion": null,
+    "imagen": null,
+    "caption": null,
+    "imagenSola": false,
+    "esEtapa": true
   },
   {
     "id": 20,
@@ -412,6 +446,23 @@
     "imagenSola": true,
     "esEtapa": false,
     "esAudio": true
+  },
+  {
+    "id": 26.5,
+    "url": null,
+    "objetoURL": null,
+    "etapa": "legado",
+    "periodo": "1943 — 1948",
+    "kilometros": 0,
+    "quote": null,
+    "imagenQuote": null,
+    "titulo": null,
+    "sobreTitulo": null,
+    "descripcion": null,
+    "imagen": null,
+    "caption": null,
+    "imagenSola": false,
+    "esEtapa": true
   },
   {
     "id": 27,

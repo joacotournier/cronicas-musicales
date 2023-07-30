@@ -104,9 +104,15 @@ function Section({ section }) {
         {section.periodo && (
           <div className="flex flex-col align-center items-center">
             <p className="text-xl text-white">{section.periodo}</p>
-            <h1 className="text-4xl font-sans etapa-title">
-              etapa {section.etapa}
-            </h1>
+            {section.etapa !== "legado" ? (
+              <h1 className="text-4xl font-sans etapa-title">
+                etapa {section.etapa}
+              </h1>
+            ) : (
+              <h1 className="text-4xl font-sans etapa-title">
+                {section.etapa}
+              </h1>
+            )}
           </div>
         )}
         {section.titulo && !section.isQuestion && (
