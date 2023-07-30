@@ -36,8 +36,16 @@ function Section({ section }) {
           isVisible ? "opacity-100" : "opacity-0"
         }`}
       >
-        {section.titulo && (
-          <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
+        {section.isQuestion && (
+          <div className="flex flex-col justify-center items-center">
+            <img src="/pregunta.svg" alt="pregunta" className="" />
+            <h2 className="text-2xl tracking-tight text-white sm:text-4xl">
+              {section.titulo}
+            </h2>
+          </div>
+        )}
+        {section.titulo && !section.isQuestion && (
+          <h2 className="text-4xl tracking-tight text-white sm:text-6xl poppins">
             {section.titulo}
           </h2>
         )}

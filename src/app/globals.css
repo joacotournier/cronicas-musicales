@@ -58,3 +58,7 @@ body {
   letter-spacing: 6px;
   font-variant: small-caps;
 }
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
