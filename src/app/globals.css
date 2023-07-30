@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -59,6 +61,6 @@ body {
   font-variant: small-caps;
 }
 
-.poppins {
+.text-poppins {
   font-family: "Poppins", sans-serif;
 }

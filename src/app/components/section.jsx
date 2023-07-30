@@ -44,27 +44,6 @@ function Section({ section }) {
             </h2>
           </div>
         )}
-        {section.titulo && !section.isQuestion && (
-          <h2 className="text-4xl tracking-tight text-white sm:text-6xl poppins">
-            {section.titulo}
-          </h2>
-        )}
-        {section.sobreTitulo && (
-          <h3 className="text-3xl font-semibold text-white sm:text-4xl">
-            {section.sobreTitulo}
-          </h3>
-        )}
-        {section.periodo && (
-          <div className="flex flex-col align-center items-center">
-            <p className="text-xl text-white">{section.periodo}</p>
-            <h1 className="text-4xl font-sans etapa-title">
-              etapa {section.etapa}
-            </h1>
-          </div>
-        )}
-        {section.descripcion && (
-          <p className="text-lg text-white mt-2">{section.descripcion}</p>
-        )}
         {section.imagen && (
           <img
             src={section.imagen}
@@ -99,36 +78,65 @@ function Section({ section }) {
             )}
           </div>
         )}
-        {section.caption && (
-          <p className="text-sm text-white mt-2">{section.caption}</p>
+        {section.periodo && (
+          <div className="flex flex-col align-center items-center">
+            <p className="text-xl text-white">{section.periodo}</p>
+            <h1 className="text-4xl font-sans etapa-title">
+              etapa {section.etapa}
+            </h1>
+          </div>
         )}
-        {section.quote && (
-          <blockquote className="text-lg font-medium italic text-white mt-4">
-            &quot{section.quote}&quot
-          </blockquote>
-        )}
-        {section.imagenQuote && (
-          <figcaption className="text-sm text-white mt-2">
-            {section.imagenQuote}
-          </figcaption>
-        )}
-        {section.esAudio && (
-          <div>
-            <audio controls>
-              <source src={section.url} type="audio/mpeg" />
-              Your browser does not support the audio element.
-            </audio>
-            {section.audioTitulo && (
-              <p className="text-sm text-white mt-2">{section.audioTitulo}</p>
+        {section.titulo && !section.isQuestion && (
+          <div className="flex flex-col justify-center items-left pl-20">
+            <h2 className="text-3xl tracking-tight text-white sm:text-5xl font-poppins">
+              {section.titulo}
+            </h2>
+            {section.sobreTitulo && (
+              <h3 className="text-3xl font-semibold text-white sm:text-4xl">
+                {section.sobreTitulo}
+              </h3>
             )}
-            {section.url2 && (
-              <audio controls>
-                <source src={section.url2} type="audio/mpeg" />
-                Your browser does not support the audio element.
-              </audio>
+
+            {section.descripcion && (
+              <p className="text-lg text-white mt-2">{section.descripcion}</p>
             )}
-            {section.audioTitulo2 && (
-              <p className="text-sm text-white mt-2">{section.audioTitulo2}</p>
+
+            {section.caption && (
+              <p className="text-sm text-white mt-2">{section.caption}</p>
+            )}
+            {section.quote && (
+              <blockquote className="text-lg font-medium italic text-white mt-4">
+                &quot{section.quote}&quot
+              </blockquote>
+            )}
+            {section.imagenQuote && (
+              <figcaption className="text-sm text-white mt-2">
+                {section.imagenQuote}
+              </figcaption>
+            )}
+            {section.esAudio && (
+              <div>
+                <audio controls>
+                  <source src={section.url} type="audio/mpeg" />
+                  Your browser does not support the audio element.
+                </audio>
+                {section.audioTitulo && (
+                  <p className="text-sm text-white mt-2">
+                    {section.audioTitulo}
+                  </p>
+                )}
+                {section.url2 && (
+                  <audio controls>
+                    <source src={section.url2} type="audio/mpeg" />
+                    Your browser does not support the audio element.
+                  </audio>
+                )}
+                {section.audioTitulo2 && (
+                  <p className="text-sm text-white mt-2">
+                    {section.audioTitulo2}
+                  </p>
+                )}
+              </div>
             )}
           </div>
         )}
