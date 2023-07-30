@@ -88,24 +88,27 @@ function Section({ section }) {
           </div>
         )}
         {section.titulo && !section.isQuestion && (
-          <div className="flex flex-col justify-center items-left pl-20">
+          <div
+            className={`flex flex-col justify-center ${
+              section.imagen ? "items-left" : "items-center"
+            } pl-20`}
+          >
+            {section.sobreTitulo && (
+              <p className="text-l text-white opacity-50 mb-2 sm:text-xl">
+                {section.sobreTitulo}
+              </p>
+            )}
             <h2 className="text-3xl tracking-tight text-white sm:text-5xl font-poppins">
               {section.titulo}
             </h2>
-            {section.sobreTitulo && (
-              <h3 className="text-3xl font-semibold text-white sm:text-4xl">
-                {section.sobreTitulo}
-              </h3>
-            )}
-
             {section.descripcion && (
-              <p className="text-lg text-white mt-2 opacity-70 mt-3 mb-3">
+              <p className="text-xl sm:leading-loose text-center sm:text-2xl max-w-2xl text-white opacity-70 mt-3 mb-3">
                 {section.descripcion}
               </p>
             )}
 
             {section.caption && (
-              <p className="text-sm text-white mt-2 opacity-70 mb-2">
+              <p className="text-sm text-white mt-2 opacity-50 mb-2">
                 {section.caption}
               </p>
             )}
