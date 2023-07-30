@@ -6,6 +6,9 @@ function Section({ section }) {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef();
 
+  const [isHovered, setIsHovered] = useState(false);
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -47,12 +50,29 @@ function Section({ section }) {
         )}
         {section.imagen && (
           <img
-            src={section.imagen}
+            src={
+              isHovered && section.hover ? section.hoverImage : section.imagen
+            }
             alt={section.caption || "Section image"}
             className={`drop-shadow-xl object-cover max-w-xs ${
-              section.imagenSola ? "max-w-xs mx-auto" : ""
+              section.imagenSola ? "max-w-sm mx-auto" : ""
             }`}
+            onMouseEnter={() => section.hover && setIsHovered(true)}
+            onMouseLeave={() => section.hover && setIsHovered(false)}
+            onClick={() => section.hover && setIsPopupOpen(true)}
           />
+        )}
+        {isPopupOpen && (
+          <div
+            className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-75"
+            onClick={() => setIsPopupOpen(false)}
+          >
+            <img
+              src={section.popImage}
+              alt="Popup image"
+              className="max-w-md mx-auto"
+            />
+          </div>
         )}
         {(section.imagen2 || section.imagen3 || section.imagen4) && (
           <div className="flex flex-wrap justify-center">

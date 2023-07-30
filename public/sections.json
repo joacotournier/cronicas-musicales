@@ -178,8 +178,9 @@
     "imagen": "/diario.png",
     "hover": true,
     "hoverImage": "/diario-abierto.png",
+    "popImage": "/diario-abierto.png",
     "caption": null,
-    "imagenSola": false,
+    "imagenSola": true,
     "esEtapa": false
   },
   {
@@ -197,7 +198,7 @@
     "imagen": "/carta.png",
     "esZoom": true,
     "caption": null,
-    "imagenSola": false,
+    "imagenSola": true,
     "esEtapa": false
   },
   {
