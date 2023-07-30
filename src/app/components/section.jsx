@@ -55,8 +55,9 @@ function Section({ section }) {
             }
             alt={section.caption || "Section image"}
             className={`drop-shadow-xl object-cover max-w-xs ${
-              section.imagenSola ? "max-w-sm mx-auto" : ""
-            }`}
+              section.imagenSola ? "max-w-4xl mx-auto" : ""
+            } ${section.hover ? "cursor-pointer" : ""}`}
+            style={section.hover ? { cursor: "pointer" } : {}}
             onMouseEnter={() => section.hover && setIsHovered(true)}
             onMouseLeave={() => section.hover && setIsHovered(false)}
             onClick={() => section.hover && setIsPopupOpen(true)}
@@ -64,13 +65,14 @@ function Section({ section }) {
         )}
         {isPopupOpen && (
           <div
-            className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-75"
+            className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-opacity-75"
+            style={section.hover ? { cursor: "pointer" } : {}}
             onClick={() => setIsPopupOpen(false)}
           >
             <img
               src={section.popImage}
               alt="Popup image"
-              className="max-w-md mx-auto"
+              className="max-w-4xl mx-auto"
             />
           </div>
         )}
