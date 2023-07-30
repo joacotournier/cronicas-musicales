@@ -102,7 +102,13 @@ function Section({ section }) {
               {section.titulo}
             </h2>
             {section.descripcion && (
-              <p className="text-xl sm:leading-loose text-center sm:text-2xl max-w-2xl text-white opacity-70 mt-3 mb-3">
+              <p
+                className={`text-xl ${
+                  section.imagen
+                    ? "text-left"
+                    : "text-center sm:leading-loose sm:text-2xl"
+                }  max-w-2xl text-white opacity-70 mt-3 mb-3`}
+              >
                 {section.descripcion}
               </p>
             )}
