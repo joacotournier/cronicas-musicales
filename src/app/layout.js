@@ -1,6 +1,9 @@
 import "./globals.css";
 import { EB_Garamond } from "next/font/google";
 
+import { Poppins } from "next/font/google";
+const poppins = Poppins({ subsets: ["latin"] });
+
 const garamond = EB_Garamond({ subsets: ["latin"] });
 
 export const metadata = {
