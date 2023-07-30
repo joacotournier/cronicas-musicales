@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
+import AudioPlayer from "./AudioPlayer";
 
 function Section({ section }) {
   const [isVisible, setIsVisible] = useState(false);
@@ -98,11 +99,15 @@ function Section({ section }) {
             )}
 
             {section.descripcion && (
-              <p className="text-lg text-white mt-2">{section.descripcion}</p>
+              <p className="text-lg text-white mt-2 opacity-70 mt-3 mb-3">
+                {section.descripcion}
+              </p>
             )}
 
             {section.caption && (
-              <p className="text-sm text-white mt-2">{section.caption}</p>
+              <p className="text-sm text-white mt-2 opacity-70 mb-2">
+                {section.caption}
+              </p>
             )}
             {section.quote && (
               <blockquote className="text-lg font-medium italic text-white mt-4">
@@ -116,25 +121,11 @@ function Section({ section }) {
             )}
             {section.esAudio && (
               <div>
-                <audio controls>
-                  <source src={section.url} type="audio/mpeg" />
-                  Your browser does not support the audio element.
-                </audio>
                 {section.audioTitulo && (
-                  <p className="text-sm text-white mt-2">
-                    {section.audioTitulo}
-                  </p>
-                )}
-                {section.url2 && (
-                  <audio controls>
-                    <source src={section.url2} type="audio/mpeg" />
-                    Your browser does not support the audio element.
-                  </audio>
+                  <AudioPlayer url={section.url} name={section.audioTitulo} />
                 )}
                 {section.audioTitulo2 && (
-                  <p className="text-sm text-white mt-2">
-                    {section.audioTitulo2}
-                  </p>
+                  <AudioPlayer url={section.url2} name={section.audioTitulo2} />
                 )}
               </div>
             )}
