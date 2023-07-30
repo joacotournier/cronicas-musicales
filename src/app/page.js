@@ -17,7 +17,7 @@ export default function Page() {
     setCurrentSection(sectionName);
   };
 
-  const showLoading = false; // REMEMBER TO CHANGE THIS WHEN DEPLOYING
+  const showLoading = true; // REMEMBER TO CHANGE THIS WHEN DEPLOYING
 
   if (error) return <div>Failed to load</div>;
 
