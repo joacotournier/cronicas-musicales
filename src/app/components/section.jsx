@@ -35,7 +35,10 @@ function Section({ section, onVisible }) {
   }, []);
 
   return (
-    <div className="h-[150vh] flex items-top justify-center">
+    <div
+      id={section.etapa.toLowerCase()}
+      className="h-[150vh] flex items-top justify-center"
+    >
       <div
         key={section.id}
         ref={sectionRef}
@@ -107,13 +110,13 @@ function Section({ section, onVisible }) {
         {section.periodo && (
           <div className="flex flex-col align-center items-center">
             <p className="text-xl text-white">{section.periodo}</p>
-            {section.etapa !== "legado" ? (
+            {section.etapa !== "LEGADO" ? (
               <h1 className="text-4xl font-sans etapa-title">
-                etapa {section.etapa}
+                etapa {section.etapa.toLowerCase()}
               </h1>
             ) : (
               <h1 className="text-4xl font-sans etapa-title">
-                {section.etapa}
+                {section.etapa.toLowerCase()}
               </h1>
             )}
           </div>
