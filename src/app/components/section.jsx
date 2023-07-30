@@ -49,7 +49,7 @@ function Section({ section }) {
           <img
             src={section.imagen}
             alt={section.caption || "Section image"}
-            className={`drop-shadow-xl ${
+            className={`drop-shadow-xl object-cover max-w-xs ${
               section.imagenSola ? "max-w-xs mx-auto" : ""
             }`}
           />
@@ -60,21 +60,21 @@ function Section({ section }) {
               <img
                 src={section.imagen2}
                 alt="Image 2"
-                className="drop-shadow-xl m-2"
+                className="drop-shadow-xl m-2 max-w-xs object-cover"
               />
             )}
             {section.imagen3 && (
               <img
                 src={section.imagen3}
                 alt="Image 3"
-                className="drop-shadow-xl m-2"
+                className="drop-shadow-xl m-2 max-w-xs object-cover"
               />
             )}
             {section.imagen4 && (
               <img
                 src={section.imagen4}
                 alt="Image 4"
-                className="drop-shadow-xl m-2"
+                className="drop-shadow-xl m-2 max-w-xs object-cover"
               />
             )}
           </div>
