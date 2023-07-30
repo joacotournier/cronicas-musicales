@@ -54,7 +54,7 @@ function Section({ section }) {
               isHovered && section.hover ? section.hoverImage : section.imagen
             }
             alt={section.caption || "Section image"}
-            className={`drop-shadow-xl object-cover max-w-xs ${
+            className={`drop-shadow-xl object-cover max-w-md ${
               section.imagenSola ? "max-w-4xl mx-auto" : ""
             } ${section.hover ? "cursor-pointer" : ""}`}
             style={section.hover ? { cursor: "pointer" } : {}}
@@ -77,26 +77,26 @@ function Section({ section }) {
           </div>
         )}
         {(section.imagen2 || section.imagen3 || section.imagen4) && (
-          <div className="flex flex-wrap justify-center">
+          <div className="flex justify-center">
             {section.imagen2 && (
               <img
                 src={section.imagen2}
                 alt="Image 2"
-                className="drop-shadow-xl m-2 max-w-xs object-cover"
+                className="drop-shadow-xl m-2 w-1/4 object-cover"
               />
             )}
             {section.imagen3 && (
               <img
                 src={section.imagen3}
                 alt="Image 3"
-                className="drop-shadow-xl m-2 max-w-xs object-cover"
+                className="drop-shadow-xl m-2 w-1/4 object-cover"
               />
             )}
             {section.imagen4 && (
               <img
                 src={section.imagen4}
                 alt="Image 4"
-                className="drop-shadow-xl m-2 max-w-xs object-cover"
+                className="drop-shadow-xl m-2 w-1/4 object-cover"
               />
             )}
           </div>
@@ -120,7 +120,11 @@ function Section({ section }) {
                 {section.sobreTitulo}
               </p>
             )}
-            <h2 className="text-3xl tracking-tight text-white sm:text-5xl font-poppins">
+            <h2
+              className={`text-3xl text-white sm:text-5xl ${
+                section.tituloSolo ? "" : "font-poppins"
+              } `}
+            >
               {section.titulo}
             </h2>
             {section.descripcion && (
