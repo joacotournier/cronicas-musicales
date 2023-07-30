@@ -2,7 +2,7 @@
 import { useState, useEffect, useRef } from "react";
 import AudioPlayer from "./AudioPlayer";
 
-function Section({ section }) {
+function Section({ section, onVisible }) {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef();
 
@@ -13,6 +13,9 @@ function Section({ section }) {
     const observer = new IntersectionObserver(
       ([entry]) => {
         setIsVisible(entry.isIntersecting);
+        if (entry.isIntersecting) {
+          onVisible();
+        }
       },
       {
         rootMargin: "0px 0px -10% 0px",
