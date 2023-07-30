@@ -11,7 +11,7 @@ export default function Page() {
   const { data, error } = useSWR("/sections.json", fetcher);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const showLoading = true; // REMEMBER TO CHANGE THIS WHEN DEPLOYING
+  const showLoading = false; // REMEMBER TO CHANGE THIS WHEN DEPLOYING
 
   if (error) return <div>Failed to load</div>;
 
