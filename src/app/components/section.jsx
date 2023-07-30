@@ -54,8 +54,8 @@ function Section({ section }) {
               isHovered && section.hover ? section.hoverImage : section.imagen
             }
             alt={section.caption || "Section image"}
-            className={`drop-shadow-xl object-cover max-w-md ${
-              section.imagenSola ? "max-w-4xl mx-auto" : ""
+            className={`drop-shadow-xl object-cover  ${
+              section.imagenSola ? "max-w-4xl mx-auto" : "max-w-xl"
             } ${section.hover ? "cursor-pointer" : ""}`}
             style={section.hover ? { cursor: "pointer" } : {}}
             onMouseEnter={() => section.hover && setIsHovered(true)}

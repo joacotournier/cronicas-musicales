@@ -117,10 +117,10 @@
     "titulo": null,
     "sobreTitulo": null,
     "descripcion": null,
-    "imagen": "/paysandu-1.jpg",
     "imagen2": "/paysandu-2.jpg",
     "imagen3": "/paysandu-3.jpg",
     "imagen4": "/paysandu-4.jpg",
+    "imagen5": "/paysandu-1.jpg",
     "caption": null,
     "imagenSola": false,
     "esEtapa": false
