@@ -289,9 +289,10 @@ function Section({ section, onVisible }) {
                     ? "text-left"
                     : "text-center sm:leading-loose sm:text-2xl"
                 }  max-w-2xl text-white opacity-70 mt-3 mb-3`}
-              >
-                {section.descripcion}
-              </p>
+                dangerouslySetInnerHTML={{
+                  __html: section.descripcion.replace(/\n/g, "<br />"),
+                }}
+              ></p>
             )}
 
             {section.caption && (
@@ -299,11 +300,13 @@ function Section({ section, onVisible }) {
                 {section.caption}
               </p>
             )}
+
             {section.quote && (
               <blockquote className="text-lg font-medium italic text-white mt-4">
                 &quot{section.quote}&quot
               </blockquote>
             )}
+
             {section.imagenQuote && (
               <figcaption className="text-sm text-white mt-2">
                 {section.imagenQuote}
