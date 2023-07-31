@@ -9,6 +9,8 @@ function Section({ section, onVisible }) {
   const [isHovered, setIsHovered] = useState(false);
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
+  const [isMagnified, setIsMagnified] = useState(false);
+
   function magnify(imgID, zoom) {
     var img, glass, w, h, bw;
     img = document.getElementById(imgID);
@@ -179,8 +181,17 @@ function Section({ section, onVisible }) {
               onClick={() => section.hover && setIsPopupOpen(true)}
               id={section.id}
               onMouseEnter={() => {
-                section.hover && setIsHovered(true);
-                magnify(section.id, 3);
+                if (!isMagnified) {
+                  magnify(section.id, 2.5);
+                  setIsMagnified(true);
+                }
+              }}
+              onMouseLeave={() => {
+                if (isMagnified) {
+                  const glass = document.querySelector(".img-magnifier-glass");
+                  glass && glass.parentNode.removeChild(glass);
+                  setIsMagnified(false);
+                }
               }}
             />
           </div>
