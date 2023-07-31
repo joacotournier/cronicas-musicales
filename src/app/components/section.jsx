@@ -176,26 +176,42 @@ function Section({ section, onVisible }) {
                 section.imagenSola ? "max-w-4xl mx-auto" : "max-w-xl"
               } ${section.hover ? "cursor-pointer" : ""}`}
               style={section.hover ? { cursor: "pointer" } : {}}
-              onMouseEnter={() => section.hover && setIsHovered(true)}
-              onMouseLeave={() => section.hover && setIsHovered(false)}
               onClick={() => section.hover && setIsPopupOpen(true)}
               id={section.id}
               onMouseEnter={() => {
-                if (!isMagnified) {
+                if (section.hover) setIsHovered(true);
+                if (section.esZoom && !isMagnified) {
                   magnify(section.id, 2.5);
                   setIsMagnified(true);
+                  // Set opacity to 100% for all .img-magnifier-glass elements
+                  const glasses = document.querySelectorAll(
+                    ".img-magnifier-glass"
+                  );
+                  glasses.forEach((glass) => {
+                    glass.style.opacity = "1";
+                  });
                 }
               }}
               onMouseLeave={() => {
-                if (isMagnified) {
-                  const glass = document.querySelector(".img-magnifier-glass");
-                  glass && glass.parentNode.removeChild(glass);
-                  setIsMagnified(false);
+                if (section.hover) setIsHovered(false);
+                if (section.esZoom && isMagnified) {
+                  // Set opacity to 0% for all .img-magnifier-glass elements
+                  const glasses = document.querySelectorAll(
+                    ".img-magnifier-glass"
+                  );
+                  glasses.forEach((glass) => {
+                    glass.style.opacity = "0";
+                    setTimeout(() => {
+                      glass.parentNode.removeChild(glass);
+                      setIsMagnified(false);
+                    }, 100); // adjust delay as needed
+                  });
                 }
               }}
             />
           </div>
         )}
+
         {isPopupOpen && (
           <div
             className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-opacity-75"
