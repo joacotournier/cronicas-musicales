@@ -154,13 +154,18 @@ function Section({ section, onVisible }) {
               <h4 className="text-xl max-w-6xl text-poppins mt-8 tracking-tight text-white sm:text-2xl">
                 PROYECTO
               </h4>
-              <a href="mailto:contacto@cronicasmusicales.com">
+              <a
+                href="mailto:contacto@cronicasmusicales.com"
+                className="opacity-50"
+              >
                 contacto@cronicasmusicales.com
               </a>
               <h4 className="text-xl max-w-6xl text-poppins mt-8 tracking-tight text-white sm:text-2xl">
                 CDM | CENTRO DE DOCUMENTACIÓN MUSICAL
               </h4>
-              <a href="mailto:consulta@cdm.gub.uy">consulta@cdm.gub.uy</a>
+              <a href="mailto:consulta@cdm.gub.uy" className="opacity-50">
+                consulta@cdm.gub.uy
+              </a>
               <img src="/mec.png" alt="logo" className="w-80 mt-10 mb-10" />
             </div>
           </div>

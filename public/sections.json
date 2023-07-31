@@ -376,6 +376,25 @@
     "esEtapa": false
   },
   {
+    "id": 22.5,
+    "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/12/CDM-LA-RS-818-Garcia.mp3?_=1",
+    "audioTitulo": "Danza",
+    "objetoURL": null,
+    "etapa": "III",
+    "periodo": null,
+    "kilometros": 0,
+    "quote": null,
+    "imagenQuote": null,
+    "titulo": "Nicolás Basso (payador)",
+    "sobreTitulo": null,
+    "descripcion": "Feria dominical, Montevideo. 23 de diciembre de 1962.",
+    "imagen": "/nicolas.jpg",
+    "caption": "Fotos: Lauro Ayestarán",
+    "imagenSola": false,
+    "esEtapa": false,
+    "esAudio": true
+  },
+  {
     "id": 23,
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/12/CDM-LA-RS-818-Garcia.mp3?_=1",
     "audioTitulo": "Danza",
