@@ -118,3 +118,18 @@ input[type="range"]::-moz-range-thumb {
   /*  slider progress trick  */
   box-shadow: -407px 0 0 400px #f50;
 }
+
+.img-magnifier-container {
+  position: relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #ffffff15;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 150px;
+  height: 150px;
+  z-index: 100;
+}
