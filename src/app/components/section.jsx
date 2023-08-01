@@ -281,9 +281,9 @@ function Section({ section, onVisible }) {
               </p>
             )}
             <h2
-              className={`text-3xl text-white sm:text-5xl ${
-                section.tituloSolo ? "" : "font-poppins"
-              } `}
+              className={`text-3xl text-white ${
+                section.sinTitulo ? "hidden" : ""
+              } sm:text-5xl ${section.tituloSolo ? "" : "font-poppins"} `}
             >
               {section.titulo}
             </h2>
