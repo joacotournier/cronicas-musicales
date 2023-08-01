@@ -60,9 +60,9 @@ const AudioPlayer = ({ url, name }) => {
   };
 
   return (
-    <div className="flex items-center justify-between border-2 border-white rounded-full p-2 pl-6 pr-2 mt-6 mb-6 font-poppins">
+    <div className="flex items-center justify-between border-2 border-white rounded-full p-2 pl-6 pr-2 mt-6 mb-6 w-3/4 font-poppins">
       <p>{name}</p>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between w-full ml-4">
         <input
           type="range"
           min="0"
