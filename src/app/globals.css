@@ -71,7 +71,8 @@ input[type="range"] {
   appearance: none;
   background: #ffffff15;
   /* creating a custom design */
-  width: 100%;
+  width: auto;
+  min-width: 200px;
   cursor: pointer;
   outline: none;
   /*  slider progress trick  */

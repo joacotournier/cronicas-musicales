@@ -231,27 +231,34 @@ function Section({ section, onVisible }) {
           </div>
         )}
         {(section.imagen2 || section.imagen3 || section.imagen4) && (
-          <div className="flex justify-center">
-            {section.imagen2 && (
-              <img
-                src={section.imagen2}
-                alt="Image 2"
-                className="drop-shadow-xl m-2 w-1/4 object-cover"
-              />
-            )}
-            {section.imagen3 && (
-              <img
-                src={section.imagen3}
-                alt="Image 3"
-                className="drop-shadow-xl m-2 w-1/4 object-cover"
-              />
-            )}
-            {section.imagen4 && (
-              <img
-                src={section.imagen4}
-                alt="Image 4"
-                className="drop-shadow-xl m-2 w-1/4 object-cover"
-              />
+          <div className="flex-column justify-center items-center">
+            <div className="flex justify-center">
+              {section.imagen2 && (
+                <img
+                  src={section.imagen2}
+                  alt="Image 2"
+                  className="drop-shadow-xl m-2 w-1/4 object-cover"
+                />
+              )}
+              {section.imagen3 && (
+                <img
+                  src={section.imagen3}
+                  alt="Image 3"
+                  className="drop-shadow-xl m-2 w-1/4 object-cover"
+                />
+              )}
+              {section.imagen4 && (
+                <img
+                  src={section.imagen4}
+                  alt="Image 4"
+                  className="drop-shadow-xl m-2 w-1/4 object-cover"
+                />
+              )}
+            </div>
+            {section.imagenesCaption && (
+              <div className="flex justify-center items-center mt-4">
+                {section.imagenesCaption}
+              </div>
             )}
           </div>
         )}
@@ -281,9 +288,9 @@ function Section({ section, onVisible }) {
               </p>
             )}
             <h2
-              className={`text-3xl text-white sm:text-5xl ${
-                section.tituloSolo ? "" : "font-poppins"
-              } `}
+              className={`text-3xl text-white ${
+                section.sinTitulo ? "hidden" : ""
+              } sm:text-5xl ${section.tituloSolo ? "" : "font-poppins"} `}
             >
               {section.titulo}
             </h2>
