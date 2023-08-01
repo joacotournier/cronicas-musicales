@@ -91,7 +91,7 @@
   {
     "id": 5,
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/12/CDM-LA-RS-818-Garcia.mp3?_=1",
-    "audioTitulo": "Se escuchaba asi",
+    "audioTitulo": "Candombe en el teatro de verano, 1946",
     "objetoURL": null,
     "etapa": "I",
     "periodo": null,
@@ -117,29 +117,13 @@
     "quote": null,
     "imagenQuote": null,
     "titulo": "Su primer grabador",
-    "sobreTitulo": "16 de marzo de 1948",
-    "descripcion": "Para responder a la pregunta, Lauro consigue su primer grabador de acetato, iniciando su viaje de investigación. El orificio del centro, al igual que un disco de vinilo es para el eje del plato giradiscos. ¡Se estima que el grabador pesaba alrededor de 30 kilos!",
+    "sobreTitulo": "",
+    "descripcion": "Con su primer grabador de acetato, Lauro inicia su viaje de investigación. El orificio del centro, al igual que un disco de vinilo es para el eje del plato giradiscos. ¡Se estima que el grabador pesaba alrededor de 30 kilos!",
     "imagen": null,
     "caption": null,
     "imagenSola": false,
-    "esEtapa": false
-  },
-  {
-    "id": 7,
-    "url": null,
-    "objetoURL": null,
-    "etapa": "I",
-    "periodo": null,
-    "kilometros": 0,
-    "quote": null,
-    "imagenQuote": null,
-    "titulo": "Cámara de Apolo Ronchi",
-    "sobreTitulo": null,
-    "descripcion": "Apolo ayudó a Lauro durante su proceso de investigación",
-    "imagen": "/camara.png",
-    "caption": "Vesta Pocket Kodak 1912",
-    "imagenSola": false,
-    "esEtapa": false
+    "esEtapa": false,
+    "sinTitulo": true
   },
   {
     "id": 9,
@@ -199,6 +183,23 @@
     "imagenSola": false,
     "esEtapa": false,
     "esAudio": true
+  },
+  {
+    "id": 11.5,
+    "url": null,
+    "objetoURL": null,
+    "etapa": "I",
+    "periodo": null,
+    "kilometros": 0,
+    "quote": null,
+    "imagenQuote": null,
+    "titulo": "Cámara de Apolo Ronchi",
+    "sobreTitulo": null,
+    "descripcion": "Apolo ayudó a Lauro durante su proceso de investigación",
+    "imagen": "/camara.png",
+    "caption": "Vesta Pocket Kodak 1912",
+    "imagenSola": false,
+    "esEtapa": false
   },
   {
     "id": 12,
