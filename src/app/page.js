@@ -18,7 +18,7 @@ export default function Page() {
     setCurrentSection(sectionName);
   };
 
-  const showLoading = false; // REMEMBER TO CHANGE THIS WHEN DEPLOYING
+  const showLoading = true; // REMEMBER TO CHANGE THIS WHEN DEPLOYING
 
   useEffect(() => {
     // Delay for 2 seconds before setting showNavBar to true
