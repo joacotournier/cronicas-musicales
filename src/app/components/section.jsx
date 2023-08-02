@@ -294,6 +294,9 @@ function Section({ section, onVisible }) {
             >
               {section.titulo}
             </h2>
+            {section.esPrimera && (
+              <img src="/lauro.png" alt="primera" className="h-40 mb-4" />
+            )}
             {section.descripcion && (
               <p
                 className={`text-xl ${

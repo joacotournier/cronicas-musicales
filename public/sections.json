@@ -15,7 +15,8 @@
     "caption": null,
     "imagenSola": false,
     "esEtapa": false,
-    "sinTitulo": true
+    "sinTitulo": true,
+    "esPrimera": true
   },
   {
     "id": 1,
