@@ -165,6 +165,24 @@
     "tituloNavegador": "Grabador de acetato"
   },
   {
+    "id": 5.4,
+    "url": null,
+    "objetoURL": null,
+    "etapa": "I",
+    "periodo": null,
+    "quote": null,
+    "imagenQuote": null,
+    "titulo": "Su primer grabador",
+    "sobreTitulo": "",
+    "descripcion": "En estas grabaciones podemos escuchar el ruido característico de la púa en el surco. Otra limitación era la duración máxima de pocos minutos de grabación por disco.",
+    "imagen": null,
+    "caption": null,
+    "imagenSola": false,
+    "esEtapa": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Limitaciones"
+  },
+  {
     "id": 5.5,
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/625.mp3?_=56",
     "audioTitulo": "Desprecio campero",

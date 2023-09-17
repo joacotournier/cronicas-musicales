@@ -10,7 +10,7 @@ function Navigator({ currentSlide, setCurrentSlide, sections }) {
     );
 
     const start = Math.max(0, currentIndex - 2);
-    const end = Math.min(sections.length - 1, currentIndex + 2);
+    const end = Math.min(sections.length - 1, currentIndex + 3);
 
     setVisibleSections(sections.slice(start, end));
   }, [currentSlide, sections]);
