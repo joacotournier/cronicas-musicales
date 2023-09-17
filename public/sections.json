@@ -16,7 +16,8 @@
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,
-    "esPrimera": true
+    "esPrimera": true,
+    "tituloNavegador": "Intro"
   },
   {
     "id": 1,
@@ -33,7 +34,8 @@
     "imagen": null,
     "caption": null,
     "imagenSola": false,
-    "esEtapa": true
+    "esEtapa": true,
+    "tituloNavegador": "2"
   },
   {
     "id": 4,
@@ -51,7 +53,8 @@
     "caption": null,
     "imagenSola": false,
     "esEtapa": false,
-    "isQuestion": true
+    "isQuestion": true,
+    "tituloNavegador": "3"
   },
   {
     "id": 4.5,
@@ -70,7 +73,8 @@
     "imagenSola": false,
     "esEtapa": false,
     "isQuestion": false,
-    "sinTitulo": true
+    "sinTitulo": true,
+    "tituloNavegador": "4"
   },
   {
     "id": 4.6,
@@ -87,7 +91,8 @@
     "imagen": null,
     "caption": null,
     "imagenSola": false,
-    "esEtapa": false
+    "esEtapa": false,
+    "tituloNavegador": "5"
   },
   {
     "id": 5,
@@ -106,7 +111,8 @@
     "caption": "Foto sacada por el Centro de Documentación Musical",
     "imagenSola": false,
     "esEtapa": false,
-    "esAudio": true
+    "esAudio": true,
+    "tituloNavegador": "6"
   },
   {
     "id": 6,
@@ -124,7 +130,8 @@
     "caption": null,
     "imagenSola": false,
     "esEtapa": false,
-    "sinTitulo": true
+    "sinTitulo": true,
+    "tituloNavegador": "7"
   },
   {
     "id": 9,
@@ -142,7 +149,8 @@
     "caption": "Imagen del sitio web de anaforas.fic.edu.uy",
     "imagenSola": false,
     "esEtapa": false,
-    "esVertical": true
+    "esVertical": true,
+    "tituloNavegador": "8"
   },
   {
     "id": 10,
@@ -184,7 +192,8 @@
     "caption": null,
     "imagenSola": false,
     "esEtapa": false,
-    "esAudio": true
+    "esAudio": true,
+    "tituloNavegador": "9"
   },
   {
     "id": 11.5,
