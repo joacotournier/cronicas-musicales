@@ -111,7 +111,7 @@ function Section({ section, onVisible }) {
 
   return (
     <div
-      id={section.etapa.toLowerCase()}
+      id={section.tituloNavegador}
       className="h-[150vh] flex items-top justify-center"
     >
       <div

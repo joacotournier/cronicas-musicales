@@ -25,7 +25,7 @@ export default function Page() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowNavBar(true);
-    }, 10000);
+    }, 100); // CHANGE TO 10000 WHEN DEPLOYING
     return () => clearTimeout(timer);
   }, []);
 
