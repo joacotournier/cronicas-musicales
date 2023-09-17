@@ -171,7 +171,8 @@
     "imagenesCaption": "Fotos de Paysandú por Apolo Ronchi",
     "caption": null,
     "imagenSola": false,
-    "esEtapa": false
+    "esEtapa": false,
+    "tituloNavegador": "8.5"
   },
   {
     "id": 11,
@@ -211,7 +212,7 @@
     "caption": "Vesta Pocket Kodak 1912",
     "imagenSola": false,
     "esEtapa": false,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "10"
   },
   {
     "id": 12,
@@ -229,7 +230,7 @@
     "caption": null,
     "imagenSola": false,
     "esEtapa": false,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "11"
   },
   {
     "id": 12.5,
@@ -248,7 +249,7 @@
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "12"
   },
   {
     "id": 13,
@@ -269,7 +270,7 @@
     "caption": null,
     "imagenSola": true,
     "esEtapa": false,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "13"
   },
   {
     "id": 13.4,
@@ -288,7 +289,7 @@
     "caption": null,
     "imagenSola": true,
     "esEtapa": false,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "14"
   },
   {
     "id": 13.5,
@@ -306,7 +307,7 @@
     "caption": null,
     "imagenSola": false,
     "esEtapa": true,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "15"
   },
   {
     "id": 13.6,
@@ -325,7 +326,7 @@
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "16"
   },
   {
     "id": 14,
@@ -344,7 +345,7 @@
     "caption": null,
     "imagenSola": true,
     "esEtapa": false,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "17"
   },
   {
     "id": 13.6,
@@ -363,7 +364,7 @@
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "18"
   },
   {
     "id": 15,
@@ -381,7 +382,7 @@
     "caption": null,
     "imagenSola": false,
     "esEtapa": false,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "19"
   },
   {
     "id": 16,
@@ -399,7 +400,7 @@
     "caption": null,
     "imagenSola": true,
     "esEtapa": false,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "20"
   },
   {
     "id": 17,
@@ -418,7 +419,7 @@
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "21"
   },
   {
     "id": 18,
@@ -438,7 +439,7 @@
     "imagenSola": false,
     "esEtapa": false,
     "esAudio": true,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "22"
   },
   {
     "id": 17.5,
@@ -457,7 +458,7 @@
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "23"
   },
   {
     "id": 19,
@@ -477,7 +478,7 @@
     "imagenSola": false,
     "esEtapa": false,
     "esAudio": true,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "24"
   },
   {
     "id": 19.5,
@@ -495,7 +496,7 @@
     "caption": null,
     "imagenSola": false,
     "esEtapa": true,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "25"
   },
   {
     "id": 20,
@@ -513,7 +514,7 @@
     "caption": null,
     "imagenSola": false,
     "esEtapa": false,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "26"
   },
   {
     "id": 21,
@@ -531,7 +532,7 @@
     "caption": null,
     "imagenSola": true,
     "esEtapa": false,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "27"
   },
   {
     "id": 22,
@@ -549,7 +550,7 @@
     "caption": "Foto sacada por el Centro de Documentación Musical",
     "imagenSola": false,
     "esEtapa": false,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "28"
   },
   {
     "id": 22.5,
@@ -569,7 +570,7 @@
     "imagenSola": false,
     "esEtapa": false,
     "esAudio": true,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "29"
   },
   {
     "id": 23,
@@ -589,7 +590,7 @@
     "imagenSola": true,
     "esEtapa": false,
     "esAudio": true,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "30"
   },
   {
     "id": 24,
@@ -607,7 +608,7 @@
     "caption": null,
     "imagenSola": false,
     "esEtapa": false,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "31"
   },
   {
     "id": 24.5,
@@ -626,7 +627,7 @@
     "caption": null,
     "imagenSola": true,
     "esEtapa": false,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "32"
   },
   {
     "id": 25,
@@ -646,7 +647,7 @@
     "imagenSola": true,
     "esEtapa": false,
     "esAudio": true,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "33"
   },
   {
     "id": 26,
@@ -666,7 +667,7 @@
     "imagenSola": true,
     "esEtapa": false,
     "esAudio": true,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "34"
   },
   {
     "id": 26.5,
@@ -684,7 +685,7 @@
     "caption": null,
     "imagenSola": false,
     "esEtapa": true,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "35"
   },
   {
     "id": 27,
@@ -702,7 +703,7 @@
     "caption": null,
     "imagenSola": true,
     "esEtapa": false,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "36"
   },
   {
     "id": 28,
@@ -721,7 +722,7 @@
     "imagenSola": false,
     "esEtapa": false,
     "tituloSolo": true,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "37"
   },
   {
     "id": 29,
@@ -739,7 +740,7 @@
     "caption": null,
     "imagenSola": true,
     "esEtapa": false,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "38"
   },
   {
     "id": 30,
@@ -758,7 +759,7 @@
     "imagenSola": false,
     "esEtapa": false,
     "isCDM": true,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "39"
   },
   {
     "id": 31,
@@ -777,6 +778,6 @@
     "imagenSola": false,
     "esEtapa": false,
     "isEnd": true,
-    "tituloNavegador": "slide"
+    "tituloNavegador": "40"
   }
 ]
