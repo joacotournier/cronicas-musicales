@@ -48,7 +48,7 @@ function NavBar({ currentSection }) {
       </div>
       {isMenuOpen && (
         <div
-          className="fixed top-0 left-0 w-screen h-screen bg-center bg-cover text-center text-white flex items-stretch"
+          className="fixed z-50 top-0 left-0 w-screen h-screen bg-center bg-cover text-center text-white flex items-stretch"
           style={{ backgroundImage: `url(/main-pattern.jpg)` }}
         >
           {sections.map((section, index) => (

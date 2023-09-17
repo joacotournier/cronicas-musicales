@@ -25,7 +25,7 @@ function Navigator({ currentSlide, setCurrentSlide, sections }) {
   };
 
   return (
-    <div className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50">
+    <div className="fixed right-0 top-1/2 transform -translate-y-1/2 z-10">
       {visibleSections.map((section) => {
         if (!section.tituloNavegador) return null;
 
