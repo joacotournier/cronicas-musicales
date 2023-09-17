@@ -27,7 +27,7 @@ export default function Page() {
       .replace(/[^a-z0-9-]/g, "");
   };
 
-  const showLoading = true; // REMEMBER TO CHANGE THIS WHEN DEPLOYING
+  const showLoading = false; // REMEMBER TO CHANGE THIS WHEN DEPLOYING
 
   useEffect(() => {
     const timer = setTimeout(() => {

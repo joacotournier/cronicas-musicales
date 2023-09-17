@@ -124,7 +124,7 @@ function Section({ section, onVisible }) {
       <div
         key={section.id}
         ref={sectionRef}
-        className={`py-24 sm:py-32 lg:pb-40 h-[100vh] flex items-center justify-center sticky top-0 transition-opacity duration-500 ease-in-out ${
+        className={`py-24 sm:py-32 lg:pb-40 h-[100vh] flex items-center justify-center sticky top-0 max-w-6xl transition-opacity duration-500 ease-in-out ${
           isVisible ? "opacity-100" : "opacity-0"
         }`}
       >
@@ -221,6 +221,11 @@ function Section({ section, onVisible }) {
                 }
               }}
             />
+            {section.caption && (
+              <p className="text-sm text-white mt-4 opacity-50 mb-2">
+                {section.caption}
+              </p>
+            )}
           </div>
         )}
 
@@ -293,7 +298,7 @@ function Section({ section, onVisible }) {
               <img src="/lauro.png" alt="primera" className="h-40 mb-4" />
             )}
             {section.sobreTitulo && (
-              <p className="text-l text-white opacity-50 mb-2 sm:text-xl">
+              <p className="text-lg text-white opacity-50 mb-2 sm:text-lg">
                 {section.sobreTitulo}
               </p>
             )}
@@ -306,7 +311,7 @@ function Section({ section, onVisible }) {
             </h2>
             {section.descripcion && (
               <p
-                className={`text-xl ${
+                className={`text-base ${
                   section.imagen
                     ? "text-left"
                     : "text-center sm:leading-loose sm:text-2xl"
@@ -315,12 +320,6 @@ function Section({ section, onVisible }) {
                   __html: section.descripcion.replace(/\n/g, "<br />"),
                 }}
               ></p>
-            )}
-
-            {section.caption && (
-              <p className="text-sm text-white mt-2 opacity-50 mb-2">
-                {section.caption}
-              </p>
             )}
 
             {section.quote && (
