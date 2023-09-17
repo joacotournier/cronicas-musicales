@@ -1,8 +1,27 @@
 import React from "react";
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 
-function Navigator({ currentSection, sections }) {
+function Navigator({
+  currentSection,
+  currentSlide,
+  setCurrentSlide,
+  sections,
+}) {
   const navigatorRef = useRef();
+  const [startIndex, setStartIndex] = useState(0);
+  const displayedSections = sections.slice(startIndex, startIndex + 5);
+  const handleItemClick = (index, id) => {
+    if (index === 0 && startIndex > 0) {
+      setStartIndex((prevIndex) => prevIndex - 1);
+    }
+    if (
+      index === displayedSections.length - 1 &&
+      startIndex + displayedSections.length < sections.length
+    ) {
+      setStartIndex((prevIndex) => prevIndex + 1);
+    }
+    scrollToSection(id);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -18,8 +37,8 @@ function Navigator({ currentSection, sections }) {
               elTop <= offsetTop + halfHeight &&
               elTop + el.clientHeight > offsetTop + halfHeight
             ) {
-              if (currentSection !== section.etapa) {
-                currentSection = section.etapa;
+              if (currentSlide !== section.tituloNavegador) {
+                setCurrentSlide(section.tituloNavegador);
               }
             }
           }
@@ -44,12 +63,16 @@ function Navigator({ currentSection, sections }) {
       ref={navigatorRef}
       className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50"
     >
-      {sections.map((section, index) => (
+      {displayedSections.map((section, index) => (
         <div
           key={index}
-          onClick={() => scrollToSection(section.etapa.toLowerCase())}
+          onClick={() =>
+            handleItemClick(index, section.tituloNavegador.toLowerCase())
+          }
           className={`cursor-pointer mb-2 p-2 pr-10 text-right opacity-50 hover:opacity-75 ${
-            currentSection === section.etapa ? "text-xl opacity-100" : ""
+            currentSlide === section.tituloNavegador
+              ? "text-xl opacity-100"
+              : ""
           }`}
         >
           {section.tituloNavegador}

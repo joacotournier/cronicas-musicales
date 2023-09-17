@@ -12,6 +12,7 @@ const fetcher = (url) => fetch(url).then((res) => res.json());
 export default function Page() {
   const { data, error } = useSWR("/sections.json", fetcher);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [currentSlide, setCurrentSlide] = useState("Intro");
   const [currentSection, setCurrentSection] = useState("Etapa I");
   const [showNavBar, setShowNavBar] = useState(false);
 
@@ -34,7 +35,12 @@ export default function Page() {
     <div className="relative">
       {showNavBar && <NavBar currentSection={currentSection} />}
       {showNavBar && (
-        <Navigator currentSection={currentSection} sections={data} />
+        <Navigator
+          currentSection={currentSection}
+          currentSlide={currentSlide}
+          setCurrentSlide={setCurrentSlide}
+          sections={data}
+        />
       )}
       {showLoading && <LoadingScreen />}
       <div className="bg-main-pattern bg-cover h-screen w-screen fixed"></div>
