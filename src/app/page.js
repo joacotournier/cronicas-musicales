@@ -29,6 +29,38 @@ export default function Page() {
     return () => clearTimeout(timer);
   }, []);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      console.log("Scrolling detected");
+      let newCurrentSlide = "";
+
+      data.forEach((section) => {
+        if (!section.tituloNavegador) return;
+
+        const el = document.getElementById(
+          section.tituloNavegador.toLowerCase()
+        );
+        if (el) {
+          const rect = el.getBoundingClientRect();
+          if (
+            rect.top <= window.innerHeight / 2 &&
+            rect.bottom >= window.innerHeight / 2
+          ) {
+            newCurrentSlide = section.tituloNavegador;
+          }
+        }
+      });
+
+      if (newCurrentSlide !== currentSlide) {
+        console.log("Updating current slide to", newCurrentSlide);
+        setCurrentSlide(newCurrentSlide);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [data, currentSlide]);
+
   if (error) return <div>Failed to load</div>;
 
   return (
@@ -36,7 +68,6 @@ export default function Page() {
       {showNavBar && <NavBar currentSection={currentSection} />}
       {showNavBar && (
         <Navigator
-          currentSection={currentSection}
           currentSlide={currentSlide}
           setCurrentSlide={setCurrentSlide}
           sections={data}
