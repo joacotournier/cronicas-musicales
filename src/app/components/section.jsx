@@ -11,6 +11,13 @@ function Section({ section, onVisible }) {
 
   const [isMagnified, setIsMagnified] = useState(false);
 
+  const sanitizeId = (str) => {
+    return str
+      .toLowerCase()
+      .replace(/ /g, "-")
+      .replace(/[^a-z0-9-]/g, "");
+  };
+
   function magnify(imgID, zoom) {
     var img, glass, w, h, bw;
     img = document.getElementById(imgID);
@@ -111,7 +118,7 @@ function Section({ section, onVisible }) {
 
   return (
     <div
-      id={section.tituloNavegador}
+      id={sanitizeId(section.tituloNavegador)}
       className="h-[150vh] flex items-top justify-center"
     >
       <div
@@ -282,6 +289,9 @@ function Section({ section, onVisible }) {
               section.imagen ? "items-left" : "items-center"
             } pl-20`}
           >
+            {section.sobreImagen && (
+              <img src="/lauro.png" alt="primera" className="h-40 mb-4" />
+            )}
             {section.sobreTitulo && (
               <p className="text-l text-white opacity-50 mb-2 sm:text-xl">
                 {section.sobreTitulo}
@@ -294,9 +304,6 @@ function Section({ section, onVisible }) {
             >
               {section.titulo}
             </h2>
-            {section.esPrimera && (
-              <img src="/lauro.png" alt="primera" className="h-40 mb-4" />
-            )}
             {section.descripcion && (
               <p
                 className={`text-xl ${

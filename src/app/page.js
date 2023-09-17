@@ -20,6 +20,13 @@ export default function Page() {
     setCurrentSection(sectionName);
   };
 
+  const sanitizeId = (str) => {
+    return str
+      .toLowerCase()
+      .replace(/ /g, "-")
+      .replace(/[^a-z0-9-]/g, "");
+  };
+
   const showLoading = true; // REMEMBER TO CHANGE THIS WHEN DEPLOYING
 
   useEffect(() => {
@@ -37,9 +44,8 @@ export default function Page() {
       data.forEach((section) => {
         if (!section.tituloNavegador) return;
 
-        const el = document.getElementById(
-          section.tituloNavegador.toLowerCase()
-        );
+        const el = document.getElementById(sanitizeId(section.tituloNavegador));
+
         if (el) {
           const rect = el.getBoundingClientRect();
           if (

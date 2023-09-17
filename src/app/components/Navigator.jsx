@@ -15,8 +15,15 @@ function Navigator({ currentSlide, setCurrentSlide, sections }) {
     setVisibleSections(sections.slice(start, end));
   }, [currentSlide, sections]);
 
+  const sanitizeId = (str) => {
+    return str
+      .toLowerCase()
+      .replace(/ /g, "-")
+      .replace(/[^a-z0-9-]/g, "");
+  };
+
   const scrollToSection = (id) => {
-    const el = document.getElementById(id.toLowerCase());
+    const el = document.getElementById(sanitizeId(id));
     if (el) {
       el.scrollIntoView({ behavior: "smooth" });
       const tituloNavegador = id.charAt(0).toUpperCase() + id.slice(1);
