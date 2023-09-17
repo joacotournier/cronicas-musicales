@@ -311,7 +311,7 @@ function Section({ section, onVisible }) {
             </h2>
             {section.descripcion && (
               <p
-                className={`text-base ${
+                className={`text-base leading-loose ${
                   section.imagen
                     ? "text-left"
                     : "text-center sm:leading-loose sm:text-2xl"
