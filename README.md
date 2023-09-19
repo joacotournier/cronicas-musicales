@@ -1,4 +1,4 @@
-# El viaje de Lauro Ayestarán
+# Crónicas Musicales - El viaje de Lauro Ayestarán
 
 ![Imagen del Proyecto](/public/lauro-banner.jpg)
 
