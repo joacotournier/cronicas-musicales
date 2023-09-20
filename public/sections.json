@@ -1,6 +1,6 @@
 [
   {
-    "id": 0,
+    "id": "b12998ba0d1e",
     "etapa": "",
     "titulo": "Lauro Ayestarán",
     "descripcion": "Musicólogo Uruguayo 1913-1966",
@@ -11,7 +11,7 @@
     "tituloNavegador": "Lauro"
   },
   {
-    "id": 0.2,
+    "id": "234b11114e42",
     "etapa": "",
     "titulo": "Lauro Ayestarán",
     "descripcion": "Homenajeamos a Lauro Ayestarán, destacado referente de nuestra cultura popular. Nos sumergimos en la humanidad detrás de su legado, enfatizando su proceso más que los resultados. Recordamos al musicólogo humanista que, con su tarea monumental, defendió la memoria y trazó puentes hacia el futuro. \n \n Gracias, Lauro.",
@@ -21,7 +21,7 @@
     "tituloNavegador": "Intro"
   },
   {
-    "id": 1,
+    "id": "79873339279d",
     "etapa": "I",
     "periodo": "1942 — 1950",
     "imagenSola": false,
@@ -29,7 +29,7 @@
     "tituloNavegador": "Etapa I"
   },
   {
-    "id": 2,
+    "id": "cf42819227c1",
     "etapa": "I",
     "titulo": "Lauro Ayestarán",
     "descripcion": "Esta es la crónica musical de un viaje,  que en realidad fueron muchos viajes, tantos que suman el equivalente a una vuelta al mundo, o más, pero dentro de un pequeño país, en busca de los orígenes de las músicas del pueblo, de las tradiciones que construyeron un paisaje humano y cultural específico, único, al igual que únicas son cada una de las culturas y las músicas de cada pueblo en el mundo.",
@@ -39,7 +39,7 @@
     "tituloNavegador": "El viaje"
   },
   {
-    "id": 4,
+    "id": "9a8a46b2f272",
     "etapa": "I",
     "titulo": "¿De dónde viene la música popular Uruguaya?",
     "imagenSola": false,
@@ -48,7 +48,7 @@
     "tituloNavegador": "Música popular"
   },
   {
-    "id": 4.3,
+    "id": "36787f5b8774",
     "etapa": "I",
     "titulo": "asd",
     "descripcion": "El primer impulso de Ayestarán fue discutir el origen «no solamente europeo» de las músicas presentes en el Uruguay. \n \n Para ello, comenzó a investigar, tal como estaban haciendo sus maestros y colegas de la época en América Latina y el mundo, viajando al territorio para recopilar las expresiones musicales de los cantores e instrumentistas populares del ámbito rural, y grabando también en Montevideo, por ejemplo, a los tocadores de candombe.",
@@ -59,7 +59,7 @@
     "tituloNavegador": "Origen"
   },
   {
-    "id": 4.6,
+    "id": "6aefa18a06c6",
     "etapa": "I",
     "titulo": "Lauro comienza sus primeras grabaciones",
     "sobreTitulo": "Alrededor del año 1943",
@@ -69,7 +69,7 @@
     "tituloNavegador": "Primeras grabaciones"
   },
   {
-    "id": 4.7,
+    "id": "b6e01b169859",
     "etapa": "I",
     "titulo": "asd",
     "descripcion": "La grabación de sonido era una posibilidad tecnológica relativamente reciente que permitía ir más allá de lo que las notas escritas en un pentagrama pueden representar. Esos «detalles» son un elemento muy importante que caracteriza las músicas populares.",
@@ -83,7 +83,7 @@
     "tituloNavegador": "Pentagrama"
   },
   {
-    "id": 5,
+    "id": "5",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/11/CDM-LA-RS-564-Pereira.mp3?_=47",
     "audioTitulo": "Tango, 1943",
     "etapa": "I",
@@ -97,7 +97,7 @@
     "tituloNavegador": "Grabador de acetato"
   },
   {
-    "id": 5.4,
+    "id": "54",
     "etapa": "I",
     "titulo": "Su primer grabador",
     "sobreTitulo": "",
@@ -108,7 +108,7 @@
     "tituloNavegador": "Limitaciones"
   },
   {
-    "id": 5.5,
+    "id": "55",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/CDM-LA-RS-476.mp3?_=55",
     "audioTitulo": "Chotis maragato",
     "etapa": "I",
@@ -123,7 +123,7 @@
     "tituloNavegador": "Atletic Rocha Club"
   },
   {
-    "id": 6,
+    "id": "6",
     "etapa": "I",
     "titulo": "Su primer grabador",
     "sobreTitulo": "",
@@ -134,7 +134,7 @@
     "tituloNavegador": "7"
   },
   {
-    "id": 6.5,
+    "id": "65",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/625.mp3?_=56",
     "audioTitulo": "Desprecio campero",
     "etapa": "I",
@@ -149,7 +149,7 @@
     "tituloNavegador": "Sarandí del Yí"
   },
   {
-    "id": 9,
+    "id": "9,",
     "etapa": "I",
     "titulo": "Viaje a Paysandú",
     "sobreTitulo": "19 de abril de 1947",
@@ -162,7 +162,7 @@
     "tituloNavegador": "8"
   },
   {
-    "id": 10,
+    "id": "10",
     "etapa": "I",
     "imagen2": "/paysandu-1.jpg",
     "imagen3": "/paysandu-3.jpg",
@@ -174,7 +174,7 @@
     "tituloNavegador": "8.5"
   },
   {
-    "id": 11,
+    "id": "11",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/12/CDM-LA-RS-818-Garcia.mp3?_=1",
     "audioTitulo": "Danza",
     "url2": "http://www.cdm.gub.uy/wp-content/uploads/2014/12/CDM-LA-RS-818-Garcia.mp3?_=1",
@@ -190,7 +190,7 @@
     "tituloNavegador": "9"
   },
   {
-    "id": 11.2,
+    "id": "112",
     "etapa": "I",
     "titulo": "asd",
     "descripcion": "En esta primer etapa del proceso de investigación, nos tropezamos con algunos detalles en los márgenes de las grabaciones y de las fotografías. Estas nos invitan a entrar en ese mundo que Ayestaran habitó, vemos en las fotografías la gente que lo rodea, de sus grabaciones se desprenden los ruidos ambiente. Podemos observar el paisaje no sólo sonoro sino visual de cada momento, cuidadosamente documentado.",
@@ -201,7 +201,7 @@
     "tituloNavegador": "Detalles"
   },
   {
-    "id": 11.5,
+    "id": "115",
     "etapa": "I",
     "titulo": "Apolo Ronchi, Fotógrafo",
     "descripcion": "Apolo ayudó a Lauro durante su proceso de investigación con el registro fotográfico",
@@ -212,7 +212,7 @@
     "tituloNavegador": "10"
   },
   {
-    "id": 12,
+    "id": "12",
     "etapa": "I",
     "titulo": "Diario de viaje",
     "sobreTitulo": "19 de abril de 1947",
@@ -221,7 +221,7 @@
     "tituloNavegador": "11"
   },
   {
-    "id": 12.5,
+    "id": "125",
     "etapa": "I",
     "titulo": "Diario de viaje",
     "descripcion": "Lauro fue siempre una persona muy metódica, mantendiendo un detallado registro de sus viajes y grabaciones. Entre sus registros podemos ver su diario de viaje.",
@@ -231,7 +231,7 @@
     "tituloNavegador": "12"
   },
   {
-    "id": 13,
+    "id": "13",
     "etapa": "I",
     "imagen": "/diario.png",
     "hover": true,
@@ -242,7 +242,7 @@
     "tituloNavegador": "13"
   },
   {
-    "id": 13.4,
+    "id": "133",
     "etapa": "I",
     "imagen": "/carta-verso.png",
     "esZoom": true,
@@ -251,7 +251,7 @@
     "tituloNavegador": "14"
   },
   {
-    "id": 13.5,
+    "id": "134",
     "etapa": "II",
     "periodo": "1950 — 1958",
     "imagenSola": false,
@@ -259,7 +259,7 @@
     "tituloNavegador": "15"
   },
   {
-    "id": 13.6,
+    "id": "135",
     "etapa": "I",
     "titulo": "Etapa 2",
     "descripcion": "En esta segunda etapa, Lauro continuo su proceso de investigación, viajando a más de 100 pueblos y ciudades de Uruguay.",
@@ -269,7 +269,7 @@
     "tituloNavegador": "16"
   },
   {
-    "id": 14,
+    "id": "14",
     "etapa": "II",
     "imagen": "/carta.png",
     "esZoom": true,
@@ -278,7 +278,7 @@
     "tituloNavegador": "17"
   },
   {
-    "id": 13.6,
+    "id": "136",
     "etapa": "I",
     "titulo": "Etapa 2",
     "descripcion": "Lauro recibía constantemente cartas de varios países hablando de su proceso de investigación.",
@@ -288,7 +288,7 @@
     "tituloNavegador": "18"
   },
   {
-    "id": 15,
+    "id": "15",
     "etapa": "II",
     "titulo": "Programa de radio",
     "sobreTitulo": "19 de abril de 1947",
@@ -297,7 +297,7 @@
     "tituloNavegador": "19"
   },
   {
-    "id": 16,
+    "id": "16",
     "etapa": "II",
     "imagen": "/radio.png",
     "imagenSola": true,
@@ -305,7 +305,7 @@
     "tituloNavegador": "20"
   },
   {
-    "id": 17,
+    "id": "17",
     "etapa": "II",
     "titulo": "Programa de radio",
     "descripcion": "Lauro compartió sus hallazgos a través de la radio del Sodre. Contó con 15 episodios grabados entre 1953 y 1957. Es una buena oportunidad para escuchar qué tenía para decir sobre las grabaciones que recolectaba.",
@@ -315,7 +315,7 @@
     "tituloNavegador": "21"
   },
   {
-    "id": 18,
+    "id": "18",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2021/10/RNU-RS-La-musica-folklorica_Realidad-folklorica-D.mp3",
     "audioTitulo": "Sodre, 1952",
     "etapa": "II",
@@ -329,7 +329,7 @@
     "tituloNavegador": "22"
   },
   {
-    "id": 18.1,
+    "id": "181",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/625.mp3?_=56",
     "audioTitulo": "Prestiber Maltracio",
     "etapa": "I",
@@ -344,7 +344,7 @@
     "tituloNavegador": "Amigos del arte"
   },
   {
-    "id": 18.2,
+    "id": "182",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/625.mp3?_=56",
     "audioTitulo": "Florentino Miguez",
     "etapa": "I",
@@ -359,7 +359,7 @@
     "tituloNavegador": "Club social centenario"
   },
   {
-    "id": 18.3,
+    "id": "183",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/625.mp3?_=56",
     "audioTitulo": "Manuel Pintos",
     "etapa": "I",
@@ -374,7 +374,7 @@
     "tituloNavegador": "Castillos"
   },
   {
-    "id": 18.4,
+    "id": "184",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/625.mp3?_=56",
     "audioTitulo": "Juan Colina",
     "etapa": "I",
@@ -389,7 +389,7 @@
     "tituloNavegador": "San Carlos"
   },
   {
-    "id": 18.5,
+    "id": "185",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/625.mp3?_=56",
     "audioTitulo": "El Paraguayo",
     "etapa": "I",
@@ -403,7 +403,7 @@
     "tituloNavegador": "Junta local"
   },
   {
-    "id": 18.6,
+    "id": "186",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/625.mp3?_=56",
     "audioTitulo": "Leon Aquino",
     "etapa": "I",
@@ -417,7 +417,7 @@
     "tituloNavegador": "Liceo 33"
   },
   {
-    "id": 18.7,
+    "id": "185",
     "etapa": "II",
     "titulo": "Diapason",
     "descripcion": "En su afán por registrar las músicas del Uruguay de manera fiel, Lauro utilizaba un diapasón para ayudar a mantener la fidelidad para los futuros escuchantes.",
@@ -427,7 +427,7 @@
     "tituloNavegador": "23"
   },
   {
-    "id": 19,
+    "id": "19",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/11/CDM-LA-RS-1421-Gomez-Maidana-diapason.mp3?_=1",
     "audioTitulo": "Alberto Mastra (payador), 1954",
     "etapa": "II",
@@ -440,7 +440,7 @@
     "tituloNavegador": "24"
   },
   {
-    "id": 19.5,
+    "id": "195",
     "etapa": "III",
     "periodo": "1952 — 1966",
     "imagenSola": false,
@@ -448,7 +448,7 @@
     "tituloNavegador": "25"
   },
   {
-    "id": 20,
+    "id": "20",
     "etapa": "III",
     "titulo": "Su último grabador",
     "sobreTitulo": "19 de abril de 1947",
@@ -457,7 +457,7 @@
     "tituloNavegador": "26"
   },
   {
-    "id": 21,
+    "id": "21",
     "etapa": "III",
     "imagen": "/lauro-butoba.png",
     "imagenSola": true,
@@ -465,7 +465,7 @@
     "tituloNavegador": "27"
   },
   {
-    "id": 22,
+    "id": "22",
     "etapa": "III",
     "titulo": "Su último grabador",
     "descripcion": "Lauro consigue su primer grabador de Acetato",
@@ -476,7 +476,7 @@
     "tituloNavegador": "28"
   },
   {
-    "id": 22.5,
+    "id": "225",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2021/11/CDM-LA-RS-2128-D.mp3?_=12",
     "audioTitulo": "Estilo, 1959",
     "etapa": "III",
@@ -491,7 +491,7 @@
     "tituloNavegador": "29"
   },
   {
-    "id": 23,
+    "id": "23",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/12/CDM-LA-RS-818-Garcia.mp3?_=1",
     "audioTitulo": "Danza",
     "etapa": "III",
@@ -502,7 +502,7 @@
     "tituloNavegador": "30"
   },
   {
-    "id": 24,
+    "id": "24",
     "etapa": "III",
     "titulo": "Su primer y único libro",
     "sobreTitulo": "19 de abril de 1947",
@@ -512,7 +512,7 @@
     "tituloNavegador": "31"
   },
   {
-    "id": 24.5,
+    "id": "245",
     "etapa": "III",
     "imagen": "/carta-illinois.png",
     "esZoom": true,
@@ -521,7 +521,7 @@
     "tituloNavegador": "32"
   },
   {
-    "id": 25,
+    "id": "25",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/11/CDM-LA-RS-1713-FH598-FantasiaNegra.mp3?_=4",
     "audioTitulo": "Candombe, 1958",
     "etapa": "III",
@@ -534,7 +534,7 @@
     "tituloNavegador": "33"
   },
   {
-    "id": 26,
+    "id": "26",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/12/CDM-LA-RS-818-Garcia.mp3?_=1",
     "audioTitulo": "Danza",
     "etapa": "III",
@@ -546,7 +546,7 @@
     "tituloNavegador": "34"
   },
   {
-    "id": 26.5,
+    "id": "265",
     "etapa": "LEGADO",
     "periodo": "1943 — 1948",
     "imagenSola": false,
@@ -554,7 +554,7 @@
     "tituloNavegador": "35"
   },
   {
-    "id": 27,
+    "id": "27",
     "etapa": "LEGADO",
     "imagen": "/lauro.jpg",
     "imagenSola": true,
@@ -562,7 +562,7 @@
     "tituloNavegador": "36"
   },
   {
-    "id": 28,
+    "id": "28",
     "etapa": "LEGADO",
     "titulo": "Su trabajo de investigación quedó incompleto",
     "imagenSola": false,
@@ -571,7 +571,7 @@
     "tituloNavegador": "37"
   },
   {
-    "id": 29,
+    "id": "29",
     "etapa": "LEGADO",
     "imagen": "/firma.png",
     "imagenSola": true,
@@ -579,7 +579,7 @@
     "tituloNavegador": "38"
   },
   {
-    "id": 30,
+    "id": "30",
     "etapa": "LEGADO",
     "titulo": "Pero podés encontrar su registro en el Centro de Documentación Musical «Lauro Ayestarán» en la Biblioteca Nacional de Uruguay.",
     "imagenSola": false,
@@ -588,7 +588,7 @@
     "tituloNavegador": "39"
   },
   {
-    "id": 31,
+    "id": "31",
     "etapa": "LEGADO",
     "imagenSola": false,
     "esEtapa": false,
