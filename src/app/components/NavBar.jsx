@@ -3,19 +3,19 @@ import { useState } from "react";
 const sections = [
   {
     title: "Etapa I",
-    href: "#i",
+    href: "#etapa-i",
     date: "1942 - 1950",
     image: "/hover1.jpg",
   },
   {
     title: "Etapa II",
-    href: "#ii",
+    href: "#etapa-ii",
     date: "1951 - 1960",
     image: "/hover2.jpg",
   },
   {
     title: "Etapa III",
-    href: "#iii",
+    href: "#etapa-iii",
     date: "1961 - 1970",
     image: "/hover3.jpg",
   },
@@ -48,7 +48,7 @@ function NavBar({ currentSection }) {
       </div>
       {isMenuOpen && (
         <div
-          className="fixed top-0 left-0 w-screen h-screen bg-center bg-cover text-center text-white flex items-stretch"
+          className="fixed z-50 top-0 left-0 w-screen h-screen bg-center bg-cover text-center text-white flex items-stretch"
           style={{ backgroundImage: `url(/main-pattern.jpg)` }}
         >
           {sections.map((section, index) => (

@@ -5,38 +5,83 @@ import useSWR from "swr";
 import Section from "./components/section";
 import LoadingScreen from "./components/LoadingScreen";
 import NavBar from "./components/NavBar";
+import Navigator from "./components/Navigator";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
 export default function Page() {
   const { data, error } = useSWR("/sections.json", fetcher);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [currentSection, setCurrentSection] = useState("Etapa I"); // or fetch this data if it changes
-  const [showNavBar, setShowNavBar] = useState(false); // State to control the NavBar appearance
+  const [currentSlide, setCurrentSlide] = useState("Intro");
+  const [currentSection, setCurrentSection] = useState("Etapa I");
+  const [showNavBar, setShowNavBar] = useState(false);
 
   const handleSectionChange = (sectionName) => {
     setCurrentSection(sectionName);
   };
 
+  const sanitizeId = (str) => {
+    return str
+      .toLowerCase()
+      .replace(/ /g, "-")
+      .replace(/[^a-z0-9-]/g, "");
+  };
+
   const showLoading = true; // REMEMBER TO CHANGE THIS WHEN DEPLOYING
 
   useEffect(() => {
-    // Delay for 2 seconds before setting showNavBar to true
     const timer = setTimeout(() => {
       setShowNavBar(true);
-    }, 10000);
-    // Cleanup function to clear the timer if the component unmounts
+    }, 10000); // CHANGE TO 10000 WHEN DEPLOYING
     return () => clearTimeout(timer);
-  }, []); // The empty dependency array means this effect will run once after the initial render
+  }, []);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      console.log("Scrolling detected");
+      let newCurrentSlide = "";
+
+      data.forEach((section) => {
+        if (!section.tituloNavegador) return;
+
+        const el = document.getElementById(sanitizeId(section.tituloNavegador));
+
+        if (el) {
+          const rect = el.getBoundingClientRect();
+          if (
+            rect.top <= window.innerHeight / 2 &&
+            rect.bottom >= window.innerHeight / 2
+          ) {
+            newCurrentSlide = section.tituloNavegador;
+          }
+        }
+      });
+
+      if (newCurrentSlide !== currentSlide) {
+        console.log("Updating current slide to", newCurrentSlide);
+        setCurrentSlide(newCurrentSlide);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [data, currentSlide]);
 
   if (error) return <div>Failed to load</div>;
 
   return (
     <div className="relative">
       {showNavBar && <NavBar currentSection={currentSection} />}
+      {showNavBar && (
+        <Navigator
+          currentSlide={currentSlide}
+          setCurrentSlide={setCurrentSlide}
+          sections={data}
+        />
+      )}
       {showLoading && <LoadingScreen />}
       <div className="bg-main-pattern bg-cover h-screen w-screen fixed"></div>
-      <div className="relative isolate pt-14">
+      <div className="relative isolate pt-14 pl-20">
         {data &&
           data.map((section) => (
             <Section
