@@ -24,8 +24,6 @@
     "id": 1,
     "etapa": "I",
     "periodo": "1942 — 1950",
-    "titulo": null,
-    "descripcion": null,
     "imagenSola": false,
     "esEtapa": true,
     "tituloNavegador": "Etapa I"
@@ -44,7 +42,6 @@
     "id": 4,
     "etapa": "I",
     "titulo": "¿De dónde viene la música popular Uruguaya?",
-    "descripcion": null,
     "imagenSola": false,
     "esEtapa": false,
     "isQuestion": true,
@@ -167,8 +164,6 @@
   {
     "id": 10,
     "etapa": "I",
-    "titulo": null,
-    "descripcion": null,
     "imagen2": "/paysandu-1.jpg",
     "imagen3": "/paysandu-3.jpg",
     "imagen4": "/paysandu-4.jpg",
@@ -221,7 +216,6 @@
     "etapa": "I",
     "titulo": "Diario de viaje",
     "sobreTitulo": "19 de abril de 1947",
-    "descripcion": null,
     "imagenSola": false,
     "esEtapa": false,
     "tituloNavegador": "11"
@@ -239,8 +233,6 @@
   {
     "id": 13,
     "etapa": "I",
-    "titulo": null,
-    "descripcion": null,
     "imagen": "/diario.png",
     "hover": true,
     "hoverImage": "/diario-hover.png",
@@ -252,8 +244,6 @@
   {
     "id": 13.4,
     "etapa": "I",
-    "titulo": null,
-    "descripcion": null,
     "imagen": "/carta-verso.png",
     "esZoom": true,
     "imagenSola": true,
@@ -264,8 +254,6 @@
     "id": 13.5,
     "etapa": "II",
     "periodo": "1950 — 1958",
-    "titulo": null,
-    "descripcion": null,
     "imagenSola": false,
     "esEtapa": true,
     "tituloNavegador": "15"
@@ -283,8 +271,6 @@
   {
     "id": 14,
     "etapa": "II",
-    "titulo": null,
-    "descripcion": null,
     "imagen": "/carta.png",
     "esZoom": true,
     "imagenSola": true,
@@ -306,7 +292,6 @@
     "etapa": "II",
     "titulo": "Programa de radio",
     "sobreTitulo": "19 de abril de 1947",
-    "descripcion": null,
     "imagenSola": false,
     "esEtapa": false,
     "tituloNavegador": "19"
@@ -314,8 +299,6 @@
   {
     "id": 16,
     "etapa": "II",
-    "titulo": null,
-    "descripcion": null,
     "imagen": "/radio.png",
     "imagenSola": true,
     "esEtapa": false,
@@ -460,8 +443,6 @@
     "id": 19.5,
     "etapa": "III",
     "periodo": "1952 — 1966",
-    "titulo": null,
-    "descripcion": null,
     "imagenSola": false,
     "esEtapa": true,
     "tituloNavegador": "25"
@@ -471,7 +452,6 @@
     "etapa": "III",
     "titulo": "Su último grabador",
     "sobreTitulo": "19 de abril de 1947",
-    "descripcion": null,
     "imagenSola": false,
     "esEtapa": false,
     "tituloNavegador": "26"
@@ -479,8 +459,6 @@
   {
     "id": 21,
     "etapa": "III",
-    "titulo": null,
-    "descripcion": null,
     "imagen": "/lauro-butoba.png",
     "imagenSola": true,
     "esEtapa": false,
@@ -517,8 +495,6 @@
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/12/CDM-LA-RS-818-Garcia.mp3?_=1",
     "audioTitulo": "Danza",
     "etapa": "III",
-    "titulo": null,
-    "descripcion": null,
     "imagen": "/guitarra-butoba.png",
     "imagenSola": true,
     "esEtapa": false,
@@ -530,7 +506,6 @@
     "etapa": "III",
     "titulo": "Su primer y único libro",
     "sobreTitulo": "19 de abril de 1947",
-    "descripcion": null,
     "imagen": "/musica-en-uruguay.png",
     "imagenSola": false,
     "esEtapa": false,
@@ -539,8 +514,6 @@
   {
     "id": 24.5,
     "etapa": "III",
-    "titulo": null,
-    "descripcion": null,
     "imagen": "/carta-illinois.png",
     "esZoom": true,
     "imagenSola": true,
@@ -565,7 +538,6 @@
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/12/CDM-LA-RS-818-Garcia.mp3?_=1",
     "audioTitulo": "Danza",
     "etapa": "III",
-    "titulo": null,
     "descripcion": "Niños de la Escuela de Práctica N° 2 jugando y cantando la ronda infantil Yo tengo una buena torre. Treinta y Tres. 3 de mayo de 1958. (Foto: Lauro Ayestarán).",
     "imagen": "/escuela.png",
     "imagenSola": true,
@@ -577,8 +549,6 @@
     "id": 26.5,
     "etapa": "LEGADO",
     "periodo": "1943 — 1948",
-    "titulo": null,
-    "descripcion": null,
     "imagenSola": false,
     "esEtapa": true,
     "tituloNavegador": "35"
@@ -586,8 +556,6 @@
   {
     "id": 27,
     "etapa": "LEGADO",
-    "titulo": null,
-    "descripcion": null,
     "imagen": "/lauro.jpg",
     "imagenSola": true,
     "esEtapa": false,
@@ -597,7 +565,6 @@
     "id": 28,
     "etapa": "LEGADO",
     "titulo": "Su trabajo de investigación quedó incompleto",
-    "descripcion": null,
     "imagenSola": false,
     "esEtapa": false,
     "tituloSolo": true,
@@ -606,8 +573,6 @@
   {
     "id": 29,
     "etapa": "LEGADO",
-    "titulo": null,
-    "descripcion": null,
     "imagen": "/firma.png",
     "imagenSola": true,
     "esEtapa": false,
@@ -617,7 +582,6 @@
     "id": 30,
     "etapa": "LEGADO",
     "titulo": "Pero podés encontrar su registro en el Centro de Documentación Musical «Lauro Ayestarán» en la Biblioteca Nacional de Uruguay.",
-    "descripcion": null,
     "imagenSola": false,
     "esEtapa": false,
     "isCDM": true,
@@ -626,8 +590,6 @@
   {
     "id": 31,
     "etapa": "LEGADO",
-    "titulo": null,
-    "descripcion": null,
     "imagenSola": false,
     "esEtapa": false,
     "isEnd": true,
