@@ -83,6 +83,19 @@
     "tituloNavegador": "Pentagrama"
   },
   {
+    "id": "cf42df227c1",
+    "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/111.mp3?_=26",
+    "audioTitulo": "José Gabriel Carró, 1946",
+    "etapa": "I",
+    "titulo": "Lauro Ayestarán",
+    "descripcion": "¿Cómo era la música que sonaba en las ciudades y el campo de aquel país tan peculiar, el Uruguay de las primeras décadas del siglo XX?",
+    "imagenSola": false,
+    "esEtapa": false,
+    "sinTitulo": true,
+    "esAudio": true,
+    "tituloNavegador": "Interrogante"
+  },
+  {
     "id": "5",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/11/CDM-LA-RS-564-Pereira.mp3?_=47",
     "audioTitulo": "Tango, 1943",
@@ -432,7 +445,7 @@
     "tituloNavegador": "Liceo 33"
   },
   {
-    "id": "185",
+    "id": "187",
     "etapa": "II",
     "titulo": "Diapason",
     "descripcion": "En su afán por registrar las músicas del Uruguay de manera fiel, Lauro utilizaba un diapasón para ayudar a mantener la fidelidad para los futuros escuchantes.",
