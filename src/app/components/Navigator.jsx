@@ -32,7 +32,7 @@ function Navigator({ currentSlide, setCurrentSlide, sections }) {
   };
 
   return (
-    <div className="fixed right-0 top-1/2 transform -translate-y-1/2 z-10">
+    <div className="fixed left-0 top-1/2 transform -translate-y-1/2 z-10">
       {visibleSections.map((section) => {
         if (!section.tituloNavegador) return null;
 
@@ -40,7 +40,7 @@ function Navigator({ currentSlide, setCurrentSlide, sections }) {
           <div
             key={section.tituloNavegador}
             onClick={() => scrollToSection(section.tituloNavegador)}
-            className={`cursor-pointer mb-2 p-2 pr-10 text-right ${
+            className={`cursor-pointer mb-2 p-2 pl-10 text-left ${
               currentSlide === section.tituloNavegador
                 ? "text-xl opacity-100"
                 : "opacity-50 hover:opacity-75"
