@@ -26,7 +26,7 @@
     "periodo": "1942 — 1950",
     "imagenSola": false,
     "esEtapa": true,
-    "tituloNavegador": "Etapa I"
+    "tituloNavegador": "ETAPA I"
   },
   {
     "id": "cf42819227c1",
@@ -131,7 +131,7 @@
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,
-    "tituloNavegador": "7"
+    "tituloNavegador": "Acetato"
   },
   {
     "id": "65",
@@ -159,7 +159,7 @@
     "imagenSola": false,
     "esEtapa": false,
     "esVertical": true,
-    "tituloNavegador": "8"
+    "tituloNavegador": "Paysandú"
   },
   {
     "id": "10",
@@ -171,7 +171,7 @@
     "imagenesCaption": "Fotos de Paysandú por Apolo Ronchi",
     "imagenSola": false,
     "esEtapa": false,
-    "tituloNavegador": "8.5"
+    "tituloNavegador": "Fotos Paysandú"
   },
   {
     "id": "11",
@@ -187,7 +187,7 @@
     "imagenSola": false,
     "esEtapa": false,
     "esAudio": true,
-    "tituloNavegador": "9"
+    "tituloNavegador": "Atalibio Riveiro"
   },
   {
     "id": "112",
@@ -209,7 +209,7 @@
     "caption": "Vesta Pocket Kodak 1912",
     "imagenSola": false,
     "esEtapa": false,
-    "tituloNavegador": "10"
+    "tituloNavegador": "Apolo Ronchi"
   },
   {
     "id": "12",
@@ -218,7 +218,7 @@
     "sobreTitulo": "19 de abril de 1947",
     "imagenSola": false,
     "esEtapa": false,
-    "tituloNavegador": "11"
+    "tituloNavegador": "Diario de viaje"
   },
   {
     "id": "125",
@@ -228,7 +228,7 @@
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,
-    "tituloNavegador": "12"
+    "tituloNavegador": "Metódico"
   },
   {
     "id": "13",
@@ -239,7 +239,7 @@
     "popImage": "/diario-abierto.png",
     "imagenSola": true,
     "esEtapa": false,
-    "tituloNavegador": "13"
+    "tituloNavegador": "El diario"
   },
   {
     "id": "133",
@@ -248,7 +248,7 @@
     "esZoom": true,
     "imagenSola": true,
     "esEtapa": false,
-    "tituloNavegador": "14"
+    "tituloNavegador": "Carta"
   },
   {
     "id": "134",
@@ -256,7 +256,7 @@
     "periodo": "1950 — 1958",
     "imagenSola": false,
     "esEtapa": true,
-    "tituloNavegador": "15"
+    "tituloNavegador": "ETAPA II"
   },
   {
     "id": "135",
@@ -266,7 +266,7 @@
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,
-    "tituloNavegador": "16"
+    "tituloNavegador": "Investigación"
   },
   {
     "id": "14",
@@ -275,7 +275,7 @@
     "esZoom": true,
     "imagenSola": true,
     "esEtapa": false,
-    "tituloNavegador": "17"
+    "tituloNavegador": "Carta 2"
   },
   {
     "id": "136",
@@ -285,7 +285,7 @@
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,
-    "tituloNavegador": "18"
+    "tituloNavegador": "Internacional"
   },
   {
     "id": "15",
@@ -294,7 +294,7 @@
     "sobreTitulo": "19 de abril de 1947",
     "imagenSola": false,
     "esEtapa": false,
-    "tituloNavegador": "19"
+    "tituloNavegador": "Programa de radio"
   },
   {
     "id": "16",
@@ -302,7 +302,7 @@
     "imagen": "/radio.png",
     "imagenSola": true,
     "esEtapa": false,
-    "tituloNavegador": "20"
+    "tituloNavegador": "Micrófono"
   },
   {
     "id": "17",
@@ -312,12 +312,12 @@
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,
-    "tituloNavegador": "21"
+    "tituloNavegador": "Sodre"
   },
   {
     "id": "18",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2021/10/RNU-RS-La-musica-folklorica_Realidad-folklorica-D.mp3",
-    "audioTitulo": "Sodre, 1952",
+    "audioTitulo": "Sodre, 1953",
     "etapa": "II",
     "titulo": "Programa de radio",
     "descripcion": "Escuchá uno de los episodios de su programa de radio, esquema de nuestra realidad folclórica.",
@@ -326,7 +326,7 @@
     "imagenSola": false,
     "esEtapa": false,
     "esAudio": true,
-    "tituloNavegador": "22"
+    "tituloNavegador": "Sodre 1953"
   },
   {
     "id": "181",
@@ -424,7 +424,7 @@
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,
-    "tituloNavegador": "23"
+    "tituloNavegador": "Diapasón"
   },
   {
     "id": "19",
@@ -437,7 +437,7 @@
     "imagenSola": false,
     "esEtapa": false,
     "esAudio": true,
-    "tituloNavegador": "24"
+    "tituloNavegador": "Alberto Mastra"
   },
   {
     "id": "195",
@@ -445,7 +445,7 @@
     "periodo": "1952 — 1966",
     "imagenSola": false,
     "esEtapa": true,
-    "tituloNavegador": "25"
+    "tituloNavegador": "ETAPA III"
   },
   {
     "id": "20",
@@ -454,7 +454,7 @@
     "sobreTitulo": "19 de abril de 1947",
     "imagenSola": false,
     "esEtapa": false,
-    "tituloNavegador": "26"
+    "tituloNavegador": "Grabador cinta"
   },
   {
     "id": "21",
@@ -462,7 +462,7 @@
     "imagen": "/lauro-butoba.png",
     "imagenSola": true,
     "esEtapa": false,
-    "tituloNavegador": "27"
+    "tituloNavegador": "Butoba"
   },
   {
     "id": "22",
@@ -473,7 +473,7 @@
     "caption": "Fotografía de el Centro de Documentación Musical",
     "imagenSola": false,
     "esEtapa": false,
-    "tituloNavegador": "28"
+    "tituloNavegador": "Butoba 2"
   },
   {
     "id": "225",
@@ -488,7 +488,7 @@
     "imagenSola": false,
     "esEtapa": false,
     "esAudio": true,
-    "tituloNavegador": "29"
+    "tituloNavegador": "Nicolás Basso"
   },
   {
     "id": "23",
@@ -499,7 +499,7 @@
     "imagenSola": true,
     "esEtapa": false,
     "esAudio": true,
-    "tituloNavegador": "30"
+    "tituloNavegador": "Guitarra"
   },
   {
     "id": "24",
@@ -509,7 +509,7 @@
     "imagen": "/musica-en-uruguay.png",
     "imagenSola": false,
     "esEtapa": false,
-    "tituloNavegador": "31"
+    "tituloNavegador": "Su libro"
   },
   {
     "id": "245",
@@ -518,7 +518,7 @@
     "esZoom": true,
     "imagenSola": true,
     "esEtapa": false,
-    "tituloNavegador": "32"
+    "tituloNavegador": "Carta Illinois"
   },
   {
     "id": "25",
@@ -531,7 +531,7 @@
     "imagenSola": true,
     "esEtapa": false,
     "esAudio": true,
-    "tituloNavegador": "33"
+    "tituloNavegador": "Candombe"
   },
   {
     "id": "26",
@@ -543,7 +543,7 @@
     "imagenSola": true,
     "esEtapa": false,
     "esAudio": true,
-    "tituloNavegador": "34"
+    "tituloNavegador": "Danza"
   },
   {
     "id": "265",
@@ -551,7 +551,7 @@
     "periodo": "1943 — 1948",
     "imagenSola": false,
     "esEtapa": true,
-    "tituloNavegador": "35"
+    "tituloNavegador": "LEGADO"
   },
   {
     "id": "27",
@@ -559,7 +559,7 @@
     "imagen": "/lauro.jpg",
     "imagenSola": true,
     "esEtapa": false,
-    "tituloNavegador": "36"
+    "tituloNavegador": "Lauro Ayestarán"
   },
   {
     "id": "28",
@@ -568,7 +568,7 @@
     "imagenSola": false,
     "esEtapa": false,
     "tituloSolo": true,
-    "tituloNavegador": "37"
+    "tituloNavegador": "Incompleto"
   },
   {
     "id": "29",
@@ -576,7 +576,7 @@
     "imagen": "/firma.png",
     "imagenSola": true,
     "esEtapa": false,
-    "tituloNavegador": "38"
+    "tituloNavegador": "Firma"
   },
   {
     "id": "30",
@@ -585,7 +585,7 @@
     "imagenSola": false,
     "esEtapa": false,
     "isCDM": true,
-    "tituloNavegador": "39"
+    "tituloNavegador": "CDM"
   },
   {
     "id": "31",
@@ -593,6 +593,6 @@
     "imagenSola": false,
     "esEtapa": false,
     "isEnd": true,
-    "tituloNavegador": "40"
+    "tituloNavegador": "Cierre"
   }
 ]

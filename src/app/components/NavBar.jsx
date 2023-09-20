@@ -3,19 +3,19 @@ import { useState } from "react";
 const sections = [
   {
     title: "Etapa I",
-    href: "#i",
+    href: "#etapa-i",
     date: "1942 - 1950",
     image: "/hover1.jpg",
   },
   {
     title: "Etapa II",
-    href: "#ii",
+    href: "#etapa-ii",
     date: "1951 - 1960",
     image: "/hover2.jpg",
   },
   {
     title: "Etapa III",
-    href: "#iii",
+    href: "#etapa-iii",
     date: "1961 - 1970",
     image: "/hover3.jpg",
   },
