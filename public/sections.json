@@ -176,7 +176,7 @@
     "etapa": "I",
     "titulo": "Viaje a Paysandú",
     "sobreTitulo": "19 de abril de 1947",
-    "descripcion": "Artículo de «El Folklore Musical del Departamento» en la Revista Paysandú en 1945 sobre el viaje de Lauro a Paysandú.",
+    "descripcion": "Este es un ejemplo de cómo eran sus viajes (realizó más de 100). Antes de visitar la localidad, Lauro contactaba a referentes del lugar: un director de escuela o liceo, el comisario, el farmacista y organizaba charlas públicas sobre Música en general, anunciando que quienes conocieran canciones y quisieran grabarlas podían concurrir. \n \n Podemos apreciar en la imagen un artículo de «El Folklore Musical del Departamento» en la Revista Paysandú en 1945 sobre el viaje de Lauro a Paysandú.",
     "imagen": "/revista.png",
     "caption": "Imagen del sitio web de anaforas.fic.edu.uy",
     "imagenSola": false,
@@ -191,10 +191,10 @@
     "imagen3": "/paysandu-3.jpg",
     "imagen4": "/paysandu-4.jpg",
     "imagen5": "/paysandu-1.jpg",
-    "imagenesCaption": "Fotos de Paysandú por Apolo Ronchi",
+    "imagenesCaption": "Fotografías de Paysandú por Apolo Ronchi",
     "imagenSola": false,
     "esEtapa": false,
-    "tituloNavegador": "Fotos Paysandú"
+    "tituloNavegador": "Entrevistados Paysandú"
   },
   {
     "id": "11",
@@ -213,17 +213,6 @@
     "tituloNavegador": "Atalibio Riveiro"
   },
   {
-    "id": "112",
-    "etapa": "I",
-    "titulo": "asd",
-    "descripcion": "En esta primer etapa del proceso de investigación, nos tropezamos con algunos detalles en los márgenes de las grabaciones y de las fotografías. Estas nos invitan a entrar en ese mundo que Ayestaran habitó, vemos en las fotografías la gente que lo rodea, de sus grabaciones se desprenden los ruidos ambiente. Podemos observar el paisaje no sólo sonoro sino visual de cada momento, cuidadosamente documentado.",
-    "imagenSola": false,
-    "esEtapa": false,
-    "isQuestion": false,
-    "sinTitulo": true,
-    "tituloNavegador": "Detalles"
-  },
-  {
     "id": "115",
     "etapa": "I",
     "titulo": "Apolo Ronchi, Fotógrafo",
@@ -235,6 +224,17 @@
     "textoLink": "Ver album de fotografías del CDM",
     "esEtapa": false,
     "tituloNavegador": "Apolo Ronchi"
+  },
+  {
+    "id": "sdf0i9sadoij",
+    "etapa": "I",
+    "titulo": "asd",
+    "descripcion": "En esta primer etapa del proceso de investigación, nos tropezamos con algunos detalles en los márgenes de las grabaciones y de las fotografías. Estas nos invitan a entrar en ese mundo que Ayestaran habitó, vemos en las fotografías la gente que lo rodea, de sus grabaciones se desprenden los ruidos ambiente. Podemos observar el paisaje no sólo sonoro sino visual de cada momento, cuidadosamente documentado.",
+    "imagenSola": false,
+    "esEtapa": false,
+    "isQuestion": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Detalles"
   },
   {
     "id": "12",
@@ -494,7 +494,7 @@
     "sobreTitulo": "19 de abril de 1947",
     "imagenSola": false,
     "esEtapa": false,
-    "tituloNavegador": "Grabador cinta"
+    "tituloNavegador": "Grabador de cinta"
   },
   {
     "id": "21",
@@ -557,7 +557,7 @@
   {
     "id": "24",
     "etapa": "III",
-    "titulo": "Su primer y único libro",
+    "titulo": "Primer y único volúmen de una serie incompleta...",
     "sobreTitulo": "19 de abril de 1947",
     "imagen": "/musica-en-uruguay.png",
     "imagenSola": false,
@@ -660,11 +660,21 @@
   {
     "id": "28",
     "etapa": "LEGADO",
-    "titulo": "Su trabajo de investigación quedó incompleto",
+    "titulo": "Su trabajo de investigación quedó sin terminar",
     "imagenSola": false,
     "esEtapa": false,
     "tituloSolo": true,
     "tituloNavegador": "Incompleto"
+  },
+  {
+    "id": "285",
+    "etapa": "LEGADO",
+    "titulo": "Archivo",
+    "descripcion": "Pero su legado fue retomado por un grupo de personas que lograron rescatar su archivo, que hoy se encuentra a disposición de todos en el Centro Nacional de Documentación Musical del Uruguay . Un espacio físico y virtual donde",
+    "imagenSola": false,
+    "esEtapa": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Archivo"
   },
   {
     "id": "29",
