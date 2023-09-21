@@ -29,6 +29,11 @@ function Section({ section, onVisible }) {
     /* Insert magnifier glass: */
     img.parentElement.insertBefore(glass, img);
 
+    /* Create and add the magnifier stem (handle) */
+    let stem = document.createElement("DIV");
+    stem.setAttribute("class", "magnifier-stem");
+    glass.appendChild(stem);
+
     /* Set background properties for the magnifier glass: */
     glass.style.backgroundImage = "url('" + img.src + "')";
     glass.style.backgroundRepeat = "no-repeat";
@@ -321,7 +326,15 @@ function Section({ section, onVisible }) {
                 }}
               ></p>
             )}
-
+            {section.link && (
+              <a
+                href={section.link}
+                target="_blank"
+                className="text-lg text-white mt-4 p-4 border border-white flex items-center justify-center hover:bg-white hover:text-black"
+              >
+                {section.textoLink}
+              </a>
+            )}
             {section.quote && (
               <blockquote className="text-lg font-medium italic text-white mt-4">
                 {section.quote}

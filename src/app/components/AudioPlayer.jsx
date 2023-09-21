@@ -1,13 +1,15 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { Howl } from "howler";
 import Pause from "./Pause";
 import Play from "./Play";
+import AudioContext from "./AudioContext";
 
 const AudioPlayer = ({ url, name }) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [sound, setSound] = useState(null);
   const [position, setPosition] = useState(0);
   const [duration, setDuration] = useState(0);
+  const { playingAudio, setPlayingAudio } = useContext(AudioContext);
 
   // Create a new Howl instance and keep it in the state
   useEffect(() => {
@@ -19,12 +21,14 @@ const AudioPlayer = ({ url, name }) => {
 
   // When isPlaying changes, play or pause the sound
   useEffect(() => {
-    if (isPlaying) {
+    if (isPlaying && playingAudio !== name) {
+      setIsPlaying(false);
+    } else if (isPlaying) {
       sound.play();
     } else if (sound) {
       sound.pause();
     }
-  }, [isPlaying, sound]);
+  }, [isPlaying, sound, playingAudio, name]);
 
   // Update position state periodically when the sound is playing
   useEffect(() => {
@@ -48,7 +52,13 @@ const AudioPlayer = ({ url, name }) => {
   }, [sound]);
 
   const playPause = () => {
-    setIsPlaying(!isPlaying);
+    if (isPlaying) {
+      setIsPlaying(false);
+      setPlayingAudio(null);
+    } else {
+      setIsPlaying(true);
+      setPlayingAudio(name);
+    }
   };
 
   const handleSliderChange = (e) => {

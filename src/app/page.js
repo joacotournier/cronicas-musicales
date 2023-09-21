@@ -6,6 +6,7 @@ import Section from "./components/section";
 import LoadingScreen from "./components/LoadingScreen";
 import NavBar from "./components/NavBar";
 import Navigator from "./components/Navigator";
+import AudioContext from "./components/AudioContext";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
@@ -15,6 +16,7 @@ export default function Page() {
   const [currentSlide, setCurrentSlide] = useState("Intro");
   const [currentSection, setCurrentSection] = useState("Etapa I");
   const [showNavBar, setShowNavBar] = useState(false);
+  const [playingAudio, setPlayingAudio] = useState(null);
 
   const handleSectionChange = (sectionName) => {
     setCurrentSection(sectionName);
@@ -70,27 +72,29 @@ export default function Page() {
   if (error) return <div>Failed to load</div>;
 
   return (
-    <div className="relative">
-      {showNavBar && <NavBar currentSection={currentSection} />}
-      {showNavBar && (
-        <Navigator
-          currentSlide={currentSlide}
-          setCurrentSlide={setCurrentSlide}
-          sections={data}
-        />
-      )}
-      {showLoading && <LoadingScreen />}
-      <div className="bg-main-pattern bg-cover h-screen w-screen fixed"></div>
-      <div className="relative isolate pt-14 pl-20">
-        {data &&
-          data.map((section) => (
-            <Section
-              section={section}
-              key={section.id}
-              onVisible={() => handleSectionChange(section.etapa)}
-            />
-          ))}
+    <AudioContext.Provider value={{ playingAudio, setPlayingAudio }}>
+      <div className="relative">
+        {showNavBar && <NavBar currentSection={currentSection} />}
+        {showNavBar && (
+          <Navigator
+            currentSlide={currentSlide}
+            setCurrentSlide={setCurrentSlide}
+            sections={data}
+          />
+        )}
+        {showLoading && <LoadingScreen />}
+        <div className="bg-main-pattern bg-cover h-screen w-screen fixed"></div>
+        <div className="relative isolate pt-14 pl-20">
+          {data &&
+            data.map((section) => (
+              <Section
+                section={section}
+                key={section.id}
+                onVisible={() => handleSectionChange(section.etapa)}
+              />
+            ))}
+        </div>
       </div>
-    </div>
+    </AudioContext.Provider>
   );
 }
