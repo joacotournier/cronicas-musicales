@@ -29,12 +29,12 @@ export default function Page() {
       .replace(/[^a-z0-9-]/g, "");
   };
 
-  const showLoading = false; // REMEMBER TO CHANGE THIS WHEN DEPLOYING
+  const showLoading = true; // REMEMBER TO CHANGE THIS WHEN DEPLOYING
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowNavBar(true);
-    }, 100); // CHANGE TO 10000 WHEN DEPLOYING
+    }, 10000); // CHANGE TO 10000 WHEN DEPLOYING
     return () => clearTimeout(timer);
   }, []);
 
