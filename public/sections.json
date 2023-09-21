@@ -110,6 +110,16 @@
     "tituloNavegador": "Grabador de acetato"
   },
   {
+    "id": "cf42dfsdf227c1",
+    "etapa": "I",
+    "titulo": "Lauro Ayestarán",
+    "descripcion": "La grabación de sonido era una posibilidad tecnológica relativamente reciente que permitía ir más allá de lo que las notas en el pentagrama pueden representar. Esos «detalles» son un elemento muy importante que caracteriza las músicas populares.",
+    "imagenSola": false,
+    "esEtapa": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Sonido"
+  },
+  {
     "id": "54",
     "etapa": "I",
     "titulo": "Su primer grabador",
@@ -217,10 +227,12 @@
     "id": "115",
     "etapa": "I",
     "titulo": "Apolo Ronchi, Fotógrafo",
-    "descripcion": "Apolo ayudó a Lauro durante su proceso de investigación con el registro fotográfico",
+    "descripcion": "Apolo ayudó a Lauro durante su proceso de investigación con el registro fotográfico, podes ver algunas de sus fotos en el libro de fotografías de Lauro Ayestarán publicado por el   CDM.",
     "imagen": "/camara.png",
     "caption": "Vesta Pocket Kodak 1912",
     "imagenSola": false,
+    "link": "https://issuu.com/cmdf/docs/2015_cdm",
+    "textoLink": "Ver album de fotografías del CDM",
     "esEtapa": false,
     "tituloNavegador": "Apolo Ronchi"
   },

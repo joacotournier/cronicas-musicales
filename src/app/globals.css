@@ -126,11 +126,18 @@ input[type="range"]::-moz-range-thumb {
 
 .img-magnifier-glass {
   position: absolute;
-  border: 3px solid #ffffff15;
+  border: 3px solid black;
   border-radius: 50%;
   cursor: none;
   /*Set the size of the magnifier glass:*/
   width: 300px;
   height: 300px;
   z-index: 50;
+}
+
+.magnifier-stem {
+  @apply w-1 h-24 bg-black absolute;
+  bottom: -14px;
+  right: -14px;
+  transform: rotate(-45deg);
 }
