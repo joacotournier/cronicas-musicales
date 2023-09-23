@@ -129,7 +129,7 @@ function Section({ section, onVisible }) {
       <div
         key={section.id}
         ref={sectionRef}
-        className={`py-24 sm:py-32 lg:pb-40 h-[100vh] flex items-center justify-center sticky top-0 max-w-6xl transition-opacity duration-500 ease-in-out ${
+        className={`py-24 flex-col flex items-center justify-center sm:py-32 md:flex-row pb-40 h-[100vh]  sticky top-0 max-w-6xl transition-opacity duration-500 ease-in-out ${
           isVisible ? "opacity-100" : "opacity-0"
         }`}
       >
@@ -183,13 +183,13 @@ function Section({ section, onVisible }) {
           </div>
         )}
         {section.imagen && !isPopupOpen && (
-          <div class="img-magnifier-container">
+          <div class="img-magnifier-container flex flex-col justify-center items-center">
             <img
               src={
                 isHovered && section.hover ? section.hoverImage : section.imagen
               }
               alt={section.caption || "Section image"}
-              className={`drop-shadow-xl object-cover  ${
+              className={`drop-shadow-xl object-cover w-4/6 md:w-auto  ${
                 section.imagenSola ? "max-w-4xl mx-auto" : "max-w-xl"
               } ${section.hover ? "cursor-pointer" : ""}`}
               style={section.hover ? { cursor: "pointer" } : {}}
@@ -227,7 +227,7 @@ function Section({ section, onVisible }) {
               }}
             />
             {section.caption && (
-              <p className="text-sm text-white mt-4 opacity-50 mb-2">
+              <p className="text-sm text-white mt-4 opacity-50 mb-10 md:mb-2">
                 {section.caption}
               </p>
             )}
