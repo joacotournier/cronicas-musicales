@@ -48,17 +48,17 @@ function NavBar({ currentSection }) {
       </div>
       {isMenuOpen && (
         <div
-          className="fixed z-50 top-0 left-0 w-screen h-screen bg-center bg-cover text-center text-white flex items-stretch"
+          className="fixed z-50 top-0 left-0 w-screen h-screen bg-center bg-cover text-center text-white flex flex-col md:flex-row items-stretch"
           style={{ backgroundImage: `url(/main-pattern.jpg)` }}
         >
           {sections.map((section, index) => (
             <a
               href={section.href}
               onClick={closeMenu}
-              className={`relative flex-1 h-full flex flex-col justify-center items-center ${
+              className={`relative w-full md: h-full flex flex-col justify-center items-center ${
                 index === sections.length - 1
                   ? ""
-                  : "border-r border-gray-500 border-opacity-50"
+                  : "border-b border-gray-500 border-opacity-50 md:border-r "
               }`}
               key={section.title}
             >
