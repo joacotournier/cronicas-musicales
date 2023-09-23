@@ -136,7 +136,7 @@ function Section({ section, onVisible }) {
         {section.isQuestion && (
           <div className="flex flex-col justify-center items-center">
             <img src="/pregunta.svg" alt="pregunta" className="" />
-            <h2 className="text-2xl tracking-tight text-white sm:text-4xl">
+            <h2 className="text-center text-2xl tracking-tight text-white sm:text-4xl">
               {section.titulo}
             </h2>
           </div>
@@ -297,7 +297,7 @@ function Section({ section, onVisible }) {
           <div
             className={`flex flex-col justify-center ${
               section.imagen ? "items-left" : "items-center"
-            } pl-20`}
+            } pl-8 pr-8 md:pl-20 pr-0`}
           >
             {section.sobreImagen && (
               <img src="/lauro.png" alt="primera" className="h-40 mb-4" />
