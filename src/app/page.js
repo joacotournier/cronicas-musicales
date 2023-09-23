@@ -7,6 +7,7 @@ import LoadingScreen from "./components/LoadingScreen";
 import NavBar from "./components/NavBar";
 import Navigator from "./components/Navigator";
 import AudioContext from "./components/AudioContext";
+import { ArrowDownIcon } from "@heroicons/react/24/solid";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
@@ -93,6 +94,11 @@ export default function Page() {
                 onVisible={() => handleSectionChange(section.etapa)}
               />
             ))}
+        </div>
+
+        {/* Added the arrow icon */}
+        <div className="fixed bottom-4 right-4">
+          <ArrowDownIcon className="h-8 w-8 text-white mb-4 mr-4" />
         </div>
       </div>
     </AudioContext.Provider>
