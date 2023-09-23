@@ -326,15 +326,6 @@ function Section({ section, onVisible }) {
                 }}
               ></p>
             )}
-            {section.link && (
-              <a
-                href={section.link}
-                target="_blank"
-                className="text-lg text-white mt-4 p-4 border border-white flex items-center justify-center hover:bg-white hover:text-black"
-              >
-                {section.textoLink}
-              </a>
-            )}
             {section.quote && (
               <blockquote className="text-lg font-medium italic text-white mt-4">
                 {section.quote}
@@ -355,6 +346,15 @@ function Section({ section, onVisible }) {
                   <AudioPlayer url={section.url2} name={section.audioTitulo2} />
                 )}
               </div>
+            )}
+            {section.link && (
+              <a
+                href={section.link}
+                target="_blank"
+                className="text-lg text-white mt-4 p-4 border border-white flex items-center justify-center hover:bg-white hover:text-black"
+              >
+                {section.textoLink}
+              </a>
             )}
           </div>
         )}

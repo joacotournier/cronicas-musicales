@@ -313,47 +313,6 @@
     "tituloNavegador": "Internacional"
   },
   {
-    "id": "15",
-    "etapa": "II",
-    "titulo": "Programa de radio",
-    "sobreTitulo": "19 de abril de 1947",
-    "imagenSola": false,
-    "esEtapa": false,
-    "tituloNavegador": "Programa de radio"
-  },
-  {
-    "id": "16",
-    "etapa": "II",
-    "imagen": "/radio.png",
-    "imagenSola": true,
-    "esEtapa": false,
-    "tituloNavegador": "Micrófono"
-  },
-  {
-    "id": "17",
-    "etapa": "II",
-    "titulo": "Programa de radio",
-    "descripcion": "Lauro compartió sus hallazgos a través de la radio del Sodre. Contó con 15 episodios grabados entre 1953 y 1957. Es una buena oportunidad para escuchar qué tenía para decir sobre las grabaciones que recolectaba.",
-    "imagenSola": false,
-    "esEtapa": false,
-    "sinTitulo": true,
-    "tituloNavegador": "Sodre"
-  },
-  {
-    "id": "18",
-    "url": "http://www.cdm.gub.uy/wp-content/uploads/2021/10/RNU-RS-La-musica-folklorica_Realidad-folklorica-D.mp3",
-    "audioTitulo": "Sodre, 1953",
-    "etapa": "II",
-    "titulo": "Programa de radio",
-    "descripcion": "Escuchá uno de los episodios de su programa de radio, esquema de nuestra realidad folclórica.",
-    "imagen": "/microfono.png",
-    "caption": "Radio el Sodre 1953",
-    "imagenSola": false,
-    "esEtapa": false,
-    "esAudio": true,
-    "tituloNavegador": "Sodre 1953"
-  },
-  {
     "id": "180",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/722.mp3?_=56",
     "audioTitulo": "Martin Vigilante",
@@ -465,6 +424,49 @@
     "esEtapa": false,
     "sinTitulo": true,
     "tituloNavegador": "Diapasón"
+  },
+  {
+    "id": "15",
+    "etapa": "II",
+    "titulo": "Programa de radio",
+    "sobreTitulo": "Micros radiales del Sodre hacia 1960",
+    "imagenSola": false,
+    "esEtapa": false,
+    "tituloNavegador": "Programa de radio"
+  },
+  {
+    "id": "16",
+    "etapa": "II",
+    "imagen": "/radio.png",
+    "imagenSola": true,
+    "esEtapa": false,
+    "tituloNavegador": "Radio"
+  },
+  {
+    "id": "17",
+    "etapa": "II",
+    "titulo": "Programa de radio",
+    "descripcion": "Lauro compartió sus hallazgos a través de la radio luego de ser nombrado director de programaciones radiales del SODRE en 1959. Contó con 30 micros radiales grabados. Es una buena oportunidad para escuchar qué tenía para decir sobre las grabaciones que recolectaba.",
+    "imagenSola": false,
+    "esEtapa": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Sodre"
+  },
+  {
+    "id": "18",
+    "url": "http://www.cdm.gub.uy/wp-content/uploads/2021/10/RNU-RS-La-musica-folklorica_Realidad-folklorica-D.mp3",
+    "audioTitulo": "Realidad folklorica",
+    "etapa": "II",
+    "titulo": "Micros radiales",
+    "descripcion": "El conjunto de los materiales brinda un importante panorama de los temas abordados por el musicólogo y permite construir un original retrato del Uruguay musical. Es también un testimonio del espíritu integrador de Lauro Ayestarán.",
+    "imagen": "/microfono.png",
+    "caption": "Radio el Sodre 1953",
+    "link": "http://www.cdm.gub.uy/el-archivo-digital/micros-radiales",
+    "textoLink": "Escuchá los micros radiales en la página del CDM",
+    "imagenSola": false,
+    "esEtapa": false,
+    "esAudio": true,
+    "tituloNavegador": "Micro radial"
   },
   {
     "id": "19",
