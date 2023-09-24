@@ -62,7 +62,7 @@ function Navigator({ currentSlide, setCurrentSlide, sections }) {
               currentSlide === section.tituloNavegador
                 ? "opacity-100"
                 : "opacity-30 hover:opacity-75"
-            }`}
+            } hidden md:block`}
           >
             {section.tituloNavegador}
           </div>

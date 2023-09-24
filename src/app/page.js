@@ -7,6 +7,7 @@ import LoadingScreen from "./components/LoadingScreen";
 import NavBar from "./components/NavBar";
 import Navigator from "./components/Navigator";
 import AudioContext from "./components/AudioContext";
+import { ArrowDownIcon } from "@heroicons/react/24/solid";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
@@ -29,12 +30,12 @@ export default function Page() {
       .replace(/[^a-z0-9-]/g, "");
   };
 
-  const showLoading = true; // REMEMBER TO CHANGE THIS WHEN DEPLOYING
+  const showLoading = false; // REMEMBER TO CHANGE THIS WHEN DEPLOYING
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowNavBar(true);
-    }, 10000); // CHANGE TO 10000 WHEN DEPLOYING
+    }, 100); // CHANGE TO 10000 WHEN DEPLOYING
     return () => clearTimeout(timer);
   }, []);
 
@@ -84,7 +85,7 @@ export default function Page() {
         )}
         {showLoading && <LoadingScreen />}
         <div className="bg-main-pattern bg-cover h-screen w-screen fixed"></div>
-        <div className="relative isolate pt-14 pl-20">
+        <div className="relative isolate pt-14 md:pl-20">
           {data &&
             data.map((section) => (
               <Section
@@ -93,6 +94,11 @@ export default function Page() {
                 onVisible={() => handleSectionChange(section.etapa)}
               />
             ))}
+        </div>
+
+        {/* Added the arrow icon */}
+        <div className="fixed bottom-4 right-4">
+          <ArrowDownIcon className="h-8 w-8 text-white mb-4 mr-4" />
         </div>
       </div>
     </AudioContext.Provider>

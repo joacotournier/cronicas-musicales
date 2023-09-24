@@ -129,14 +129,14 @@ function Section({ section, onVisible }) {
       <div
         key={section.id}
         ref={sectionRef}
-        className={`py-24 sm:py-32 lg:pb-40 h-[100vh] flex items-center justify-center sticky top-0 max-w-6xl transition-opacity duration-500 ease-in-out ${
+        className={`py-24 flex-col flex items-center justify-center sm:py-32 md:flex-row pb-40 h-[100vh]  sticky top-0 max-w-6xl transition-opacity duration-500 ease-in-out ${
           isVisible ? "opacity-100" : "opacity-0"
         }`}
       >
         {section.isQuestion && (
           <div className="flex flex-col justify-center items-center">
             <img src="/pregunta.svg" alt="pregunta" className="" />
-            <h2 className="text-2xl tracking-tight text-white sm:text-4xl">
+            <h2 className="text-center text-2xl tracking-tight text-white sm:text-4xl">
               {section.titulo}
             </h2>
           </div>
@@ -183,13 +183,13 @@ function Section({ section, onVisible }) {
           </div>
         )}
         {section.imagen && !isPopupOpen && (
-          <div class="img-magnifier-container">
+          <div class="img-magnifier-container flex flex-col justify-center items-center">
             <img
               src={
                 isHovered && section.hover ? section.hoverImage : section.imagen
               }
               alt={section.caption || "Section image"}
-              className={`drop-shadow-xl object-cover  ${
+              className={`drop-shadow-xl object-cover w-4/6 md:w-auto  ${
                 section.imagenSola ? "max-w-4xl mx-auto" : "max-w-xl"
               } ${section.hover ? "cursor-pointer" : ""}`}
               style={section.hover ? { cursor: "pointer" } : {}}
@@ -227,7 +227,7 @@ function Section({ section, onVisible }) {
               }}
             />
             {section.caption && (
-              <p className="text-sm text-white mt-4 opacity-50 mb-2">
+              <p className="text-sm text-white mt-4 opacity-50 mb-10 md:mb-2">
                 {section.caption}
               </p>
             )}
@@ -297,7 +297,7 @@ function Section({ section, onVisible }) {
           <div
             className={`flex flex-col justify-center ${
               section.imagen ? "items-left" : "items-center"
-            } pl-20`}
+            } pl-8 pr-8 md:pl-20 pr-0`}
           >
             {section.sobreImagen && (
               <img src="/lauro.png" alt="primera" className="h-40 mb-4" />
@@ -326,15 +326,6 @@ function Section({ section, onVisible }) {
                 }}
               ></p>
             )}
-            {section.link && (
-              <a
-                href={section.link}
-                target="_blank"
-                className="text-lg text-white mt-4 p-4 border border-white flex items-center justify-center hover:bg-white hover:text-black"
-              >
-                {section.textoLink}
-              </a>
-            )}
             {section.quote && (
               <blockquote className="text-lg font-medium italic text-white mt-4">
                 {section.quote}
@@ -355,6 +346,15 @@ function Section({ section, onVisible }) {
                   <AudioPlayer url={section.url2} name={section.audioTitulo2} />
                 )}
               </div>
+            )}
+            {section.link && (
+              <a
+                href={section.link}
+                target="_blank"
+                className="text-lg text-white mt-4 p-4 border border-white flex items-center justify-center hover:bg-white hover:text-black"
+              >
+                {section.textoLink}
+              </a>
             )}
           </div>
         )}

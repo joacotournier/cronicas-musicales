@@ -62,6 +62,12 @@ body {
   font-variant: small-caps;
 }
 
+@media screen and (max-width: 600px) {
+  .etapa-title {
+    font-size: 4rem;
+  }
+}
+
 .text-poppins {
   font-family: "Poppins", sans-serif;
 }
