@@ -96,6 +96,17 @@
     "tituloNavegador": "Interrogante"
   },
   {
+    "id": "348374",
+    "etapa": "I",
+    "titulo": "Trabajo",
+    "descripcion": "El trabajo de Lauro Ayestarán forma parte de los pilares de esa construcción permanente que es el estudio de la cultura humana.",
+    "imagenSola": false,
+    "esEtapa": false,
+    "isQuestion": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Cultura"
+  },
+  {
     "id": "5",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/11/CDM-LA-RS-564-Pereira.mp3?_=47",
     "audioTitulo": "Tango, 1943",
@@ -131,6 +142,16 @@
     "tituloNavegador": "Limitaciones"
   },
   {
+    "id": "248213",
+    "etapa": "I",
+    "titulo": "Primeros intereses",
+    "descripcion": "Sus primeros intereses musicales estaban dirigidos hacia la Música Clásica. Buceando en los documentos históricos reconstruye la actividad musical de Montevideo durante el siglo XIX, con un método exhaustivo y minucioso, siempre acompañado por un “...contagioso gusto estético por el trabajo creador en el campo de la cultura musical.” (palabras de Dionisio Trillo Pays … en ocasión de…)",
+    "imagenSola": false,
+    "esEtapa": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Primeros intereses"
+  },
+  {
     "id": "55",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/CDM-LA-RS-476.mp3?_=55",
     "audioTitulo": "Chotis maragato",
@@ -144,6 +165,16 @@
     "esEtapa": false,
     "esAudio": true,
     "tituloNavegador": "Atletic Rocha Club"
+  },
+  {
+    "id": "966409",
+    "etapa": "I",
+    "titulo": "Folk-lore",
+    "descripcion": "Cada vez más va dirigiendo su atención hacia el folk-lore, el saber del pueblo y sus sonidos: las murgas del tablado, los tamboriles en las llamadas, las canciones que aún cantaban los criollos en las pulperías, las de los niños en la escuela o las madres acunando a sus bebés.",
+    "imagenSola": false,
+    "esEtapa": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Folklore"
   },
   {
     "id": "6",
@@ -228,7 +259,7 @@
   {
     "id": "sdf0i9sadoij",
     "etapa": "I",
-    "titulo": "asd",
+    "titulo": "Detalles",
     "descripcion": "En esta primer etapa del proceso de investigación, nos tropezamos con algunos detalles en los márgenes de las grabaciones y de las fotografías. Estas nos invitan a entrar en ese mundo que Ayestaran habitó, vemos en las fotografías la gente que lo rodea, de sus grabaciones se desprenden los ruidos ambiente. Podemos observar el paisaje no sólo sonoro sino visual de cada momento, cuidadosamente documentado.",
     "imagenSola": false,
     "esEtapa": false,
@@ -267,6 +298,16 @@
     "tituloNavegador": "El diario"
   },
   {
+    "id": "683927",
+    "etapa": "I",
+    "titulo": "Encuentros",
+    "descripcion": "Para un científico o un artista de un país periférico, como el Uruguay, la oportunidad de concurrir a encuentros académicos en el exterior implica a la vez un reconocimiento y un desafío. Ayestarán participó en 1951, en París, del Primer Congreso Internacional de Archivos y Bibliotecas Musicales y en la Tercera Asamblea General del Consejo Internacional de la Música. En los años siguientes, es invitado a dictar conferencias en universidades de Nueva Orleans, Los Ángeles y Nueva York. En 1963 participa en la Primera Conferencia Interamericana de Musicología en Washington.",
+    "imagenSola": false,
+    "esEtapa": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Encuentros"
+  },
+  {
     "id": "133",
     "etapa": "I",
     "imagen": "/carta-verso.png",
@@ -274,6 +315,42 @@
     "imagenSola": true,
     "esEtapa": false,
     "tituloNavegador": "Carta"
+  },
+  {
+    "id": "630259",
+    "etapa": "I",
+    "titulo": "Intercambios",
+    "descripcion": "En ocasión de sus viajes al extranjero toma contacto con las principales personalidades de la incipiente musicología mundial, como Charles Seeger, Alan Lomax, Gilbert Chase y Robert Stevenson, entre otros. Cuando Alan Lomax le propone a Ayestarán realizar una selección de grabaciones para una recopilación de “Músicas del Mundo”, resulta interesante ver la diferencia de criterios que manejan a la hora de evaluar los materiales. La publicación finalmente no se concreta, y las diferencias quedan registradas en el intercambio de correspondencia entre los musicólogos.",
+    "imagenSola": false,
+    "esEtapa": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Intercambios"
+  },
+  {
+    "id": "169134",
+    "etapa": "I",
+    "titulo": "Lomax",
+    "imagen": "/lomax.jpeg",
+    "caption": "Alan Lomax, musicólogo estadounidense (1915-2002)",
+    "descripcion": "",
+    "imagenSola": true,
+    "esEtapa": false,
+    "sinTitulo": false,
+    "sobreImagen": true,
+    "tituloNavegador": "Lomax"
+  },
+  {
+    "id": "169134",
+    "etapa": "I",
+    "titulo": "Lomax",
+    "imagen": "/notas-lomax.jpeg",
+    "caption": "Notas de Alan Lomax en su trabajo propio de investigación.",
+    "descripcion": "",
+    "imagenSola": true,
+    "esEtapa": false,
+    "sinTitulo": false,
+    "sobreImagen": true,
+    "tituloNavegador": "Notas de Lomax"
   },
   {
     "id": "134",
@@ -285,32 +362,13 @@
   },
   {
     "id": "135",
-    "etapa": "I",
+    "etapa": "II",
     "titulo": "Etapa 2",
     "descripcion": "En esta segunda etapa, Lauro continuo su proceso de investigación, viajando a más de 100 pueblos y ciudades de Uruguay.",
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,
     "tituloNavegador": "Investigación"
-  },
-  {
-    "id": "14",
-    "etapa": "II",
-    "imagen": "/carta.png",
-    "esZoom": true,
-    "imagenSola": true,
-    "esEtapa": false,
-    "tituloNavegador": "Carta 2"
-  },
-  {
-    "id": "136",
-    "etapa": "I",
-    "titulo": "Etapa 2",
-    "descripcion": "Lauro recibía constantemente cartas de varios países hablando de su proceso de investigación.",
-    "imagenSola": false,
-    "esEtapa": false,
-    "sinTitulo": true,
-    "tituloNavegador": "Internacional"
   },
   {
     "id": "180",
@@ -340,6 +398,25 @@
     "esEtapa": false,
     "esAudio": true,
     "tituloNavegador": "Amigos del arte"
+  },
+  {
+    "id": "136",
+    "etapa": "II",
+    "titulo": "Etapa 2",
+    "descripcion": "Lauro recibía constantemente cartas de varios países hablando de su proceso de investigación.",
+    "imagenSola": false,
+    "esEtapa": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Internacional"
+  },
+  {
+    "id": "14",
+    "etapa": "II",
+    "imagen": "/carta.png",
+    "esZoom": true,
+    "imagenSola": true,
+    "esEtapa": false,
+    "tituloNavegador": "Carta 2"
   },
   {
     "id": "182",
@@ -387,6 +464,29 @@
     "tituloNavegador": "San Carlos"
   },
   {
+    "id": "187",
+    "etapa": "II",
+    "titulo": "Diapason",
+    "descripcion": "En su afán por registrar las músicas del Uruguay de manera fiel, Lauro utilizaba un diapasón para ayudar a mantener la fidelidad para los futuros escuchantes.",
+    "imagenSola": false,
+    "esEtapa": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Diapasón"
+  },
+  {
+    "id": "19",
+    "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/11/CDM-LA-RS-1421-Gomez-Maidana-diapason.mp3?_=1",
+    "audioTitulo": "Alberto Mastra (payador), 1954",
+    "etapa": "II",
+    "titulo": "Diapasón",
+    "descripcion": "El diapasón se puede escuchar al principio de la grabación. Y marca la nota La (A).",
+    "imagen": "/diapason.png",
+    "imagenSola": false,
+    "esEtapa": false,
+    "esAudio": true,
+    "tituloNavegador": "Alberto Mastra"
+  },
+  {
     "id": "185",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/1255.mp3?_=56",
     "audioTitulo": "El Paraguayo",
@@ -413,16 +513,6 @@
     "esEtapa": false,
     "esAudio": true,
     "tituloNavegador": "Liceo 33"
-  },
-  {
-    "id": "187",
-    "etapa": "II",
-    "titulo": "Diapason",
-    "descripcion": "En su afán por registrar las músicas del Uruguay de manera fiel, Lauro utilizaba un diapasón para ayudar a mantener la fidelidad para los futuros escuchantes.",
-    "imagenSola": false,
-    "esEtapa": false,
-    "sinTitulo": true,
-    "tituloNavegador": "Diapasón"
   },
   {
     "id": "15",
@@ -466,19 +556,6 @@
     "esEtapa": false,
     "esAudio": true,
     "tituloNavegador": "Micro radial"
-  },
-  {
-    "id": "19",
-    "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/11/CDM-LA-RS-1421-Gomez-Maidana-diapason.mp3?_=1",
-    "audioTitulo": "Alberto Mastra (payador), 1954",
-    "etapa": "II",
-    "titulo": "Diapasón",
-    "descripcion": "El diapasón se puede escuchar al principio de la grabación. Y marca la nota La (A).",
-    "imagen": "/diapason.png",
-    "imagenSola": false,
-    "esEtapa": false,
-    "esAudio": true,
-    "tituloNavegador": "Alberto Mastra"
   },
   {
     "id": "195",
@@ -641,6 +718,16 @@
     "esEtapa": false,
     "esAudio": true,
     "tituloNavegador": "Danza"
+  },
+  {
+    "id": "727656",
+    "etapa": "III",
+    "titulo": "Conclusiones",
+    "descripcion": "A lo largo de esta primer etapa de investigación , mientras seguimos caminando hacia nuevos formatos ( un relato audiovisual musical sobre este viaje ), numerosas informaciones siguen llamando nuestra atención y despertando nuestra curiosidad. Referenciamos alguna en este espacio, pero entendemos la figura de este científico y gran musicólogo no podría ceñirse a este espacio por eso tomamos esta página como el inicio y nos abrimos a la aventura de seguir descubriendo lo que nos mueve hoy lo que movió a Lauro ayer, los secretos y el sentido profundo de la música en el ser humano como individuo y como sociedad \n \n Seguiremos viajando...",
+    "imagenSola": false,
+    "esEtapa": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Conclusiones"
   },
   {
     "id": "265",

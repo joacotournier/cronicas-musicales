@@ -95,8 +95,11 @@ export default function Page() {
               />
             ))}
         </div>
-
-        {/* Added the arrow icon */}
+        {/*         <div className="w-screen h-screen z-100 flex justify-center items-center ">
+          <h2 className="text-white text-4xl font-bold text-center">
+            link section
+          </h2>
+        </div> */}
         <div className="fixed bottom-4 right-4">
           <ArrowDownIcon className="h-8 w-8 text-white mb-4 mr-4" />
         </div>
