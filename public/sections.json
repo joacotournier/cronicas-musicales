@@ -114,67 +114,11 @@
     "titulo": "Grabador de acetato",
     "descripcion": "Con el grabador de acetato, Lauro pudo registrar las músicas que escuchaba en sus viajes. Escuchá a Policarpo Pereira tocando «Tango de Tío Simón» grabado en acetato.",
     "imagen": "/grabadora.png",
-    "caption": "Fotografía de el Centro de Documentación Musical",
+    "caption": "Grabador de acetato de mediados de 1930, similar a los utilizados por Lauro",
     "imagenSola": false,
     "esEtapa": false,
     "esAudio": true,
     "tituloNavegador": "Grabador de acetato"
-  },
-  {
-    "id": "cf42dfsdf227c1",
-    "etapa": "I",
-    "titulo": "Lauro Ayestarán",
-    "descripcion": "La grabación de sonido era una posibilidad tecnológica relativamente reciente que permitía ir más allá de lo que las notas en el pentagrama pueden representar. Esos «detalles» son un elemento muy importante que caracteriza las músicas populares.",
-    "imagenSola": false,
-    "esEtapa": false,
-    "sinTitulo": true,
-    "tituloNavegador": "Sonido"
-  },
-  {
-    "id": "54",
-    "etapa": "I",
-    "titulo": "Su primer grabador",
-    "sobreTitulo": "",
-    "descripcion": "En estas grabaciones podemos escuchar el ruido característico de la púa en el surco. Otra limitación era la duración máxima de pocos minutos de grabación por disco.",
-    "imagenSola": false,
-    "esEtapa": false,
-    "sinTitulo": true,
-    "tituloNavegador": "Limitaciones"
-  },
-  {
-    "id": "248213",
-    "etapa": "I",
-    "titulo": "Primeros intereses",
-    "descripcion": "Sus primeros intereses musicales estaban dirigidos hacia la Música Clásica. Buceando en los documentos históricos reconstruye la actividad musical de Montevideo durante el siglo XIX, con un método exhaustivo y minucioso, siempre acompañado por un “...contagioso gusto estético por el trabajo creador en el campo de la cultura musical.” (palabras de Dionisio Trillo Pays … en ocasión de…)",
-    "imagenSola": false,
-    "esEtapa": false,
-    "sinTitulo": true,
-    "tituloNavegador": "Primeros intereses"
-  },
-  {
-    "id": "55",
-    "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/CDM-LA-RS-476.mp3?_=55",
-    "audioTitulo": "Chotis maragato",
-    "etapa": "I",
-    "titulo": "Atletic Rocha Club",
-    "sobreTitulo": "12 Octubre, 1948",
-    "descripcion": "Ovidio M. Terra tocando un chotis con la bandónica en el Atletic Rocha Club. Al final hay un cálido interacción entre Lauro y el viejo, a pesar de que en sus notas sobre esta grabación Lauro escribió solamente una palabra: «Mala».",
-    "imagen": "/476.jpeg",
-    "caption": "Fotografía de Raúl Huelmo",
-    "imagenSola": false,
-    "esEtapa": false,
-    "esAudio": true,
-    "tituloNavegador": "Atletic Rocha Club"
-  },
-  {
-    "id": "966409",
-    "etapa": "I",
-    "titulo": "Folk-lore",
-    "descripcion": "Cada vez más va dirigiendo su atención hacia el folk-lore, el saber del pueblo y sus sonidos: las murgas del tablado, los tamboriles en las llamadas, las canciones que aún cantaban los criollos en las pulperías, las de los niños en la escuela o las madres acunando a sus bebés.",
-    "imagenSola": false,
-    "esEtapa": false,
-    "sinTitulo": true,
-    "tituloNavegador": "Folklore"
   },
   {
     "id": "6",
@@ -186,21 +130,6 @@
     "esEtapa": false,
     "sinTitulo": true,
     "tituloNavegador": "Acetato"
-  },
-  {
-    "id": "65",
-    "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/625.mp3?_=56",
-    "audioTitulo": "Desprecio campero",
-    "etapa": "I",
-    "titulo": "Tupambaé",
-    "sobreTitulo": "22 Octubre, 1949",
-    "descripcion": "En el Liceo Oficial de Sarandi de Yi, Lauro graba a Maximo “Ricardito” tocando la guitarra en una marcha. Se tocaba esta marcha en la Batalla de Tupambaé, 1904, durante la Revolución de 1904, la última guerra civil del país. Ricardito asistió a la cruel batalla, donde había mas de 2300 muertos y heridos. \n \n Lauro habló al final del grabación con Ricardito sobre ese evento. Se ve aca claramente la linea de su investigación que incorpora la musica como elemento clave en la historia y memoria del país.",
-    "imagen": "/625.jpeg",
-    "caption": "Fotografía de la bibloteca nacional de Uruguay",
-    "imagenSola": false,
-    "esEtapa": false,
-    "esAudio": true,
-    "tituloNavegador": "Sarandí del Yí"
   },
   {
     "id": "9,",
@@ -242,6 +171,70 @@
     "esEtapa": false,
     "esAudio": true,
     "tituloNavegador": "Atalibio Riveiro"
+  },
+  {
+    "id": "248213",
+    "etapa": "I",
+    "titulo": "Primeros intereses",
+    "descripcion": "Sus primeros intereses musicales estaban dirigidos hacia la Música Clásica. Buceando en los documentos históricos reconstruye la actividad musical de Montevideo durante el siglo XIX, con un método exhaustivo y minucioso, siempre acompañado por un “...contagioso gusto estético por el trabajo creador en el campo de la cultura musical.” (palabras de Dionisio Trillo Pays … en ocasión de…)",
+    "imagenSola": false,
+    "esEtapa": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Primeros intereses"
+  },
+  {
+    "id": "54",
+    "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/11/CDM-LA-RS-514-MartinezVillarino-1948.mp3?_=2",
+    "audioTitulo": "Luis Martínez Villarino, 1948",
+    "etapa": "I",
+    "titulo": "Su primer grabador",
+    "sobreTitulo": "",
+    "descripcion": "En estas grabaciones podemos escuchar el ruido característico de la púa en el surco. Otra limitación era la duración máxima de pocos minutos de grabación por disco.",
+    "imagenSola": false,
+    "esEtapa": false,
+    "esAudio": true,
+    "sinTitulo": true,
+    "tituloNavegador": "Limitaciones"
+  },
+  {
+    "id": "55",
+    "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/CDM-LA-RS-476.mp3?_=55",
+    "audioTitulo": "Chotis maragato",
+    "etapa": "I",
+    "titulo": "Atletic Rocha Club",
+    "sobreTitulo": "12 Octubre, 1948",
+    "descripcion": "Ovidio M. Terra tocando un chotis con la bandónica en el Atletic Rocha Club. Al final hay un cálido interacción entre Lauro y el viejo, a pesar de que en sus notas sobre esta grabación Lauro escribió solamente una palabra: «Mala».",
+    "imagen": "/476.jpeg",
+    "caption": "Fotografía de Raúl Huelmo",
+    "imagenSola": false,
+    "esEtapa": false,
+    "esAudio": true,
+    "tituloNavegador": "Atletic Rocha Club"
+  },
+  {
+    "id": "966409",
+    "etapa": "I",
+    "titulo": "Folk-lore",
+    "descripcion": "Cada vez más va dirigiendo su atención hacia el folk-lore, el saber del pueblo y sus sonidos: las murgas del tablado, los tamboriles en las llamadas, las canciones que aún cantaban los criollos en las pulperías, las de los niños en la escuela o las madres acunando a sus bebés.",
+    "imagenSola": false,
+    "esEtapa": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Folklore"
+  },
+  {
+    "id": "65",
+    "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/625.mp3?_=56",
+    "audioTitulo": "Desprecio campero",
+    "etapa": "I",
+    "titulo": "Tupambaé",
+    "sobreTitulo": "22 Octubre, 1949",
+    "descripcion": "En el Liceo Oficial de Sarandi de Yi, Lauro graba a Maximo “Ricardito” tocando la guitarra en una marcha. Se tocaba esta marcha en la Batalla de Tupambaé, 1904, durante la Revolución de 1904, la última guerra civil del país. Ricardito asistió a la cruel batalla, donde había mas de 2300 muertos y heridos. \n \n Lauro habló al final del grabación con Ricardito sobre ese evento. Se ve aca claramente la linea de su investigación que incorpora la musica como elemento clave en la historia y memoria del país.",
+    "imagen": "/625.jpeg",
+    "caption": "Fotografía de la bibloteca nacional de Uruguay",
+    "imagenSola": false,
+    "esEtapa": false,
+    "esAudio": true,
+    "tituloNavegador": "Sarandí del Yí"
   },
   {
     "id": "115",
@@ -335,8 +328,7 @@
     "descripcion": "",
     "imagenSola": true,
     "esEtapa": false,
-    "sinTitulo": false,
-    "sobreImagen": true,
+    "sinTitulo": true,
     "tituloNavegador": "Lomax"
   },
   {
@@ -348,8 +340,7 @@
     "descripcion": "",
     "imagenSola": true,
     "esEtapa": false,
-    "sinTitulo": false,
-    "sobreImagen": true,
+    "sinTitulo": true,
     "tituloNavegador": "Notas de Lomax"
   },
   {
@@ -376,8 +367,8 @@
     "audioTitulo": "Martin Vigilante",
     "etapa": "II",
     "titulo": "En la tormenta",
-    "sobreTitulo": "3 Abril, 1954",
-    "descripcion": "Esta grabación de Martin Vigilante, hecho en la casa de Amanda Pérez en Playa Verde, se hizo en medio de una tormenta. La lluvia cae fuerte y se emociona Lauro, gritando al final: “Un grabación en la tormenta!”. Muestra como Ayestaran tuvo que hacer grabaciónes bajo cualquier tipo de condiciones: lo importante era siempre conseguir y guardar la musica para el futuro.",
+    "sobreTitulo": "23 de febrero, 1954",
+    "descripcion": "Esta grabación de Martin Vigilante, hecha en la casa de Amanda Pérez en Playa Verde, se hizo en medio de una tormenta. La lluvia cae fuerte y Lauro se emociona, gritando al final: “Un grabación en la tormenta!”. Muestra como Ayestaran tuvo que hacer grabaciónes bajo cualquier tipo de condiciones: lo importante era siempre conseguir y guardar la musica para el futuro.",
     "caption": "Fotografía del Archivo Nacional de la Imagen - SODRE",
     "imagenSola": false,
     "esEtapa": false,
@@ -410,13 +401,22 @@
     "tituloNavegador": "Internacional"
   },
   {
+    "id": "245",
+    "etapa": "III",
+    "imagen": "/carta-illinois.png",
+    "esZoom": true,
+    "imagenSola": true,
+    "esEtapa": false,
+    "tituloNavegador": "Carta Illinois"
+  },
+  {
     "id": "14",
     "etapa": "II",
     "imagen": "/carta.png",
     "esZoom": true,
     "imagenSola": true,
     "esEtapa": false,
-    "tituloNavegador": "Carta 2"
+    "tituloNavegador": "Carta Galbraith"
   },
   {
     "id": "182",
@@ -432,6 +432,29 @@
     "esEtapa": false,
     "esAudio": true,
     "tituloNavegador": "Club social centenario"
+  },
+  {
+    "id": "187",
+    "etapa": "II",
+    "titulo": "Diapason",
+    "descripcion": "En su afán por registrar las músicas del Uruguay de manera fiel, Lauro utilizaba un diapasón para ayudar a mantener la fidelidad para los futuros escuchantes.",
+    "imagenSola": false,
+    "esEtapa": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Diapasón"
+  },
+  {
+    "id": "19",
+    "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/11/CDM-LA-RS-1421-Gomez-Maidana-diapason.mp3?_=1",
+    "audioTitulo": "Alberto Mastra (payador), 1954",
+    "etapa": "II",
+    "titulo": "Diapasón",
+    "descripcion": "El diapasón se puede escuchar al principio de la grabación. Y marca la nota La (A).",
+    "imagen": "/diapason.png",
+    "imagenSola": false,
+    "esEtapa": false,
+    "esAudio": true,
+    "tituloNavegador": "Alberto Mastra"
   },
   {
     "id": "183",
@@ -462,29 +485,6 @@
     "esEtapa": false,
     "esAudio": true,
     "tituloNavegador": "San Carlos"
-  },
-  {
-    "id": "187",
-    "etapa": "II",
-    "titulo": "Diapason",
-    "descripcion": "En su afán por registrar las músicas del Uruguay de manera fiel, Lauro utilizaba un diapasón para ayudar a mantener la fidelidad para los futuros escuchantes.",
-    "imagenSola": false,
-    "esEtapa": false,
-    "sinTitulo": true,
-    "tituloNavegador": "Diapasón"
-  },
-  {
-    "id": "19",
-    "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/11/CDM-LA-RS-1421-Gomez-Maidana-diapason.mp3?_=1",
-    "audioTitulo": "Alberto Mastra (payador), 1954",
-    "etapa": "II",
-    "titulo": "Diapasón",
-    "descripcion": "El diapasón se puede escuchar al principio de la grabación. Y marca la nota La (A).",
-    "imagen": "/diapason.png",
-    "imagenSola": false,
-    "esEtapa": false,
-    "esAudio": true,
-    "tituloNavegador": "Alberto Mastra"
   },
   {
     "id": "185",
@@ -585,28 +585,13 @@
   {
     "id": "22",
     "etapa": "III",
-    "titulo": "Su último grabador",
-    "descripcion": "Lauro consigue su primer grabador de Acetato",
+    "titulo": "Grabador de cinta magnética",
+    "descripcion": "Lauro consigue su primer grabador de cinta magnética, un elemento mucho más portatil y de mayor calidad que los anteriores. Este grabador lo acompaña durante el resto de su proceso de investigación.",
     "imagen": "/butoba.png",
     "caption": "Fotografía de el Centro de Documentación Musical",
     "imagenSola": false,
     "esEtapa": false,
-    "tituloNavegador": "Butoba 2"
-  },
-  {
-    "id": "225",
-    "url": "http://www.cdm.gub.uy/wp-content/uploads/2021/11/CDM-LA-RS-2128-D.mp3?_=12",
-    "audioTitulo": "Estilo, 1959",
-    "etapa": "III",
-    "quote": "Según lo transmitido por Basso a Ayestarán, la letra es de Roque Tajes y el músico la canta de oído desde 1915.",
-    "titulo": "Nicolás Basso (payador)",
-    "descripcion": "Montevideo, 62 años, canto y guitarra",
-    "imagen": "/nicolas.jpg",
-    "caption": "Foto: Lauro Ayestarán",
-    "imagenSola": false,
-    "esEtapa": false,
-    "esAudio": true,
-    "tituloNavegador": "Nicolás Basso"
+    "tituloNavegador": "Portatil"
   },
   {
     "id": "226",
@@ -620,6 +605,21 @@
     "esEtapa": false,
     "esAudio": true,
     "tituloNavegador": "Radio Durazno"
+  },
+  {
+    "id": "225",
+    "url": "http://www.cdm.gub.uy/wp-content/uploads/2021/11/CDM-LA-RS-2128-D.mp3?_=12",
+    "audioTitulo": "Estilo, 1959",
+    "etapa": "III",
+    "quote": "Según lo transmitido por Basso a Ayestarán, la letra es de Roque Tajes y el músico la canta de oído desde 1915.",
+    "titulo": "Nicolás Basso (payador)",
+    "descripcion": "Montevideo, 62 años, canto y guitarra",
+    "imagen": "/nicolas.jpg",
+    "caption": "Fotografía de Lauro Ayestarán en 1962, grabación de 1959",
+    "imagenSola": false,
+    "esEtapa": false,
+    "esAudio": true,
+    "tituloNavegador": "Nicolás Basso"
   },
   {
     "id": "23",
@@ -636,7 +636,7 @@
     "id": "24",
     "etapa": "III",
     "titulo": "Primer y único volúmen de una serie incompleta...",
-    "sobreTitulo": "19 de abril de 1947",
+    "sobreTitulo": "La Música en el Uruguay",
     "imagen": "/musica-en-uruguay.png",
     "imagenSola": false,
     "esEtapa": false,
@@ -656,15 +656,6 @@
     "tituloNavegador": "Rivera"
   },
   {
-    "id": "245",
-    "etapa": "III",
-    "imagen": "/carta-illinois.png",
-    "esZoom": true,
-    "imagenSola": true,
-    "esEtapa": false,
-    "tituloNavegador": "Carta Illinois"
-  },
-  {
     "id": "246",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/2397.mp3?_=56",
     "audioTitulo": "Crisolda Bervejillo",
@@ -680,34 +671,6 @@
     "tituloNavegador": "Escuela Nr 3 Sarandí"
   },
   {
-    "id": "247",
-    "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/2504.mp3?_=56",
-    "audioTitulo": "Jose Omar Duarte",
-    "etapa": "III",
-    "titulo": "Improvisado",
-    "sobreTitulo": "22 Setiembre, 1960",
-    "descripcion": "En el Centro Rodo de Rivera, Jose Omar Duarte canta un milonga dedicado a Ayestaran mismo. Después de tantos años, la fama de Lauro lo procede. También es fascinante escuchar a la forma de improvisar que tiene Duarte, algo que resuena de los tradiciones de los payadores y también tiene eco del rap de hoy en día.",
-    "imagen": "/2504.jpg",
-    "caption": "Fotografía de Facebook",
-    "imagenSola": false,
-    "esEtapa": false,
-    "esAudio": true,
-    "tituloNavegador": "Centro Rodo de Rivera"
-  },
-  {
-    "id": "25",
-    "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/11/CDM-LA-RS-1713-FH598-FantasiaNegra.mp3?_=4",
-    "audioTitulo": "Candombe, 1958",
-    "etapa": "III",
-    "titulo": "Conjunto lubolo “Fantasía Negra”, recitado, coro y tamboriles",
-    "descripcion": "Montevideo",
-    "imagen": "/candombe.png",
-    "imagenSola": true,
-    "esEtapa": false,
-    "esAudio": true,
-    "tituloNavegador": "Candombe"
-  },
-  {
     "id": "26",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/12/CDM-LA-RS-818-Garcia.mp3?_=1",
     "audioTitulo": "Danza",
@@ -718,6 +681,32 @@
     "esEtapa": false,
     "esAudio": true,
     "tituloNavegador": "Danza"
+  },
+  {
+    "id": "247",
+    "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/2504.mp3?_=56",
+    "audioTitulo": "Jose Omar Duarte",
+    "etapa": "III",
+    "titulo": "Improvisado",
+    "sobreTitulo": "22 Setiembre, 1960",
+    "descripcion": "En el Centro Rodo de Rivera, Jose Omar Duarte canta un milonga dedicado a Ayestaran mismo. Después de tantos años, la fama de Lauro lo procede. También es fascinante escuchar a la forma de improvisar que tiene Duarte, algo que resuena de los tradiciones de los payadores y también tiene eco del rap de hoy en día.",
+    "imagen": "/2504.jpeg",
+    "caption": "Fotografía de Facebook",
+    "imagenSola": false,
+    "esEtapa": false,
+    "esAudio": true,
+    "tituloNavegador": "Centro Rodo de Rivera"
+  },
+  {
+    "id": "25",
+    "etapa": "III",
+    "titulo": "Candombe",
+    "imagen": "/candombe.png",
+    "caption": "Conjunto lubolo “Fantasía Negra”, recitado, coro y tamboriles",
+    "imagenSola": true,
+    "sinTitulo": true,
+    "esEtapa": false,
+    "tituloNavegador": "Candombe"
   },
   {
     "id": "727656",
@@ -775,7 +764,7 @@
   {
     "id": "30",
     "etapa": "LEGADO",
-    "titulo": "Pero podés encontrar su registro en el Centro de Documentación Musical «Lauro Ayestarán» en la Biblioteca Nacional de Uruguay.",
+    "titulo": "Podés encontrar su registro en el Centro de Documentación Musical «Lauro Ayestarán» en la Biblioteca Nacional de Uruguay.",
     "imagenSola": false,
     "esEtapa": false,
     "isCDM": true,
