@@ -173,6 +173,34 @@
     "tituloNavegador": "Atalibio Riveiro"
   },
   {
+    "id": "sdfioj32459834597234",
+    "etapa": "I",
+    "titulo": "Dosetti",
+    "descripcion": "A continuación dos cartas de su amigo Dossetti, que ayudó a Lauro a planificar un viaje a Minas. Las cartas hablan de cosas concretas en el proceso: como llegar al lugar del grabación y quien podía ayudar.",
+    "imagenSola": false,
+    "esEtapa": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Dosetti"
+  },
+  {
+    "id": "sdfj982342",
+    "etapa": "I",
+    "imagen": "/carta-1947.png",
+    "esZoom": true,
+    "imagenSola": true,
+    "esEtapa": false,
+    "tituloNavegador": "Carta 1947"
+  },
+  {
+    "id": "fodjisfd98324",
+    "etapa": "I",
+    "imagen": "/carta-1948.png",
+    "esZoom": true,
+    "imagenSola": true,
+    "esEtapa": false,
+    "tituloNavegador": "Carta 1948"
+  },
+  {
     "id": "248213",
     "etapa": "I",
     "titulo": "Primeros intereses",
@@ -264,7 +292,7 @@
     "id": "12",
     "etapa": "I",
     "titulo": "Diario de viaje",
-    "sobreTitulo": "19 de abril de 1947",
+    "sobreTitulo": "Registro",
     "imagenSola": false,
     "esEtapa": false,
     "tituloNavegador": "Diario de viaje"
@@ -394,7 +422,7 @@
     "id": "136",
     "etapa": "II",
     "titulo": "Etapa 2",
-    "descripcion": "Lauro recibía constantemente cartas de varios países hablando de su proceso de investigación.",
+    "descripcion": "Lauro recibía constantemente cartas de varios países hablando de su proceso de investigación. A continuación una carta desde la universidad Northwestern, de Illinois, EEUU, agradeciendo a Lauro por haber mandado su libro, La Musica en el Uruguay. El alcance de Ayestaran era extenso.",
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,
@@ -408,6 +436,16 @@
     "imagenSola": true,
     "esEtapa": false,
     "tituloNavegador": "Carta Illinois"
+  },
+  {
+    "id": "12sdf3987wd",
+    "etapa": "II",
+    "titulo": "Etapa 2",
+    "descripcion": "Una carta esta vez desde Inglaterra pidiendo la ayuda de Lauro para armar una serie sobre danzas latinoamericanas para la Academia Real de Baile de Gran Bretaña. 1952",
+    "imagenSola": false,
+    "esEtapa": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Inglaterra"
   },
   {
     "id": "14",
@@ -569,7 +607,7 @@
     "id": "20",
     "etapa": "III",
     "titulo": "Su último grabador",
-    "sobreTitulo": "19 de abril de 1947",
+    "sobreTitulo": "Grabador de cinta magnética",
     "imagenSola": false,
     "esEtapa": false,
     "tituloNavegador": "Grabador de cinta"
