@@ -136,7 +136,7 @@ function Section({ section, onVisible }) {
         {section.isQuestion && (
           <div className="flex flex-col justify-center items-center">
             <img src="/pregunta.svg" alt="pregunta" className="" />
-            <h2 className="text-center text-2xl tracking-tight text-white sm:text-4xl">
+            <h2 className="text-center text-lg tracking-tight text-white sm:text-xl">
               {section.titulo}
             </h2>
           </div>
@@ -144,7 +144,7 @@ function Section({ section, onVisible }) {
         {section.isCDM && (
           <div className="flex flex-col justify-center items-center">
             <img src="/cdm.png" alt="cdm" className="w-40" />
-            <h2 className="text-2xl text-center max-w-6xl mt-8 tracking-tight text-white sm:text-4xl">
+            <h2 className="text-md text-center max-w-6xl mt-8 tracking-tight text-white sm:text-xl">
               {section.titulo}
             </h2>
             <a
@@ -327,7 +327,7 @@ function Section({ section, onVisible }) {
               ></p>
             )}
             {section.quote && (
-              <blockquote className="text-lg font-medium italic text-white mt-4">
+              <blockquote className="text-2xl font-medium italic text-white mt-4">
                 {section.quote}
               </blockquote>
             )}
