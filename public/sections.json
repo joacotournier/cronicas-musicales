@@ -59,6 +59,27 @@
     "tituloNavegador": "Origen"
   },
   {
+    "id": "25",
+    "etapa": "I",
+    "titulo": "Candombe",
+    "imagen": "/candombe.png",
+    "caption": "Conjunto lubolo “Fantasía Negra”, recitado, coro y tamboriles",
+    "imagenSola": true,
+    "sinTitulo": true,
+    "esEtapa": false,
+    "tituloNavegador": "Candombe"
+  },
+  {
+    "id": "248213",
+    "etapa": "I",
+    "titulo": "Primeros intereses",
+    "descripcion": "Sus primeros intereses musicales estaban dirigidos hacia la Música Clásica. Buceando en los documentos históricos reconstruye la actividad musical de Montevideo durante el siglo XIX, con un método exhaustivo y minucioso, siempre acompañado por un “...contagioso gusto estético por el trabajo creador en el campo de la cultura musical.” (palabras de Dionisio Trillo Pays)",
+    "imagenSola": false,
+    "esEtapa": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Primeros intereses"
+  },
+  {
     "id": "6aefa18a06c6",
     "etapa": "I",
     "titulo": "Lauro comienza sus primeras grabaciones",
@@ -83,12 +104,51 @@
     "tituloNavegador": "Pentagrama"
   },
   {
+    "id": "5",
+    "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/11/CDM-LA-RS-564-Pereira.mp3?_=47",
+    "audioTitulo": "Tango, 1943",
+    "etapa": "I",
+    "titulo": "Grabador de acetato",
+    "descripcion": "Con el grabador de acetato, Lauro pudo registrar las músicas que escuchaba en sus viajes. Escuchá a Policarpo Pereira tocando «Tango de Tío Simón» grabado en acetato.",
+    "imagen": "/grabadora.png",
+    "caption": "Grabador de acetato de mediados de 1930, similar a los utilizados por Lauro",
+    "imagenSola": false,
+    "esEtapa": false,
+    "esAudio": true,
+    "tituloNavegador": "Grabador de acetato"
+  },
+  {
+    "id": "54",
+    "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/11/CDM-LA-RS-514-MartinezVillarino-1948.mp3?_=2",
+    "audioTitulo": "Luis Martínez Villarino, 1948",
+    "etapa": "I",
+    "titulo": "Su primer grabador",
+    "sobreTitulo": "",
+    "descripcion": "En estas grabaciones podemos escuchar el ruido característico de la púa en el surco. Otra limitación era la duración máxima de pocos minutos de grabación por disco.",
+    "imagenSola": false,
+    "esEtapa": false,
+    "esAudio": true,
+    "sinTitulo": true,
+    "tituloNavegador": "Limitaciones"
+  },
+  {
+    "id": "6",
+    "etapa": "I",
+    "titulo": "Su primer grabador",
+    "sobreTitulo": "",
+    "descripcion": "Con su primer grabador de acetato, Lauro inicia su viaje de investigación. El orificio del centro, al igual que un disco de vinilo es para el eje del plato giradiscos. ¡Se estima que ese grabador pesaba alrededor de 30 kilos!",
+    "imagenSola": false,
+    "esEtapa": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Acetato"
+  },
+  {
     "id": "cf42df227c1",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/111.mp3?_=26",
     "audioTitulo": "José Gabriel Carró, 1946",
     "etapa": "I",
     "titulo": "Lauro Ayestarán",
-    "descripcion": "¿Cómo era la música que sonaba en las ciudades y el campo de aquel país tan peculiar, el Uruguay de las primeras décadas del siglo XX?",
+    "descripcion": "¿Cómo era la música que sonaba en las ciudades y el campo en ese Uruguay de las primeras décadas del siglo XX?",
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,
@@ -107,36 +167,11 @@
     "tituloNavegador": "Cultura"
   },
   {
-    "id": "5",
-    "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/11/CDM-LA-RS-564-Pereira.mp3?_=47",
-    "audioTitulo": "Tango, 1943",
-    "etapa": "I",
-    "titulo": "Grabador de acetato",
-    "descripcion": "Con el grabador de acetato, Lauro pudo registrar las músicas que escuchaba en sus viajes. Escuchá a Policarpo Pereira tocando «Tango de Tío Simón» grabado en acetato.",
-    "imagen": "/grabadora.png",
-    "caption": "Grabador de acetato de mediados de 1930, similar a los utilizados por Lauro",
-    "imagenSola": false,
-    "esEtapa": false,
-    "esAudio": true,
-    "tituloNavegador": "Grabador de acetato"
-  },
-  {
-    "id": "6",
-    "etapa": "I",
-    "titulo": "Su primer grabador",
-    "sobreTitulo": "",
-    "descripcion": "Con su primer grabador de acetato, Lauro inicia su viaje de investigación. El orificio del centro, al igual que un disco de vinilo es para el eje del plato giradiscos. ¡Se estima que el grabador pesaba alrededor de 30 kilos!",
-    "imagenSola": false,
-    "esEtapa": false,
-    "sinTitulo": true,
-    "tituloNavegador": "Acetato"
-  },
-  {
     "id": "9,",
     "etapa": "I",
     "titulo": "Viaje a Paysandú",
     "sobreTitulo": "19 de abril de 1947",
-    "descripcion": "Este es un ejemplo de cómo eran sus viajes (realizó más de 100). Antes de visitar la localidad, Lauro contactaba a referentes del lugar: un director de escuela o liceo, el comisario, el farmacista y organizaba charlas públicas sobre Música en general, anunciando que quienes conocieran canciones y quisieran grabarlas podían concurrir. \n \n Podemos apreciar en la imagen un artículo de «El Folklore Musical del Departamento» en la Revista Paysandú en 1945 sobre el viaje de Lauro a Paysandú.",
+    "descripcion": "Para entender la profundidad de sus investigaciones, consideremos uno de sus más de 100 viajes. Antes de llegar a un destino, Lauro establecía comunicación con personalidades clave del lugar, como directores de escuelas o liceos, el comisario local o el farmacéutico. Organizaba conferencias sobre música, invitando a quienes conocieran canciones y quisieran compartirlas a participar en grabaciones. \n \n Un claro ejemplo de su labor se puede encontrar en el artículo titulado «El Folklore Musical del Departamento», publicado en la Revista Paysandú en 1948, que detalla su expedición a Paysandú.",
     "imagen": "/revista.png",
     "caption": "Imagen del sitio web de anaforas.fic.edu.uy",
     "imagenSola": false,
@@ -158,10 +193,10 @@
   },
   {
     "id": "11",
-    "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/12/CDM-LA-RS-818-Garcia.mp3?_=1",
-    "audioTitulo": "Danza",
-    "url2": "http://www.cdm.gub.uy/wp-content/uploads/2014/12/CDM-LA-RS-818-Garcia.mp3?_=1",
-    "audioTitulo2": "Polka",
+    "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/113.mp3?_=28",
+    "audioTitulo": "El rezongón",
+    "url2": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/114.mp3?_=29",
+    "audioTitulo2": "Sacachispas",
     "etapa": "I",
     "titulo": "Atalibio Riveiro (52)",
     "sobreTitulo": "19 de abril de 1947",
@@ -199,30 +234,6 @@
     "imagenSola": true,
     "esEtapa": false,
     "tituloNavegador": "Carta 1948"
-  },
-  {
-    "id": "248213",
-    "etapa": "I",
-    "titulo": "Primeros intereses",
-    "descripcion": "Sus primeros intereses musicales estaban dirigidos hacia la Música Clásica. Buceando en los documentos históricos reconstruye la actividad musical de Montevideo durante el siglo XIX, con un método exhaustivo y minucioso, siempre acompañado por un “...contagioso gusto estético por el trabajo creador en el campo de la cultura musical.” (palabras de Dionisio Trillo Pays … en ocasión de…)",
-    "imagenSola": false,
-    "esEtapa": false,
-    "sinTitulo": true,
-    "tituloNavegador": "Primeros intereses"
-  },
-  {
-    "id": "54",
-    "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/11/CDM-LA-RS-514-MartinezVillarino-1948.mp3?_=2",
-    "audioTitulo": "Luis Martínez Villarino, 1948",
-    "etapa": "I",
-    "titulo": "Su primer grabador",
-    "sobreTitulo": "",
-    "descripcion": "En estas grabaciones podemos escuchar el ruido característico de la púa en el surco. Otra limitación era la duración máxima de pocos minutos de grabación por disco.",
-    "imagenSola": false,
-    "esEtapa": false,
-    "esAudio": true,
-    "sinTitulo": true,
-    "tituloNavegador": "Limitaciones"
   },
   {
     "id": "55",
@@ -267,13 +278,13 @@
   {
     "id": "115",
     "etapa": "I",
-    "titulo": "Apolo Ronchi, Fotógrafo",
-    "descripcion": "Apolo ayudó a Lauro durante su proceso de investigación con el registro fotográfico, podes ver algunas de sus fotos en el libro de fotografías de Lauro Ayestarán publicado por el   CDM.",
+    "titulo": "Fotografía",
+    "descripcion": "Apolo Ronchi ayudó a Lauro durante su proceso de investigación con el registro fotográfico, podes ver algunas de sus fotos en el libro de fotografías de Lauro Ayestarán publicado por el   CDM.",
     "imagen": "/camara.png",
     "caption": "Vesta Pocket Kodak 1912",
     "imagenSola": false,
     "link": "https://issuu.com/cmdf/docs/2015_cdm",
-    "textoLink": "Ver album de fotografías del CDM",
+    "textoLink": "Click aquí para ver album de fotografías",
     "esEtapa": false,
     "tituloNavegador": "Apolo Ronchi"
   },
@@ -319,16 +330,6 @@
     "tituloNavegador": "El diario"
   },
   {
-    "id": "683927",
-    "etapa": "I",
-    "titulo": "Encuentros",
-    "descripcion": "Para un científico o un artista de un país periférico, como el Uruguay, la oportunidad de concurrir a encuentros académicos en el exterior implica a la vez un reconocimiento y un desafío. Ayestarán participó en 1951, en París, del Primer Congreso Internacional de Archivos y Bibliotecas Musicales y en la Tercera Asamblea General del Consejo Internacional de la Música. En los años siguientes, es invitado a dictar conferencias en universidades de Nueva Orleans, Los Ángeles y Nueva York. En 1963 participa en la Primera Conferencia Interamericana de Musicología en Washington.",
-    "imagenSola": false,
-    "esEtapa": false,
-    "sinTitulo": true,
-    "tituloNavegador": "Encuentros"
-  },
-  {
     "id": "133",
     "etapa": "I",
     "imagen": "/carta-verso.png",
@@ -336,40 +337,6 @@
     "imagenSola": true,
     "esEtapa": false,
     "tituloNavegador": "Carta"
-  },
-  {
-    "id": "630259",
-    "etapa": "I",
-    "titulo": "Intercambios",
-    "descripcion": "En ocasión de sus viajes al extranjero toma contacto con las principales personalidades de la incipiente musicología mundial, como Charles Seeger, Alan Lomax, Gilbert Chase y Robert Stevenson, entre otros. Cuando Alan Lomax le propone a Ayestarán realizar una selección de grabaciones para una recopilación de “Músicas del Mundo”, resulta interesante ver la diferencia de criterios que manejan a la hora de evaluar los materiales. La publicación finalmente no se concreta, y las diferencias quedan registradas en el intercambio de correspondencia entre los musicólogos.",
-    "imagenSola": false,
-    "esEtapa": false,
-    "sinTitulo": true,
-    "tituloNavegador": "Intercambios"
-  },
-  {
-    "id": "169134",
-    "etapa": "I",
-    "titulo": "Lomax",
-    "imagen": "/lomax.jpeg",
-    "caption": "Alan Lomax, musicólogo estadounidense (1915-2002)",
-    "descripcion": "",
-    "imagenSola": true,
-    "esEtapa": false,
-    "sinTitulo": true,
-    "tituloNavegador": "Lomax"
-  },
-  {
-    "id": "169134",
-    "etapa": "I",
-    "titulo": "Lomax",
-    "imagen": "/notas-lomax.jpeg",
-    "caption": "Notas de Alan Lomax en su trabajo propio de investigación.",
-    "descripcion": "",
-    "imagenSola": true,
-    "esEtapa": false,
-    "sinTitulo": true,
-    "tituloNavegador": "Notas de Lomax"
   },
   {
     "id": "134",
@@ -419,10 +386,54 @@
     "tituloNavegador": "Amigos del arte"
   },
   {
+    "id": "683927",
+    "etapa": "II",
+    "titulo": "Encuentros",
+    "descripcion": "Para un científico o un artista de un país periférico, como el Uruguay, la oportunidad de concurrir a encuentros académicos en el exterior implica a la vez un reconocimiento y un desafío. Ayestarán participó en 1951, en París, del Primer Congreso Internacional de Archivos y Bibliotecas Musicales y en la Tercera Asamblea General del Consejo Internacional de la Música. En los años siguientes, es invitado a dictar conferencias en universidades de Nueva Orleans, Los Ángeles y Nueva York. En 1963 participa en la Primera Conferencia Interamericana de Musicología en Washington.",
+    "imagenSola": false,
+    "esEtapa": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Encuentros"
+  },
+  {
+    "id": "630259",
+    "etapa": "II",
+    "titulo": "Intercambios",
+    "descripcion": "En ocasión de sus viajes al extranjero toma contacto con las principales personalidades de la incipiente musicología mundial, como Charles Seeger, Alan Lomax, Gilbert Chase y Robert Stevenson, entre otros. Cuando Alan Lomax le propone a Ayestarán realizar una selección de grabaciones para una recopilación de “Músicas del Mundo”, resulta interesante ver la diferencia de criterios que manejan a la hora de evaluar los materiales. La publicación finalmente no se concreta, y las diferencias quedan registradas en el intercambio de correspondencia entre los musicólogos.",
+    "imagenSola": false,
+    "esEtapa": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Intercambios"
+  },
+  {
+    "id": "169134",
+    "etapa": "II",
+    "titulo": "Lomax",
+    "imagen": "/lomax.jpeg",
+    "caption": "Alan Lomax, musicólogo estadounidense (1915-2002)",
+    "descripcion": "",
+    "imagenSola": true,
+    "esEtapa": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Lomax"
+  },
+  {
+    "id": "169134",
+    "etapa": "II",
+    "titulo": "Lomax",
+    "imagen": "/notas-lomax.jpeg",
+    "caption": "Notas de Alan Lomax en su trabajo propio de investigación.",
+    "descripcion": "",
+    "imagenSola": true,
+    "esEtapa": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Notas de Lomax"
+  },
+  {
     "id": "136",
     "etapa": "II",
     "titulo": "Etapa 2",
-    "descripcion": "Lauro recibía constantemente cartas de varios países hablando de su proceso de investigación. A continuación una carta desde la universidad Northwestern, de Illinois, EEUU, agradeciendo a Lauro por haber mandado su libro, La Musica en el Uruguay. El alcance de Ayestaran era extenso.",
+    "descripcion": "Lauro recibía constantemente cartas de varios países hablando de su proceso de investigación. Podemos apreciar una carta desde la universidad Northwestern, de Illinois, EEUU, agradeciendo a Lauro por haber mandado su libro, La Musica en el Uruguay. El alcance de Ayestaran era extenso.",
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,
@@ -553,8 +564,16 @@
     "tituloNavegador": "Liceo 33"
   },
   {
+    "id": "195",
+    "etapa": "III",
+    "periodo": "1958 — 1966",
+    "imagenSola": false,
+    "esEtapa": true,
+    "tituloNavegador": "ETAPA III"
+  },
+  {
     "id": "15",
-    "etapa": "II",
+    "etapa": "III",
     "titulo": "Programa de radio",
     "sobreTitulo": "Micros radiales del Sodre hacia 1960",
     "imagenSola": false,
@@ -563,7 +582,7 @@
   },
   {
     "id": "16",
-    "etapa": "II",
+    "etapa": "III",
     "imagen": "/radio.png",
     "imagenSola": true,
     "esEtapa": false,
@@ -571,7 +590,7 @@
   },
   {
     "id": "17",
-    "etapa": "II",
+    "etapa": "III",
     "titulo": "Programa de radio",
     "descripcion": "Lauro compartió sus hallazgos a través de la radio luego de ser nombrado director de programaciones radiales del SODRE en 1959. Contó con 30 micros radiales grabados. Es una buena oportunidad para escuchar qué tenía para decir sobre las grabaciones que recolectaba.",
     "imagenSola": false,
@@ -589,19 +608,11 @@
     "imagen": "/microfono.png",
     "caption": "Radio el Sodre 1953",
     "link": "http://www.cdm.gub.uy/el-archivo-digital/micros-radiales",
-    "textoLink": "Escuchá los micros radiales en la página del CDM",
+    "textoLink": "Click aquí para escuchar más micros radiales",
     "imagenSola": false,
     "esEtapa": false,
     "esAudio": true,
     "tituloNavegador": "Micro radial"
-  },
-  {
-    "id": "195",
-    "etapa": "III",
-    "periodo": "1952 — 1966",
-    "imagenSola": false,
-    "esEtapa": true,
-    "tituloNavegador": "ETAPA III"
   },
   {
     "id": "20",
@@ -615,7 +626,7 @@
   {
     "id": "21",
     "etapa": "III",
-    "imagen": "/lauro-butoba.png",
+    "imagen": "/butoba.png",
     "imagenSola": true,
     "esEtapa": false,
     "tituloNavegador": "Butoba"
@@ -625,7 +636,7 @@
     "etapa": "III",
     "titulo": "Grabador de cinta magnética",
     "descripcion": "Lauro consigue su primer grabador de cinta magnética, un elemento mucho más portatil y de mayor calidad que los anteriores. Este grabador lo acompaña durante el resto de su proceso de investigación.",
-    "imagen": "/butoba.png",
+    "imagen": "/lauro-butoba.png",
     "caption": "Fotografía de el Centro de Documentación Musical",
     "imagenSola": false,
     "esEtapa": false,
@@ -736,21 +747,10 @@
     "tituloNavegador": "Centro Rodo de Rivera"
   },
   {
-    "id": "25",
-    "etapa": "III",
-    "titulo": "Candombe",
-    "imagen": "/candombe.png",
-    "caption": "Conjunto lubolo “Fantasía Negra”, recitado, coro y tamboriles",
-    "imagenSola": true,
-    "sinTitulo": true,
-    "esEtapa": false,
-    "tituloNavegador": "Candombe"
-  },
-  {
     "id": "727656",
     "etapa": "III",
     "titulo": "Conclusiones",
-    "descripcion": "A lo largo de esta primer etapa de investigación , mientras seguimos caminando hacia nuevos formatos ( un relato audiovisual musical sobre este viaje ), numerosas informaciones siguen llamando nuestra atención y despertando nuestra curiosidad. Referenciamos alguna en este espacio, pero entendemos la figura de este científico y gran musicólogo no podría ceñirse a este espacio por eso tomamos esta página como el inicio y nos abrimos a la aventura de seguir descubriendo lo que nos mueve hoy lo que movió a Lauro ayer, los secretos y el sentido profundo de la música en el ser humano como individuo y como sociedad \n \n Seguiremos viajando...",
+    "descripcion": "A lo largo de esta primera investigación, mientras seguimos caminando hacia nuevos formatos ( un relato audiovisual musical sobre este viaje ), numerosas informaciones siguen llamando nuestra atención y despertando nuestra curiosidad. Referenciamos alguna en este espacio, pero entendemos la figura de este científico y gran musicólogo no podría ceñirse a este espacio por eso tomamos esta página como el inicio y nos abrimos a la aventura de seguir descubriendo lo que nos mueve hoy lo que movió a Lauro ayer, los secretos y el sentido profundo de la música en el ser humano como individuo y como sociedad \n \n Seguiremos viajando...",
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,
@@ -759,7 +759,7 @@
   {
     "id": "265",
     "etapa": "LEGADO",
-    "periodo": "1943 — 1948",
+    "periodo": "1966 — Presente",
     "imagenSola": false,
     "esEtapa": true,
     "tituloNavegador": "LEGADO"
@@ -773,19 +773,10 @@
     "tituloNavegador": "Lauro Ayestarán"
   },
   {
-    "id": "28",
-    "etapa": "LEGADO",
-    "titulo": "Su trabajo de investigación quedó sin terminar",
-    "imagenSola": false,
-    "esEtapa": false,
-    "tituloSolo": true,
-    "tituloNavegador": "Incompleto"
-  },
-  {
     "id": "285",
     "etapa": "LEGADO",
     "titulo": "Archivo",
-    "descripcion": "Pero su legado fue retomado por un grupo de personas que lograron rescatar su archivo, que hoy se encuentra a disposición de todos en el Centro Nacional de Documentación Musical del Uruguay . Un espacio físico y virtual donde",
+    "descripcion": "Su trabajo de investigación quedó sin terminar. Pero su legado fue retomado por un grupo de personas que lograron rescatar su archivo, que hoy se encuentra a disposición de todos en el Centro Nacional de Documentación Musical del Uruguay.",
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,

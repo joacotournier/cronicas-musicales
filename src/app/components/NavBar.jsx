@@ -10,19 +10,19 @@ const sections = [
   {
     title: "Etapa II",
     href: "#etapa-ii",
-    date: "1951 - 1960",
+    date: "1950 - 1958",
     image: "/hover2.jpg",
   },
   {
     title: "Etapa III",
     href: "#etapa-iii",
-    date: "1961 - 1970",
+    date: "1958 - 1966",
     image: "/hover3.jpg",
   },
   {
     title: "Legado",
     href: "#legado",
-    date: "1971 - 1980",
+    date: "1966 - Presente",
     image: "/hover4.jpg",
   },
 ];
