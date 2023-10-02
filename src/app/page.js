@@ -85,7 +85,7 @@ export default function Page() {
         )}
         {showLoading && <LoadingScreen />}
         <div className="bg-main-pattern bg-cover h-screen w-screen fixed"></div>
-        <div className="relative isolate pt-14 md:pl-20">
+        <div className="relative isolate pt-0 md:pl-20">
           {data &&
             data.map((section) => (
               <Section

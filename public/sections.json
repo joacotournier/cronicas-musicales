@@ -73,11 +73,21 @@
     "id": "248213",
     "etapa": "I",
     "titulo": "Primeros intereses",
-    "descripcion": "Sus primeros intereses musicales estaban dirigidos hacia la Música Clásica. Buceando en los documentos históricos reconstruye la actividad musical de Montevideo durante el siglo XIX, con un método exhaustivo y minucioso, siempre acompañado por un “...contagioso gusto estético por el trabajo creador en el campo de la cultura musical.” (palabras de Dionisio Trillo Pays)",
+    "descripcion": "Sus primeros intereses musicales estaban dirigidos hacia la Música Clásica. Buceando en los documentos históricos reconstruye la actividad musical de Montevideo durante el siglo XIX, con un método exhaustivo y minucioso, siempre acompañado por un “...contagioso gusto estético por el trabajo creador en el campo de la cultura musical.” (palabras de <a href='https://www.mcnbiografias.com/app-bio/do/show?key=trillo-pays-dionisio' target='_blank' style='color: #00CCFF;' rel='noopener noreferrer'>Dionisio Trillo Pays</a>)",
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,
     "tituloNavegador": "Primeros intereses"
+  },
+  {
+    "id": "966409",
+    "etapa": "I",
+    "titulo": "Folk-lore",
+    "descripcion": "Cada vez más va dirigiendo su atención hacia el folk-lore, el saber del pueblo y sus sonidos: las murgas del tablado, los tamboriles en las llamadas, las canciones que aún cantaban los criollos en las pulperías, las de los niños en la escuela o las madres acunando a sus bebés.",
+    "imagenSola": false,
+    "esEtapa": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Folklore"
   },
   {
     "id": "6aefa18a06c6",
@@ -211,7 +221,7 @@
     "id": "sdfioj32459834597234",
     "etapa": "I",
     "titulo": "Dosetti",
-    "descripcion": "A continuación dos cartas de su amigo Dossetti, que ayudó a Lauro a planificar un viaje a Minas. Las cartas hablan de cosas concretas en el proceso: como llegar al lugar del grabación y quien podía ayudar.",
+    "descripcion": "Ayestarán recibio ayuda de colegas y amigos, entre ellos <a href='https://es.wikipedia.org/wiki/Santiago_Dossetti' target='_blank' style='color: #00CCFF;' rel='noopener noreferrer'>Santiago Dossetti</a>. Un escritor y periodista Uruguayo quien ayudó a Lauro a planificar un viaje a Minas. Podemos apreciar algunas de las cartas que mandaba a Lauro, donde habla de cosas concretas en el proceso: como llegar al lugar del grabación y quien podía ayudar ahi.",
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,
@@ -251,23 +261,13 @@
     "tituloNavegador": "Atletic Rocha Club"
   },
   {
-    "id": "966409",
-    "etapa": "I",
-    "titulo": "Folk-lore",
-    "descripcion": "Cada vez más va dirigiendo su atención hacia el folk-lore, el saber del pueblo y sus sonidos: las murgas del tablado, los tamboriles en las llamadas, las canciones que aún cantaban los criollos en las pulperías, las de los niños en la escuela o las madres acunando a sus bebés.",
-    "imagenSola": false,
-    "esEtapa": false,
-    "sinTitulo": true,
-    "tituloNavegador": "Folklore"
-  },
-  {
     "id": "65",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/625.mp3?_=56",
     "audioTitulo": "Desprecio campero",
     "etapa": "I",
     "titulo": "Tupambaé",
     "sobreTitulo": "22 Octubre, 1949",
-    "descripcion": "En el Liceo Oficial de Sarandi de Yi, Lauro graba a Maximo “Ricardito” tocando la guitarra en una marcha. Se tocaba esta marcha en la Batalla de Tupambaé, 1904, durante la Revolución de 1904, la última guerra civil del país. Ricardito asistió a la cruel batalla, donde había mas de 2300 muertos y heridos. \n \n Lauro habló al final del grabación con Ricardito sobre ese evento. Se ve aca claramente la linea de su investigación que incorpora la musica como elemento clave en la historia y memoria del país.",
+    "descripcion": "En el Liceo Oficial de Sarandi de Yi, Lauro graba a Maximo “Ricardito” tocando la guitarra en una marcha. Se tocaba esta marcha en la <a href='https://es.wikipedia.org/wiki/Revolución_de_1904' target='_blank' style='color: #00CCFF;' rel='noopener noreferrer'>Batalla de Tupambaé</a>, 1904, durante la Revolución de 1904, la última guerra civil del país. Ricardito asistió a la cruel batalla, donde había mas de 2300 muertos y heridos. \n \n Lauro habló al final del grabación con Ricardito sobre ese evento. Se ve aca claramente la linea de su investigación que incorpora la musica como elemento clave en la historia y memoria del país.",
     "imagen": "/625.jpeg",
     "caption": "Fotografía de la bibloteca nacional de Uruguay",
     "imagenSola": false,
@@ -278,26 +278,15 @@
   {
     "id": "115",
     "etapa": "I",
-    "titulo": "Fotografía",
-    "descripcion": "Apolo Ronchi ayudó a Lauro durante su proceso de investigación con el registro fotográfico, podes ver algunas de sus fotos en el libro de fotografías de Lauro Ayestarán publicado por el   CDM.",
+    "titulo": "Material fotográfico",
+    "descripcion": "Lauro recibió la ayuda de Apolo Ronchi con el registro fotográfico durante su proceso de investigación , podes ver algunas de sus fotos en el libro de fotografías de Lauro Ayestarán publicado por el Centro de Documantación Musical (CDM).",
     "imagen": "/camara.png",
     "caption": "Vesta Pocket Kodak 1912",
     "imagenSola": false,
     "link": "https://issuu.com/cmdf/docs/2015_cdm",
     "textoLink": "Click aquí para ver album de fotografías",
     "esEtapa": false,
-    "tituloNavegador": "Apolo Ronchi"
-  },
-  {
-    "id": "sdf0i9sadoij",
-    "etapa": "I",
-    "titulo": "Detalles",
-    "descripcion": "En esta primer etapa del proceso de investigación, nos tropezamos con algunos detalles en los márgenes de las grabaciones y de las fotografías. Estas nos invitan a entrar en ese mundo que Ayestaran habitó, vemos en las fotografías la gente que lo rodea, de sus grabaciones se desprenden los ruidos ambiente. Podemos observar el paisaje no sólo sonoro sino visual de cada momento, cuidadosamente documentado.",
-    "imagenSola": false,
-    "esEtapa": false,
-    "isQuestion": false,
-    "sinTitulo": true,
-    "tituloNavegador": "Detalles"
+    "tituloNavegador": "Fotografía"
   },
   {
     "id": "12",
@@ -339,6 +328,17 @@
     "tituloNavegador": "Carta"
   },
   {
+    "id": "sdf0i9sadoij",
+    "etapa": "I",
+    "titulo": "Detalles",
+    "descripcion": "En esta primer etapa del proceso de investigación, nos tropezamos con algunos detalles en los márgenes de las grabaciones y de las fotografías. Éstas nos invitan a entrar en ese mundo que Ayestarán habitó, vemos en las fotografías la gente que lo rodea, de sus grabaciones se desprenden los ruidos ambiente. Podemos observar el paisaje no sólo sonoro sino visual de cada momento, cuidadosamente documentado.",
+    "imagenSola": false,
+    "esEtapa": false,
+    "isQuestion": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Detalles"
+  },
+  {
     "id": "134",
     "etapa": "II",
     "periodo": "1950 — 1958",
@@ -350,7 +350,7 @@
     "id": "135",
     "etapa": "II",
     "titulo": "Etapa 2",
-    "descripcion": "En esta segunda etapa, Lauro continuo su proceso de investigación, viajando a más de 100 pueblos y ciudades de Uruguay.",
+    "descripcion": "En esta segunda etapa, Lauro prosiguió su indagación recorriendo diversos departamentos de Uruguay. Inició una serie de segmentos radiales en la Radio del SODRE y estableció conexiones con colegas a nivel internacional.",
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,
@@ -399,7 +399,7 @@
     "id": "630259",
     "etapa": "II",
     "titulo": "Intercambios",
-    "descripcion": "En ocasión de sus viajes al extranjero toma contacto con las principales personalidades de la incipiente musicología mundial, como Charles Seeger, Alan Lomax, Gilbert Chase y Robert Stevenson, entre otros. Cuando Alan Lomax le propone a Ayestarán realizar una selección de grabaciones para una recopilación de “Músicas del Mundo”, resulta interesante ver la diferencia de criterios que manejan a la hora de evaluar los materiales. La publicación finalmente no se concreta, y las diferencias quedan registradas en el intercambio de correspondencia entre los musicólogos.",
+    "descripcion": "En ocasión de sus viajes al extranjero toma contacto con las principales personalidades de la incipiente musicología mundial, como <a href='https://es.wikipedia.org/wiki/Charles_Seeger' target='_blank' style='color: #00CCFF;' rel='noopener noreferrer'>Charles Seeger</a>, <a href='https://es.wikipedia.org/wiki/Alan_Lomax' target='_blank' style='color: #00CCFF;' rel='noopener noreferrer'>Alan Lomax</a>, <a href='https://en.wikipedia.org/wiki/Gilbert_Chase' target='_blank' style='color: #00CCFF;' rel='noopener noreferrer'>Gilbert Chase</a> y <a href='https://es.wikipedia.org/wiki/Robert_Louis_Stevenson' target='_blank' style='color: #00CCFF;' rel='noopener noreferrer'>Robert Stevenson</a>, entre otros. Cuando Alan Lomax le propone a Ayestarán realizar una selección de grabaciones para una recopilación de “Músicas del Mundo”, resulta interesante ver la diferencia de criterios que manejan a la hora de evaluar los materiales. La publicación finalmente no se concreta, y las diferencias quedan registradas en el intercambio de correspondencia entre los musicólogos.",
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,
@@ -498,7 +498,7 @@
     "audioTitulo": "Alberto Mastra (payador), 1954",
     "etapa": "II",
     "titulo": "Diapasón",
-    "descripcion": "El diapasón se puede escuchar al principio de la grabación. Y marca la nota La (A).",
+    "descripcion": "El <a href='https://es.wikipedia.org/wiki/Diapasón' target='_blank' style='color: #00CCFF;' rel='noopener noreferrer'>diapasón</a> se puede escuchar al principio de la grabación. Un diapasón es un dispositivo metálico (generalmente acero) con forma de horquilla, utilizado principalmente como referencia para afinación de instrumentos musicales. En el proceso de registro sonoro, Ayestarán incluía el sonido de refeencia de un “diapasón de soplo” para verificar eventuales cambios de velocidad entre grabación y reproducción.",
     "imagen": "/diapason.png",
     "imagenSola": false,
     "esEtapa": false,
