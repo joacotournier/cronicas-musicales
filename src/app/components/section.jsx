@@ -179,6 +179,7 @@ function Section({ section, onVisible }) {
                 consulta@cdm.gub.uy
               </a> */}
               <img src="/mec.png" alt="logo" className="w-80 mt-10 mb-10" />
+              Realizado gracias al fondo concursables MEC 2022
             </div>
           </div>
         )}
