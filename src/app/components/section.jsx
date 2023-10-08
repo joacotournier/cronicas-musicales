@@ -310,13 +310,13 @@ function Section({ section, onVisible }) {
             <h2
               className={`text-xl text-white ${
                 section.sinTitulo ? "hidden" : ""
-              } sm:text-3xl ${section.tituloSolo ? "" : "font-poppins"} `}
+              } sm:text-4xl ${section.tituloSolo ? "" : "font-poppins"} `}
             >
               {section.titulo}
             </h2>
             {section.descripcion && (
               <p
-                className={`text-lg leading-loose ${
+                className={`text-xl leading-loose ${
                   section.imagen
                     ? "text-left"
                     : "text-center sm:leading-loose sm:text-2xl"
