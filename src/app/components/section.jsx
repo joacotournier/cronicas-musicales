@@ -136,7 +136,7 @@ function Section({ section, onVisible }) {
         {section.isQuestion && (
           <div className="flex flex-col justify-center items-center">
             <img src="/pregunta.svg" alt="pregunta" className="" />
-            <h2 className="text-center text-lg tracking-tight text-white sm:text-xl">
+            <h2 className="text-center text-xl tracking-tight text-white sm:text-4xl">
               {section.titulo}
             </h2>
           </div>
@@ -163,8 +163,8 @@ function Section({ section, onVisible }) {
               <h2 className="text-2xl max-w-6xl mt-8 tracking-tight text-white sm:text-4xl">
                 Contacto
               </h2>
-              <h4 className="text-xl max-w-6xl text-poppins mt-8 tracking-tight text-white sm:text-2xl">
-                PROYECTO
+              <h4 className="text-md max-w-6xl text-poppins mt-8 tracking-tight text-white sm:text-lg">
+                Correo electrónico
               </h4>
               <a
                 href="mailto:contacto@cronicasmusicales.com"
@@ -189,7 +189,7 @@ function Section({ section, onVisible }) {
                 isHovered && section.hover ? section.hoverImage : section.imagen
               }
               alt={section.caption || "Section image"}
-              className={`drop-shadow-xl object-cover w-4/6 md:w-auto  ${
+              className={`drop-shadow-xl object-cover w-4/6 md:w-5/7  ${
                 section.imagenSola ? "max-w-4xl mx-auto" : "max-w-xl"
               } ${section.hover ? "cursor-pointer" : ""}`}
               style={section.hover ? { cursor: "pointer" } : {}}
@@ -310,13 +310,13 @@ function Section({ section, onVisible }) {
             <h2
               className={`text-xl text-white ${
                 section.sinTitulo ? "hidden" : ""
-              } sm:text-5xl ${section.tituloSolo ? "" : "font-poppins"} `}
+              } sm:text-3xl ${section.tituloSolo ? "" : "font-poppins"} `}
             >
               {section.titulo}
             </h2>
             {section.descripcion && (
               <p
-                className={`text-base leading-loose ${
+                className={`text-lg leading-loose ${
                   section.imagen
                     ? "text-left"
                     : "text-center sm:leading-loose sm:text-2xl"
