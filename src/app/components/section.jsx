@@ -220,7 +220,9 @@ function Section({ section, onVisible }) {
                   glasses.forEach((glass) => {
                     glass.style.opacity = "0";
                     setTimeout(() => {
-                      glass.parentNode.removeChild(glass);
+                      if (glass.parentNode) {
+                        glass.parentNode.removeChild(glass);
+                      }
                       setIsMagnified(false);
                     }, 100); // adjust delay as needed
                   });
