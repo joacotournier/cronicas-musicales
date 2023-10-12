@@ -199,7 +199,7 @@ function Section({ section, onVisible }) {
               onMouseEnter={() => {
                 if (section.hover) setIsHovered(true);
                 if (section.esZoom && !isMagnified) {
-                  magnify(section.id, 2.5);
+                  magnify(section.id, 2);
                   setIsMagnified(true);
                   // Set opacity to 100% for all .img-magnifier-glass elements
                   const glasses = document.querySelectorAll(
