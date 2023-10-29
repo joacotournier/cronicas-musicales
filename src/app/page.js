@@ -1,6 +1,5 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
 import useSWR from "swr";
 import Section from "./components/section";
 import LoadingScreen from "./components/LoadingScreen";
@@ -14,7 +13,6 @@ const fetcher = (url) => fetch(url).then((res) => res.json());
 
 export default function Page() {
   const { data, error } = useSWR("/sections.json", fetcher);
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [currentSlide, setCurrentSlide] = useState("Intro");
   const [currentSection, setCurrentSection] = useState("Etapa I");
   const [showNavBar, setShowNavBar] = useState(false);
@@ -24,6 +22,7 @@ export default function Page() {
   const [currentAnnotationId, setCurrentAnnotationId] = useState(null);
 
   const handleAnnotationClick = (id) => {
+    console.log("Annotation link clicked with ID:", id);
     setCurrentAnnotationId(id);
     setIsOpen(true);
   };
@@ -50,7 +49,6 @@ export default function Page() {
 
   useEffect(() => {
     const handleScroll = () => {
-      console.log("Scrolling detected");
       let newCurrentSlide = "";
 
       data.forEach((section) => {
@@ -70,7 +68,6 @@ export default function Page() {
       });
 
       if (newCurrentSlide !== currentSlide) {
-        console.log("Updating current slide to", newCurrentSlide);
         setCurrentSlide(newCurrentSlide);
       }
     };
@@ -104,7 +101,7 @@ export default function Page() {
               />
             ))}
         </div>
-        <div className="fixed bottom-4 right-4">
+        <div className="fixed bottom-4 right-4 z-100">
           <div>
             <p>
               This is a{" "}
@@ -113,8 +110,7 @@ export default function Page() {
                 onClick={() => handleAnnotationClick("1")}
               >
                 link
-              </span>{" "}
-              with extended information. More content here...
+              </span>
             </p>
 
             <Annotations

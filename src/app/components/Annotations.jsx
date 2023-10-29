@@ -1,5 +1,5 @@
 "use client";
-// components/Annotations.jsx
+
 import { useState, useEffect, useRef } from "react";
 import { gsap } from "gsap";
 
@@ -9,7 +9,6 @@ function Annotations({ isOpen, annotationId, onClose }) {
 
   useEffect(() => {
     if (isOpen) {
-      // Fetch the annotations data from the public folder
       fetch("/notes.json")
         .then((response) => response.json())
         .then((data) => setAnnotationsData(data));
@@ -19,7 +18,6 @@ function Annotations({ isOpen, annotationId, onClose }) {
   useEffect(() => {
     if (!annotationRef.current) return;
 
-    // Animation
     if (isOpen) {
       gsap.to(annotationRef.current, {
         opacity: 1,
