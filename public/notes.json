@@ -2,7 +2,15 @@
   {
     "id": "1",
     "title": "Annotation Title 1",
-    "content": "Extended information about annotation 1..."
+    "content": [
+      "Some text before the image...",
+      {
+        "type": "image",
+        "src": "lomax2.jpeg",
+        "caption": "Caption for image 1"
+      },
+      "Some text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid jSome text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid jSome text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid jSome text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid jSome text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid jSome text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid jSome text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid jSome text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid jSome text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid jSome text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid jSome text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid jSome text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid jSome text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid j"
+    ]
   },
   {
     "id": "2",
