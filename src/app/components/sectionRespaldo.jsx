@@ -11,6 +11,13 @@ function Section({ section, onVisible }) {
 
   const [isMagnified, setIsMagnified] = useState(false);
 
+  const sanitizeId = (str) => {
+    return str
+      .toLowerCase()
+      .replace(/ /g, "-")
+      .replace(/[^a-z0-9-]/g, "");
+  };
+
   function magnify(imgID, zoom) {
     var img, glass, w, h, bw;
     img = document.getElementById(imgID);
@@ -21,6 +28,11 @@ function Section({ section, onVisible }) {
 
     /* Insert magnifier glass: */
     img.parentElement.insertBefore(glass, img);
+
+    /* Create and add the magnifier stem (handle) */
+    let stem = document.createElement("DIV");
+    stem.setAttribute("class", "magnifier-stem");
+    glass.appendChild(stem);
 
     /* Set background properties for the magnifier glass: */
     glass.style.backgroundImage = "url('" + img.src + "')";
@@ -111,20 +123,20 @@ function Section({ section, onVisible }) {
 
   return (
     <div
-      id={section.etapa.toLowerCase()}
+      id={sanitizeId(section.tituloNavegador)}
       className="h-[150vh] flex items-top justify-center"
     >
       <div
         key={section.id}
         ref={sectionRef}
-        className={`py-24 sm:py-32 lg:pb-40 h-[100vh] flex items-center justify-center sticky top-0 transition-opacity duration-500 ease-in-out ${
+        className={`py-24 flex-col flex items-center justify-center sm:py-32 md:flex-row pb-40 h-[100vh]  sticky top-0 max-w-6xl transition-opacity duration-500 ease-in-out ${
           isVisible ? "opacity-100" : "opacity-0"
         }`}
       >
         {section.isQuestion && (
           <div className="flex flex-col justify-center items-center">
             <img src="/pregunta.svg" alt="pregunta" className="" />
-            <h2 className="text-2xl tracking-tight text-white sm:text-4xl">
+            <h2 className="text-center text-xl tracking-tight text-white sm:text-4xl">
               {section.titulo}
             </h2>
           </div>
@@ -132,7 +144,7 @@ function Section({ section, onVisible }) {
         {section.isCDM && (
           <div className="flex flex-col justify-center items-center">
             <img src="/cdm.png" alt="cdm" className="w-40" />
-            <h2 className="text-2xl text-center max-w-6xl mt-8 tracking-tight text-white sm:text-4xl">
+            <h2 className="text-md text-center max-w-6xl mt-8 tracking-tight text-white sm:text-xl">
               {section.titulo}
             </h2>
             <a
@@ -151,8 +163,8 @@ function Section({ section, onVisible }) {
               <h2 className="text-2xl max-w-6xl mt-8 tracking-tight text-white sm:text-4xl">
                 Contacto
               </h2>
-              <h4 className="text-xl max-w-6xl text-poppins mt-8 tracking-tight text-white sm:text-2xl">
-                PROYECTO
+              <h4 className="text-md max-w-6xl text-poppins mt-8 tracking-tight text-white sm:text-lg">
+                Correo electrónico
               </h4>
               <a
                 href="mailto:contacto@cronicasmusicales.com"
@@ -160,24 +172,25 @@ function Section({ section, onVisible }) {
               >
                 contacto@cronicasmusicales.com
               </a>
-              <h4 className="text-xl max-w-6xl text-poppins mt-8 tracking-tight text-white sm:text-2xl">
+              {/* <h4 className="text-xl max-w-6xl text-poppins mt-8 tracking-tight text-white sm:text-2xl">
                 CDM | CENTRO DE DOCUMENTACIÓN MUSICAL
               </h4>
               <a href="mailto:consulta@cdm.gub.uy" className="opacity-50">
                 consulta@cdm.gub.uy
-              </a>
+              </a> */}
               <img src="/mec.png" alt="logo" className="w-80 mt-10 mb-10" />
+              Realizado gracias al fondo concursables MEC 2022
             </div>
           </div>
         )}
         {section.imagen && !isPopupOpen && (
-          <div class="img-magnifier-container">
+          <div class="img-magnifier-container flex flex-col justify-center items-center">
             <img
               src={
                 isHovered && section.hover ? section.hoverImage : section.imagen
               }
               alt={section.caption || "Section image"}
-              className={`drop-shadow-xl object-cover  ${
+              className={`drop-shadow-xl object-cover w-4/6 md:w-5/7  ${
                 section.imagenSola ? "max-w-4xl mx-auto" : "max-w-xl"
               } ${section.hover ? "cursor-pointer" : ""}`}
               style={section.hover ? { cursor: "pointer" } : {}}
@@ -186,7 +199,7 @@ function Section({ section, onVisible }) {
               onMouseEnter={() => {
                 if (section.hover) setIsHovered(true);
                 if (section.esZoom && !isMagnified) {
-                  magnify(section.id, 2.5);
+                  magnify(section.id, 2);
                   setIsMagnified(true);
                   // Set opacity to 100% for all .img-magnifier-glass elements
                   const glasses = document.querySelectorAll(
@@ -207,13 +220,20 @@ function Section({ section, onVisible }) {
                   glasses.forEach((glass) => {
                     glass.style.opacity = "0";
                     setTimeout(() => {
-                      glass.parentNode.removeChild(glass);
+                      if (glass.parentNode) {
+                        glass.parentNode.removeChild(glass);
+                      }
                       setIsMagnified(false);
                     }, 100); // adjust delay as needed
                   });
                 }
               }}
             />
+            {section.caption && (
+              <p className="text-sm text-white mt-4 opacity-50 mb-10 md:mb-2">
+                {section.caption}
+              </p>
+            )}
           </div>
         )}
 
@@ -231,27 +251,34 @@ function Section({ section, onVisible }) {
           </div>
         )}
         {(section.imagen2 || section.imagen3 || section.imagen4) && (
-          <div className="flex justify-center">
-            {section.imagen2 && (
-              <img
-                src={section.imagen2}
-                alt="Image 2"
-                className="drop-shadow-xl m-2 w-1/4 object-cover"
-              />
-            )}
-            {section.imagen3 && (
-              <img
-                src={section.imagen3}
-                alt="Image 3"
-                className="drop-shadow-xl m-2 w-1/4 object-cover"
-              />
-            )}
-            {section.imagen4 && (
-              <img
-                src={section.imagen4}
-                alt="Image 4"
-                className="drop-shadow-xl m-2 w-1/4 object-cover"
-              />
+          <div className="flex-column justify-center items-center">
+            <div className="flex justify-center">
+              {section.imagen2 && (
+                <img
+                  src={section.imagen2}
+                  alt="Image 2"
+                  className="drop-shadow-xl m-2 w-1/4 object-cover"
+                />
+              )}
+              {section.imagen3 && (
+                <img
+                  src={section.imagen3}
+                  alt="Image 3"
+                  className="drop-shadow-xl m-2 w-1/4 object-cover"
+                />
+              )}
+              {section.imagen4 && (
+                <img
+                  src={section.imagen4}
+                  alt="Image 4"
+                  className="drop-shadow-xl m-2 w-1/4 object-cover"
+                />
+              )}
+            </div>
+            {section.imagenesCaption && (
+              <div className="flex justify-center items-center mt-4">
+                {section.imagenesCaption}
+              </div>
             )}
           </div>
         )}
@@ -273,23 +300,26 @@ function Section({ section, onVisible }) {
           <div
             className={`flex flex-col justify-center ${
               section.imagen ? "items-left" : "items-center"
-            } pl-20`}
+            } pl-8 pr-8 md:pl-20 pr-0`}
           >
+            {section.sobreImagen && (
+              <img src="/lauro.png" alt="primera" className="h-40 mb-4" />
+            )}
             {section.sobreTitulo && (
-              <p className="text-l text-white opacity-50 mb-2 sm:text-xl">
+              <p className="text-lg text-white opacity-50 mb-2 sm:text-lg">
                 {section.sobreTitulo}
               </p>
             )}
             <h2
-              className={`text-3xl text-white sm:text-5xl ${
-                section.tituloSolo ? "" : "font-poppins"
-              } `}
+              className={`text-xl text-white ${
+                section.sinTitulo ? "hidden" : ""
+              } sm:text-4xl ${section.tituloSolo ? "" : "font-poppins"} `}
             >
               {section.titulo}
             </h2>
             {section.descripcion && (
               <p
-                className={`text-xl ${
+                className={`text-xl leading-loose ${
                   section.imagen
                     ? "text-left"
                     : "text-center sm:leading-loose sm:text-2xl"
@@ -299,15 +329,8 @@ function Section({ section, onVisible }) {
                 }}
               ></p>
             )}
-
-            {section.caption && (
-              <p className="text-sm text-white mt-2 opacity-50 mb-2">
-                {section.caption}
-              </p>
-            )}
-
             {section.quote && (
-              <blockquote className="text-lg font-medium italic text-white mt-4">
+              <blockquote className="text-2xl font-medium italic text-white mt-4">
                 {section.quote}
               </blockquote>
             )}
@@ -326,6 +349,15 @@ function Section({ section, onVisible }) {
                   <AudioPlayer url={section.url2} name={section.audioTitulo2} />
                 )}
               </div>
+            )}
+            {section.link && (
+              <a
+                href={section.link}
+                target="_blank"
+                className="text-lg text-white mt-4 p-4 border border-white flex items-center justify-center hover:bg-white hover:text-black"
+              >
+                {section.textoLink}
+              </a>
             )}
           </div>
         )}

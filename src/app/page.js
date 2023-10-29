@@ -7,6 +7,7 @@ import LoadingScreen from "./components/LoadingScreen";
 import NavBar from "./components/NavBar";
 import Navigator from "./components/Navigator";
 import AudioContext from "./components/AudioContext";
+import Annotations from "./components/Annotations";
 import { ArrowDownIcon } from "@heroicons/react/24/solid";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
@@ -18,6 +19,14 @@ export default function Page() {
   const [currentSection, setCurrentSection] = useState("Etapa I");
   const [showNavBar, setShowNavBar] = useState(false);
   const [playingAudio, setPlayingAudio] = useState(null);
+
+  const [isOpen, setIsOpen] = useState(false);
+  const [currentAnnotationId, setCurrentAnnotationId] = useState(null);
+
+  const handleAnnotationClick = (id) => {
+    setCurrentAnnotationId(id);
+    setIsOpen(true);
+  };
 
   const handleSectionChange = (sectionName) => {
     setCurrentSection(sectionName);
@@ -95,12 +104,25 @@ export default function Page() {
               />
             ))}
         </div>
-        {/*         <div className="w-screen h-screen z-100 flex justify-center items-center ">
-          <h2 className="text-white text-4xl font-bold text-center">
-            link section
-          </h2>
-        </div> */}
         <div className="fixed bottom-4 right-4">
+          <div>
+            <p>
+              This is a{" "}
+              <span
+                className="text-blue-500 cursor-pointer"
+                onClick={() => handleAnnotationClick("1")}
+              >
+                link
+              </span>{" "}
+              with extended information. More content here...
+            </p>
+
+            <Annotations
+              isOpen={isOpen}
+              annotationId={currentAnnotationId}
+              onClose={() => setIsOpen(false)}
+            />
+          </div>
           <ArrowDownIcon className="h-8 w-8 text-white mb-4 mr-4" />
         </div>
       </div>
