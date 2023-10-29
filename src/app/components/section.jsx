@@ -98,7 +98,7 @@ function Section({ section, onVisible, handleAnnotationClick }) {
 
   // Parse description
 
-  function parseDescription(desc, handleAnnotationClick) {
+  function parseDescription(desc) {
     // Split the string using the special notation
     const parts = desc.split(/\[\[(.*?)\]\]/);
 
@@ -351,7 +351,7 @@ function Section({ section, onVisible, handleAnnotationClick }) {
                     : "text-center sm:leading-loose sm:text-2xl"
                 }  max-w-2xl text-white opacity-70 mt-3 mb-3`}
               >
-                {parseDescription(section.descripcion, handleAnnotationClick)}
+                {parseDescription(section.descripcion)}
               </p>
             )}
 
