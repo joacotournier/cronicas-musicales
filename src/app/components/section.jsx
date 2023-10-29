@@ -99,24 +99,33 @@ function Section({ section, onVisible, handleAnnotationClick }) {
   // Parse description
 
   function parseDescription(desc) {
-    // Split the string using the special notation
-    const parts = desc.split(/\[\[(.*?)\]\]/);
+    // Replace newline characters with a special token
+    const tempDesc = desc.replace(/\n/g, "<br/>");
+
+    // Split the string using the special notation and <br/>
+    const parts = tempDesc.split(/(\[\[.*?\]\]|<br\/>)/);
 
     return parts.map((part, index) => {
-      const match = /(\d+),\s*(.+)/.exec(part);
-      if (match) {
-        const id = match[1];
-        const linkText = match[2];
+      // Check for our custom link notation
+      const linkMatch = part.match(/^\[\[(\d+),\s*(.+?)\]\]$/);
+      if (linkMatch) {
+        const id = linkMatch[1];
+        const linkText = linkMatch[2];
         return (
           <span
-            key={index}
+            key={`link-${index}`}
             className="text-blue-500 cursor-pointer"
             onClick={() => handleAnnotationClick(id)}
           >
             {linkText}
           </span>
         );
+      }
+      // Check for a line break token
+      else if (part === "<br/>") {
+        return <br key={`br-${index}`} />;
       } else {
+        // Return any other part of the string as-is
         return part;
       }
     });
