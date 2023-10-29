@@ -12,6 +12,9 @@ function Annotations({ isOpen, annotationId, onClose }) {
       fetch("/notes.json")
         .then((response) => response.json())
         .then((data) => setAnnotationsData(data));
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
     }
   }, [isOpen]);
 
@@ -19,16 +22,20 @@ function Annotations({ isOpen, annotationId, onClose }) {
     if (!annotationRef.current) return;
 
     if (isOpen) {
-      gsap.to(annotationRef.current, {
-        opacity: 1,
-        y: 0,
-        duration: 0.5,
-        ease: "power3.out",
-      });
+      gsap.fromTo(
+        annotationRef.current,
+        {
+          x: "100%",
+        },
+        {
+          x: "0%",
+          duration: 0.5,
+          ease: "power3.out",
+        }
+      );
     } else {
       gsap.to(annotationRef.current, {
-        opacity: 0,
-        y: 50,
+        x: "100%",
         duration: 0.5,
         ease: "power3.in",
       });
@@ -42,7 +49,7 @@ function Annotations({ isOpen, annotationId, onClose }) {
   return (
     <div
       ref={annotationRef}
-      className="fixed top-0 left-0 w-full h-full bg-white p-10 overflow-y-auto transform translate-y-10 opacity-0"
+      className="fixed z-[100] top-0 right-0 h-full bg-slate-200 text-black p-10 overflow-y-auto"
     >
       <button
         onClick={onClose}

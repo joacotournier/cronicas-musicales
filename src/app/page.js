@@ -22,7 +22,6 @@ export default function Page() {
   const [currentAnnotationId, setCurrentAnnotationId] = useState(null);
 
   const handleAnnotationClick = (id) => {
-    console.log("Annotation link clicked with ID:", id);
     setCurrentAnnotationId(id);
     setIsOpen(true);
   };
@@ -112,16 +111,15 @@ export default function Page() {
                 link
               </span>
             </p>
-
-            <Annotations
-              isOpen={isOpen}
-              annotationId={currentAnnotationId}
-              onClose={() => setIsOpen(false)}
-            />
           </div>
           <ArrowDownIcon className="h-8 w-8 text-white mb-4 mr-4" />
         </div>
       </div>
+      <Annotations
+        isOpen={isOpen}
+        annotationId={currentAnnotationId}
+        onClose={() => setIsOpen(false)}
+      />
     </AudioContext.Provider>
   );
 }
