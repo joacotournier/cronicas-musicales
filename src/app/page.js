@@ -102,17 +102,6 @@ export default function Page() {
             ))}
         </div>
         <div className="fixed bottom-4 right-4 z-100">
-          <div>
-            <p>
-              This is a{" "}
-              <span
-                className="text-blue-500 cursor-pointer"
-                onClick={() => handleAnnotationClick("1")}
-              >
-                link
-              </span>
-            </p>
-          </div>
           <ArrowDownIcon className="h-8 w-8 text-white mb-4 mr-4" />
         </div>
       </div>
