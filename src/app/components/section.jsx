@@ -2,7 +2,7 @@
 import { useState, useEffect, useRef } from "react";
 import AudioPlayer from "./AudioPlayer";
 
-function Section({ section, onVisible }) {
+function Section({ section, onVisible, handleAnnotationClick }) {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef();
 
@@ -94,6 +94,32 @@ function Section({ section, onVisible }) {
       y = y - window.pageYOffset;
       return { x: x, y: y };
     }
+  }
+
+  // Parse description
+
+  function parseDescription(desc, handleAnnotationClick) {
+    // Split the string using the special notation
+    const parts = desc.split(/\[\[(.*?)\]\]/);
+
+    return parts.map((part, index) => {
+      const match = /(\d+),\s*(.+)/.exec(part);
+      if (match) {
+        const id = match[1];
+        const linkText = match[2];
+        return (
+          <span
+            key={index}
+            className="text-blue-500 cursor-pointer"
+            onClick={() => handleAnnotationClick(id)}
+          >
+            {linkText}
+          </span>
+        );
+      } else {
+        return part;
+      }
+    });
   }
 
   useEffect(() => {
@@ -324,11 +350,11 @@ function Section({ section, onVisible }) {
                     ? "text-left"
                     : "text-center sm:leading-loose sm:text-2xl"
                 }  max-w-2xl text-white opacity-70 mt-3 mb-3`}
-                dangerouslySetInnerHTML={{
-                  __html: section.descripcion.replace(/\n/g, "<br />"),
-                }}
-              ></p>
+              >
+                {parseDescription(section.descripcion, handleAnnotationClick)}
+              </p>
             )}
+
             {section.quote && (
               <blockquote className="text-2xl font-medium italic text-white mt-4">
                 {section.quote}

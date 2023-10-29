@@ -97,6 +97,7 @@ export default function Page() {
                 section={section}
                 key={section.id}
                 onVisible={() => handleSectionChange(section.etapa)}
+                handleAnnotationClick={handleAnnotationClick}
               />
             ))}
         </div>
