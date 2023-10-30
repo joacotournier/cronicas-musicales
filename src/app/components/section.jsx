@@ -102,11 +102,11 @@ function Section({ section, onVisible, handleAnnotationClick }) {
     // Replace newline characters with a special token
     const tempDesc = desc.replace(/\n/g, "<br/>");
 
-    // Split the string using the special notation and <br/>
-    const parts = tempDesc.split(/(\[\[.*?\]\]|<br\/>)/);
+    // Split the string using the special notation, <br/>, and <a> tags
+    const parts = tempDesc.split(/(\[\[.*?\]\]|<br\/>|<a.*?<\/a>)/);
 
     return parts.map((part, index) => {
-      // Check for our custom link notation
+      // Check for our custom link notation [[id, linkText]]
       const linkMatch = part.match(/^\[\[(\d+),\s*(.+?)\]\]$/);
       if (linkMatch) {
         const id = linkMatch[1];
@@ -124,6 +124,26 @@ function Section({ section, onVisible, handleAnnotationClick }) {
       // Check for a line break token
       else if (part === "<br/>") {
         return <br key={`br-${index}`} />;
+      }
+      // Check for <a> link
+      else if (part.startsWith("<a")) {
+        const anchorTag = new DOMParser()
+          .parseFromString(part, "text/html")
+          .querySelector("a");
+        if (anchorTag) {
+          return (
+            <a
+              key={`a-${index}`}
+              href={anchorTag.getAttribute("href")}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: anchorTag.style.color || "#00CCFF" }}
+            >
+              {anchorTag.textContent}
+            </a>
+          );
+        }
+        return part; // return the part as-is if parsing failed for some reason
       } else {
         // Return any other part of the string as-is
         return part;

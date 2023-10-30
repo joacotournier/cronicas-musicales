@@ -14,7 +14,14 @@
   },
   {
     "id": "2",
-    "title": "Annotation Title 2",
-    "content": "Extended information about annotation 2..."
+    "title": "Maestros y colegas",
+    "content": [
+      {
+        "type": "image",
+        "src": "maestros.jpg",
+        "caption": "Béla Bartók anotando la música registrada en villas de Europa"
+      },
+      "En América Latina y el mundo, en los años 40 y 50 -a partir del desarrollo de las primeras tecnologías de registro sonoro- destacados músicos y musicólogos se lanzaron a grabar las músicas populares y tradicionales de sus tierras. Bela Bartok y Zoltan Kodali en Hungría, con los grabadores sobre cilindro de comienzos del siglo XX."
+    ]
   }
 ]
