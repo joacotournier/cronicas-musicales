@@ -1,18 +1,5 @@
 [
   {
-    "id": "1",
-    "title": "Annotation Title 1",
-    "content": [
-      "Some text before the image...",
-      {
-        "type": "image",
-        "src": "lomax2.jpeg",
-        "caption": "Caption for image 1"
-      },
-      "Some text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid jSome text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid jSome text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid jSome text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid jSome text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid jSome text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid jSome text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid jSome text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid jSome text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid jSome text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid jSome text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid jSome text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid jSome text after the image... aosidjoaisjdoi jaosidjoiasjo idjasoijd oaijsd oijasodi jaosid j"
-    ]
-  },
-  {
     "id": "2",
     "title": "Maestros y colegas",
     "content": [
@@ -21,7 +8,25 @@
         "src": "maestros.jpg",
         "caption": "Béla Bartók anotando la música registrada en villas de Europa"
       },
-      "En América Latina y el mundo, en los años 40 y 50 -a partir del desarrollo de las primeras tecnologías de registro sonoro- destacados músicos y musicólogos se lanzaron a grabar las músicas populares y tradicionales de sus tierras. Bela Bartok y Zoltan Kodali en Hungría, con los grabadores sobre cilindro de comienzos del siglo XX."
+      {
+        "type": "text",
+        "value": "En América Latina y el mundo, en los años 40 y 50 -a partir del desarrollo de las primeras tecnologías de registro sonoro- destacados músicos y musicólogos se lanzaron a grabar las músicas populares y tradicionales de sus tierras. Bela Bartok y Zoltan Kodali en Hungría, con los grabadores sobre cilindro de comienzos del siglo XX."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Pentagrama",
+    "content": [
+      {
+        "type": "text",
+        "value": "«...la notación es una imagen (fidelísima en los grandes musicólogos [...] pero no por ello deja de ser una imagen), es decir una transposición. (Además nuestro sistema no fija timbres sino alturas y duraciones). No es la música misma que se produce sino la que se reproduce, de la misma manera que la fotografía en el más perfecto tecnicolor de una pintura o de un paisaje no es la pintura misma o el paisaje en sí. No es el mundo absoluto y puro de la música sino una imagen de esa música.» Lauro Ayestarán, apuntes personales (citado por Coriún Aharonián en el prólogo a «Textos Breves» Vol. 196 de la colección"
+      },
+      {
+        "type": "link",
+        "value": "«Clásicos Uruguayos»",
+        "href": "http://bibliotecadigital.bibna.gub.uy:8080/jspui/handle/123456789/72390"
+      }
     ]
   }
 ]

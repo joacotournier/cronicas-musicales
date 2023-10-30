@@ -49,7 +49,7 @@ function Annotations({ isOpen, annotationId, onClose }) {
   return (
     <div
       ref={annotationRef}
-      className="fixed z-[100] top-0 right-0 h-full bg-slate-200 text-black p-10 pr-20 overflow-y-auto"
+      className="fixed z-[100] top-0 right-0 h-full bg-slate-200 text-black p-10 pr-20 overflow-y-auto max-w-md"
     >
       <button
         onClick={onClose}
@@ -62,20 +62,35 @@ function Annotations({ isOpen, annotationId, onClose }) {
       </h1>
       {Array.isArray(annotation.content) ? (
         annotation.content.map((item, index) => {
-          if (typeof item === "string") {
-            return (
-              <p key={index} className="text-base max-w-sm">
-                {item}
-              </p>
-            );
-          }
-          if (item.type === "image") {
-            return (
-              <figure key={index} className="my-4">
-                <img src={item.src} alt={item.caption} className="max-w-sm" />
-                <figcaption className="text-sm mt-2">{item.caption}</figcaption>
-              </figure>
-            );
+          switch (item.type) {
+            case "text":
+              return (
+                <span key={index} className="text-base max-w-sm">
+                  {item.value}
+                </span>
+              );
+            case "link":
+              return (
+                <a
+                  key={index}
+                  href={item.href}
+                  target="_blank"
+                  className="underline text-blue-500 ml-2 max-w-sm hover:text-blue-600"
+                >
+                  {item.value}
+                </a>
+              );
+            case "image":
+              return (
+                <figure key={index} className="my-4 max-w-sm">
+                  <img src={item.src} alt={item.caption} className="max-w-sm" />
+                  <figcaption className="text-sm mt-2">
+                    {item.caption}
+                  </figcaption>
+                </figure>
+              );
+            default:
+              return null;
           }
         })
       ) : (
