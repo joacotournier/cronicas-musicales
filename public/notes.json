@@ -28,5 +28,45 @@
         "href": "http://bibliotecadigital.bibna.gub.uy:8080/jspui/handle/123456789/72390"
       }
     ]
+  },
+  {
+    "id": "4",
+    "title": "Primeras décadas del siglo XX",
+    "content": [
+      {
+        "type": "text",
+        "value": "En el desarrollo de los lenguajes musicales, tanto los cultos como los populares, se debe tener en cuenta el impacto de las tecnologías a varios niveles, entre ellos la posibilidad de difusión que significó la aparición de la radio. Antes la transmisión intergeneracional de las músicas era principalmente oral, “de boca en boca”, con el correr de los años, algunos entrevistados por Ayestarán mencionan que aprendieron lo que cantan “de la radio”."
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Cultura humana",
+    "content": [
+      {
+        "type": "text",
+        "value": "La cultura humana y la identidad cultural de cada grupo humano, es una compleja y permanente construcción que se da en el tiempo y en los espacios que habitamos. Todos los sectores sociales aportan a esa generación de objetos intangibles, como la música, que cumplen en el seno de cada grupo, y en sus interacciones, una gran diversidad de funciones: esparcimiento y diversión, relatos históricos (link a TUPAMBAÉ), expresión de sentimientos, proyección de valores espirituales e ideológicos, y fuertes lazos de identidad entre los grupos que comparten colectivamente el disfrute de los diversos géneros musicales."
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Micros radiales",
+    "content": [
+      {
+        "type": "image",
+        "src": "micros.jpg",
+        "caption": "Lauro Ayestarán en el estudio de grabación del SODRE"
+      },
+      {
+        "type": "text",
+        "value": "Lauro Ayestarán fue nombrado Director de Programaciones del Sodre en 1959."
+      },
+      {
+        "type": "link",
+        "value": "Mirá los micros radiales de Lauro Ayestarán en la página del Centro de Documentación Músical",
+        "href": "http://www.cdm.gub.uy/el-archivo-digital/micros-radiales"
+      }
+    ]
   }
 ]
