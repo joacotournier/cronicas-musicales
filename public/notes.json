@@ -1,0 +1,72 @@
+[
+  {
+    "id": "2",
+    "title": "Maestros y colegas",
+    "content": [
+      {
+        "type": "image",
+        "src": "maestros.jpg",
+        "caption": "Béla Bartók anotando la música registrada en villas de Europa"
+      },
+      {
+        "type": "text",
+        "value": "En América Latina y el mundo, en los años 40 y 50 -a partir del desarrollo de las primeras tecnologías de registro sonoro- destacados músicos y musicólogos se lanzaron a grabar las músicas populares y tradicionales de sus tierras. Bela Bartok y Zoltan Kodali en Hungría, con los grabadores sobre cilindro de comienzos del siglo XX."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Pentagrama",
+    "content": [
+      {
+        "type": "text",
+        "value": "«...la notación es una imagen (fidelísima en los grandes musicólogos [...] pero no por ello deja de ser una imagen), es decir una transposición. (Además nuestro sistema no fija timbres sino alturas y duraciones). No es la música misma que se produce sino la que se reproduce, de la misma manera que la fotografía en el más perfecto tecnicolor de una pintura o de un paisaje no es la pintura misma o el paisaje en sí. No es el mundo absoluto y puro de la música sino una imagen de esa música.» Lauro Ayestarán, apuntes personales (citado por Coriún Aharonián en el prólogo a «Textos Breves» Vol. 196 de la colección"
+      },
+      {
+        "type": "link",
+        "value": "«Clásicos Uruguayos»",
+        "href": "http://bibliotecadigital.bibna.gub.uy:8080/jspui/handle/123456789/72390"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Primeras décadas del siglo XX",
+    "content": [
+      {
+        "type": "text",
+        "value": "En el desarrollo de los lenguajes musicales, tanto los cultos como los populares, se debe tener en cuenta el impacto de las tecnologías a varios niveles, entre ellos la posibilidad de difusión que significó la aparición de la radio. Antes la transmisión intergeneracional de las músicas era principalmente oral, “de boca en boca”, con el correr de los años, algunos entrevistados por Ayestarán mencionan que aprendieron lo que cantan “de la radio”."
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Cultura humana",
+    "content": [
+      {
+        "type": "text",
+        "value": "La cultura humana y la identidad cultural de cada grupo humano, es una compleja y permanente construcción que se da en el tiempo y en los espacios que habitamos. Todos los sectores sociales aportan a esa generación de objetos intangibles, como la música, que cumplen en el seno de cada grupo, y en sus interacciones, una gran diversidad de funciones: esparcimiento y diversión, relatos históricos (link a TUPAMBAÉ), expresión de sentimientos, proyección de valores espirituales e ideológicos, y fuertes lazos de identidad entre los grupos que comparten colectivamente el disfrute de los diversos géneros musicales."
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Micros radiales",
+    "content": [
+      {
+        "type": "image",
+        "src": "micros.jpg",
+        "caption": "Lauro Ayestarán en el estudio de grabación del SODRE"
+      },
+      {
+        "type": "text",
+        "value": "Lauro Ayestarán fue nombrado Director de Programaciones del Sodre en 1959."
+      },
+      {
+        "type": "link",
+        "value": "Mirá los micros radiales de Lauro Ayestarán en la página del Centro de Documentación Músical",
+        "href": "http://www.cdm.gub.uy/el-archivo-digital/micros-radiales"
+      }
+    ]
+  }
+]

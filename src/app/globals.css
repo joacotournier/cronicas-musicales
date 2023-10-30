@@ -20,7 +20,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: white;
   background: linear-gradient(
       to bottom,
       transparent,
@@ -136,14 +136,14 @@ input[type="range"]::-moz-range-thumb {
   border: 3px solid black;
   border-radius: 50%;
   cursor: none;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   z-index: 50;
 }
 
 .magnifier-stem {
   @apply w-1 h-24 bg-black absolute;
-  bottom: -14px;
-  right: -14px;
+  bottom: -30px;
+  right: -20px;
   transform: rotate(-45deg);
 }

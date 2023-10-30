@@ -70,7 +70,7 @@ const AudioPlayer = ({ url, name }) => {
   };
 
   return (
-    <div className="flex items-center justify-between border-2 border-white rounded-full p-2 pl-6 pr-2 mt-6 mb-6 mr-10 font-poppins">
+    <div className="flex items-center justify-between border-2 border-gray-600 rounded-full p-2 pl-6 pr-2 mt-6 mb-6 mr-10 font-poppins">
       <p className="shrink-0">{name}</p>
       <div className="flex items-center justify-between ml-4 w-full">
         <input

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 
 function Navigator({ currentSlide, setCurrentSlide, sections }) {
-  console.log("Navigator rendering with slide:", currentSlide);
   const [visibleSections, setVisibleSections] = useState([]);
 
   useEffect(() => {

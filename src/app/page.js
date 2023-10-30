@@ -1,23 +1,30 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
 import useSWR from "swr";
 import Section from "./components/section";
 import LoadingScreen from "./components/LoadingScreen";
 import NavBar from "./components/NavBar";
 import Navigator from "./components/Navigator";
 import AudioContext from "./components/AudioContext";
+import Annotations from "./components/Annotations";
 import { ArrowDownIcon } from "@heroicons/react/24/solid";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
 export default function Page() {
   const { data, error } = useSWR("/sections.json", fetcher);
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [currentSlide, setCurrentSlide] = useState("Intro");
   const [currentSection, setCurrentSection] = useState("Etapa I");
   const [showNavBar, setShowNavBar] = useState(false);
   const [playingAudio, setPlayingAudio] = useState(null);
+
+  const [isOpen, setIsOpen] = useState(false);
+  const [currentAnnotationId, setCurrentAnnotationId] = useState(null);
+
+  const handleAnnotationClick = (id) => {
+    setCurrentAnnotationId(id);
+    setIsOpen(true);
+  };
 
   const handleSectionChange = (sectionName) => {
     setCurrentSection(sectionName);
@@ -41,7 +48,6 @@ export default function Page() {
 
   useEffect(() => {
     const handleScroll = () => {
-      console.log("Scrolling detected");
       let newCurrentSlide = "";
 
       data.forEach((section) => {
@@ -61,7 +67,6 @@ export default function Page() {
       });
 
       if (newCurrentSlide !== currentSlide) {
-        console.log("Updating current slide to", newCurrentSlide);
         setCurrentSlide(newCurrentSlide);
       }
     };
@@ -92,18 +97,19 @@ export default function Page() {
                 section={section}
                 key={section.id}
                 onVisible={() => handleSectionChange(section.etapa)}
+                handleAnnotationClick={handleAnnotationClick}
               />
             ))}
         </div>
-        {/*         <div className="w-screen h-screen z-100 flex justify-center items-center ">
-          <h2 className="text-white text-4xl font-bold text-center">
-            link section
-          </h2>
-        </div> */}
-        <div className="fixed bottom-4 right-4">
+        <div className="fixed bottom-4 right-4 z-100">
           <ArrowDownIcon className="h-8 w-8 text-white mb-4 mr-4" />
         </div>
       </div>
+      <Annotations
+        isOpen={isOpen}
+        annotationId={currentAnnotationId}
+        onClose={() => setIsOpen(false)}
+      />
     </AudioContext.Provider>
   );
 }

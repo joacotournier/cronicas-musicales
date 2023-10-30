@@ -2,7 +2,7 @@
 import { useState, useEffect, useRef } from "react";
 import AudioPlayer from "./AudioPlayer";
 
-function Section({ section, onVisible }) {
+function Section({ section, onVisible, handleAnnotationClick }) {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef();
 
@@ -94,6 +94,61 @@ function Section({ section, onVisible }) {
       y = y - window.pageYOffset;
       return { x: x, y: y };
     }
+  }
+
+  // Parse description
+
+  function parseDescription(desc) {
+    // Replace newline characters with a special token
+    const tempDesc = desc.replace(/\n/g, "<br/>");
+
+    // Split the string using the special notation, <br/>, and <a> tags
+    const parts = tempDesc.split(/(\[\[.*?\]\]|<br\/>|<a.*?<\/a>)/);
+
+    return parts.map((part, index) => {
+      // Check for our custom link notation [[id, linkText]]
+      const linkMatch = part.match(/^\[\[(\d+),\s*(.+?)\]\]$/);
+      if (linkMatch) {
+        const id = linkMatch[1];
+        const linkText = linkMatch[2];
+        return (
+          <span
+            key={`link-${index}`}
+            className="text-blue-500 cursor-pointer"
+            onClick={() => handleAnnotationClick(id)}
+          >
+            {linkText}
+          </span>
+        );
+      }
+      // Check for a line break token
+      else if (part === "<br/>") {
+        return <br key={`br-${index}`} />;
+      }
+      // Check for <a> link
+      else if (part.startsWith("<a")) {
+        const anchorTag = new DOMParser()
+          .parseFromString(part, "text/html")
+          .querySelector("a");
+        if (anchorTag) {
+          return (
+            <a
+              key={`a-${index}`}
+              href={anchorTag.getAttribute("href")}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: anchorTag.style.color || "#00CCFF" }}
+            >
+              {anchorTag.textContent}
+            </a>
+          );
+        }
+        return part; // return the part as-is if parsing failed for some reason
+      } else {
+        // Return any other part of the string as-is
+        return part;
+      }
+    });
   }
 
   useEffect(() => {
@@ -199,7 +254,7 @@ function Section({ section, onVisible }) {
               onMouseEnter={() => {
                 if (section.hover) setIsHovered(true);
                 if (section.esZoom && !isMagnified) {
-                  magnify(section.id, 2.5);
+                  magnify(section.id, 2);
                   setIsMagnified(true);
                   // Set opacity to 100% for all .img-magnifier-glass elements
                   const glasses = document.querySelectorAll(
@@ -220,7 +275,9 @@ function Section({ section, onVisible }) {
                   glasses.forEach((glass) => {
                     glass.style.opacity = "0";
                     setTimeout(() => {
-                      glass.parentNode.removeChild(glass);
+                      if (glass.parentNode) {
+                        glass.parentNode.removeChild(glass);
+                      }
                       setIsMagnified(false);
                     }, 100); // adjust delay as needed
                   });
@@ -322,11 +379,11 @@ function Section({ section, onVisible }) {
                     ? "text-left"
                     : "text-center sm:leading-loose sm:text-2xl"
                 }  max-w-2xl text-white opacity-70 mt-3 mb-3`}
-                dangerouslySetInnerHTML={{
-                  __html: section.descripcion.replace(/\n/g, "<br />"),
-                }}
-              ></p>
+              >
+                {parseDescription(section.descripcion)}
+              </p>
             )}
+
             {section.quote && (
               <blockquote className="text-2xl font-medium italic text-white mt-4">
                 {section.quote}
