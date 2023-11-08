@@ -62,7 +62,7 @@ const LoadingScreen = () => {
             style={phrase1Props}
             className="overflow-hidden text-center"
           >
-            <div className="px-4 small-title">CONOCÉ A LAURO AYESTARÁN</div>
+            <div className="px-4 small-title">EXPLORANDO EL LEGADO MUSICAL</div>
           </animated.div>
         )}
         {showPhrase2 && (
@@ -71,7 +71,7 @@ const LoadingScreen = () => {
             className="overflow-hidden text-center"
           >
             <div className="px-4 small-title">
-              QUIEN HIZO GRANDES APORTES A LA CULTURA MÚSICAL URUGUAYA
+              CON VIAJES QUE NARRAN HISTORIAS
             </div>
           </animated.div>
         )}
