@@ -1,16 +1,92 @@
 [
   {
+    "id": "1",
+    "title": "Autores",
+    "content": [
+      {
+        "type": "text",
+        "value": "Un director y guionista inglés (Anthony Fletcher) y un músico uruguayo de origen italiano (Leonardo Croatto), a partir de algunos hallazgos en el archivo del Centro Nacional de Documentación Musical Lauro Ayestarán (CDM), comenzaron a intercambiar ideas para una posible película. Así comenzó el viaje con Lauro. Trabajaron juntos en una obra de teatro sobre inmigrantes (“Ellos”) y en esos mismos años, mientras Anthony adaptaba al teatro “La tierra purpúrea” de W. H. Hudson, y Leonardo era “Coordinador musicológico” del CDM, surgió la idea de una “road-movie/musical”. Comenzaron a imaginar paisajes, sonidos y momentos destacables de la figura de Ayestarán y su relación con la música y el ser humano. ¿Cómo contar el viaje de Lauro a través de su breve y prolífica vida (1913-1966)? Una vida que dedicó –íntegra y literalmente– a investigar a fondo la cultura del Uruguay, y en particular su música ¿Cómo transmitir la importancia de la música en su vida, y en la de todas las personas? De estas y otras preguntas surgió la necesidad de investigar, y de esta primera parte de nuestra investigación, hablaremos en esta página."
+      }
+    ]
+  },
+  {
     "id": "2",
     "title": "Maestros y colegas",
     "content": [
       {
+        "type": "text",
+        "value": "A partir de los años ‘40 y ‘50 –con el desarrollo de las tecnologías de registro sonoro–  destacados músicos y musicólogos de América Latina y el mundo, se lanzan a grabar las músicas populares y tradicionales de sus tierras: …en Hungría Bela Bartok y Zoltan Kodali, con los grabadores sobre cilindro de comienzos del siglo XX."
+      },
+      {
         "type": "image",
         "src": "maestros.jpg",
-        "caption": "Béla Bartók anotando la música registrada en villas de Europa"
+        "caption": "Béla Bartók"
+      },
+      {
+        "type": "image",
+        "src": "maestros-2.png",
+        "caption": "Zoltan Kodali"
       },
       {
         "type": "text",
-        "value": "En América Latina y el mundo, en los años 40 y 50 -a partir del desarrollo de las primeras tecnologías de registro sonoro- destacados músicos y musicólogos se lanzaron a grabar las músicas populares y tradicionales de sus tierras. Bela Bartok y Zoltan Kodali en Hungría, con los grabadores sobre cilindro de comienzos del siglo XX."
+        "value": "…en Chile Violeta Parra. Su tarea de recopiladora folclórica no es tan conocida como su creación musical."
+      },
+      {
+        "type": "image",
+        "src": "maestros-3.png",
+        "caption": "Violeta Parra"
+      },
+      {
+        "type": "text",
+        "value": "…en los Estados Unidos, Alan Lomax investiga las raíces del “blues”"
+      },
+      {
+        "type": "image",
+        "src": "maestros-4.jpg",
+        "caption": "Alan Lomax con una persona no identificada"
+      },
+      {
+        "type": "image",
+        "src": "maestros-5.jpg",
+        "caption": "Lead Belly"
+      },
+      {
+        "type": "text",
+        "value": "…en Perú José María Arguedas y Nicomedes Santa Cruz"
+      },
+      {
+        "type": "image",
+        "src": "nicomendes.jpg.webp",
+        "caption": "Nicomedes Santa Cruz"
+      },
+      {
+        "type": "image",
+        "src": "arguedas.jpg",
+        "caption": "José María Arguedas"
+      },
+      {
+        "type": "text",
+        "value": "…en Brasil Mario De Andrade y Oneyda Alvarenga"
+      },
+      {
+        "type": "image",
+        "src": "oneyda.png",
+        "caption": "Oneyda Alvarenga"
+      },
+      {
+        "type": "image",
+        "src": "mario.jpeg.webp",
+        "caption": "Mario De Andrade"
+      },
+      {
+        "type": "link",
+        "value": "Lee más sobre Nicomendes",
+        "href": "https://www.nicomedessantacruz.com"
+      },
+      {
+        "type": "link",
+        "value": "Lee más sobre Mario",
+        "href": "https://acervoccsp.art.br/missao-de-pesquisas-folcloricas-de-mario-de-andrade/?order=ASC&orderby=date&view_mode=masonry&perpage=48&paged=1&fetch_only=thumbnail%2Ccreation_date%2Ctitle%2Cdescription&fetch_only_meta="
       }
     ]
   },
@@ -31,21 +107,21 @@
   },
   {
     "id": "4",
-    "title": "Primeras décadas del siglo XX",
+    "title": "Tecnología",
     "content": [
       {
         "type": "text",
-        "value": "En el desarrollo de los lenguajes musicales, tanto los cultos como los populares, se debe tener en cuenta el impacto de las tecnologías a varios niveles, entre ellos la posibilidad de difusión que significó la aparición de la radio. Antes la transmisión intergeneracional de las músicas era principalmente oral, “de boca en boca”, con el correr de los años, algunos entrevistados por Ayestarán mencionan que aprendieron lo que cantan “de la radio”."
+        "value": "¿Cómo se escuchaba la música en las primeras décadas del siglo XX? La aparición de la radio en las primeras décadas del siglo XX juega un rol muy importante en el desarrollo de los lenguajes musicales, tanto los cultos como los populares. Antes de la radio y el disco, la transmisión intergeneracional de las músicas populares era exclusivamente oral, “de boca en boca”. Con el pasar de los años, algunos entrevistados por Ayestarán mencionan que aprendieron lo que cantan “de la radio”. El impacto de las tecnologías se debe tener en cuenta a varios niveles: el de la creación y producción, el de la transmisión y la recepción."
       }
     ]
   },
   {
     "id": "5",
-    "title": "Cultura humana",
+    "title": "Identidad y diversidad cultural",
     "content": [
       {
         "type": "text",
-        "value": "La cultura humana y la identidad cultural de cada grupo humano, es una compleja y permanente construcción que se da en el tiempo y en los espacios que habitamos. Todos los sectores sociales aportan a esa generación de objetos intangibles, como la música, que cumplen en el seno de cada grupo, y en sus interacciones, una gran diversidad de funciones: esparcimiento y diversión, relatos históricos (link a TUPAMBAÉ), expresión de sentimientos, proyección de valores espirituales e ideológicos, y fuertes lazos de identidad entre los grupos que comparten colectivamente el disfrute de los diversos géneros musicales."
+        "value": "La cultura humana y la identidad cultural de cada grupo humano, es una compleja y permanente construcción que se da en el tiempo y en los espacios que habitamos. Todos los sectores sociales aportan de diversas maneras a la generación de objetos intangibles que conforman lo que se da en llamar la “identidad cultural”. La música es uno de esos elementos que cumplen, en el seno de cada grupo y en sus interacciones, una amplia gama de funciones, muy diversas entre sí: esparcimiento y diversión, expresión de sentimientos, proyección de valores espirituales e ideológicos, relatos históricos individuales y colectivos (véase por ejemplo la grabación de un participante en la batalla de Tupambaé, 1904). De esa manera se construyen fuertes lazos de identidad entre los grupos que comparten colectivamente la generación y el disfrute de esos elementos culturales. El disfrute de los diversos géneros musicales, según la propia pertenencia, es un claro ejemplo de esos procesos. Las dinámicas culturales también producen divisiones (intergeneracionales, territoriales, sociales, etc.) a partir de los gustos y/o rechazos por las diferentes músicas con las que se identifican las diversas “tribus” estéticas y en las que proyectan otros niveles de conflicto. La diversidad cultural como valor a preservar es un concepto relativamente reciente, y todavía polémico. Podría establecerse un paralelo con la biodiversidad de las especies vegetales autóctonas, portadoras de información genética que se pierde indefectiblemente cuando los territorios son ocupados por los monocultivos industriales. Así como sobreviven especies animales y vegetales en riesgo de extinción, también hay lenguas, músicas y culturas enteras, víctimas de las modificaciones del hábitat producto del desarrollo urbano e industrial. Algunos fenómenos interculturales, como la globalización, comenzaban a operar en la primera mitad del siglo XX, a partir del desarrollo tecnológico de los medios de producción y reproducción, registro y difusión. En esos procesos es determinante el aumento de las posibilidades de abarcar al mundo entero desde una posición dominante, y la necesidad de ampliación y unificación de los mercados artísticos (en especial la industria cinematográfica y la industria musical)."
       }
     ]
   },
@@ -86,6 +162,250 @@
         "type": "link",
         "value": "Mirá los micros radiales de Lauro Ayestarán en la página del Centro de Documentación Músical",
         "href": "http://www.cdm.gub.uy/el-archivo-digital/micros-radiales"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Formación inicial",
+    "content": [
+      {
+        "type": "text",
+        "value": "Su primera formación transcurre en el barrio Atahualpa de Montevideo, en el seno de una familia de origen vasco, estudia en el Colegio del Sagrado Corazón, y en el Conservatorio Larrimbe. Comienza y abandona pronto la carrera de abogacía, para dedicarse a lo que realmente le interesa. A los 20 años comienza a escribir y publicar artículos como crítico musical y cinematográfico, con un estilo profundo y afilado. Sus primeras producciones son de 1933: decenas de películas de la época son comentadas por Lauro Ayestarán (una línea de investigación en sí misma: el cine en el Uruguay de la primera mitad del siglo XX). Es importante mencionar a los que podríamos llamar sus “Compañeros de viaje”. En 1937, Lauro comienza un importante vínculo académico con el musicólogo Carlos Vega, que se profundizará y continuará durante toda su vida. Coriún Aharonián, discípulo de Ayestarán, editó el epistolario entre ambos musicólogos (una jugosa fuente de anécdotas y privilegiado lugar de mira hacia el paisaje intelectual y musical de los años ‘40 y ‘50)."
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Folk-lore, saber del pueblo",
+    "content": [
+      {
+        "type": "text",
+        "value": "Las múltiples manifestaciones musicales de las diferentes culturas –y dentro de cada cultura las diferentes formas musicales de cada sector social– suelen clasificarse desde la musicología con diversas denominaciones, que varían a lo largo de la historia según los paradigmas de la época. Los estudiosos de la música, en tiempos de Ayestarán, elaboraron y discutieron definiciones del término “folklore” basadas en las características de anonimato y transmisión oral –entre otras– que con el tiempo fueron variando, en función de los cambios que se fueron dando en la realidad musical. El término “folklore”, en los años ‘60, fue adoptado en nuestra región por la industria discográfica para denominar la producción musical basada en las formas folklóricas, aunque claramente las composiciones no eran anónimas, y su difusión no era de persona a persona sino a través de los medios masivos de difusión y la venta de discos. La musicología y la ciencia del folklore preferían hablar de “músicas de proyección folklórica” (o folclórica, con “c” para revindicar nuestro idioma y evitar el anglicismo). Dentro de la musicología surge una corriente, la “etnomusicología”, que se ocupa de las músicas de los pueblos del mundo, de las “etnias” extra-europeas. Posteriormente surgen críticas contra cierto racismo implícito en la definición de “músicas étnicas”. Se prefiere entonces hablar de “músicas tradicionales y populares”. Pero paralelamente la industria musical sigue creciendo y se difunden a nivel mundial las músicas “de moda” creadas y producidas en el llamado “primer mundo”. Y lo que las grandes mayorías de la población escucha y “consume” a nivel global no es ni folklore ni música clásica (o culta o académica). La musicología precisa encontrar una “etiqueta” para denominar nada menos que la mayor parte de la música que circula masivamente en todas las sociedades industrializadas, en todo el planeta. Carlos Vega, maestro y colega de Ayestarán, propone el término “mesomúsica”, que Lauro parcialmente adopta. En años posteriores, los musicólogos utilizarán las palabras en inglés “Popular Music” y en español “Música Popular” (o músicas populares) para designar (no sin polémicas) eso que “todos sabemos qué es, aunque no nos pongamos de acuerdo en cómo nombrarlo” las músicas y las etiquetas, los paradigmas de las épocas las definiciones de folklore y etnomusicología (Blacking) lo culto y lo popular en la mirada de Ayestarán la mesomúsica de Carlos Vega Cabe señalar el interés de Ayestarán por la totalidad de las expresiones musicales. (...) Particularmente llama la atención su mirada hacia la producción nacional y mundial de vanguardia, la denominada “Música Culta Contemporánea”.  (...) Fabini, el joven Tosar."
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Primeras grabaciones 1943",
+    "content": [
+      {
+        "type": "text",
+        "value": "Cita de Isabel Aretz para primeras grabaciones 1943. Historia de la Etnomusicología en América Latina: La primera colección grabada en discos con fines musicológicos, en diferentes departamentos del Uruguay, es probablemente la que fue realizada por mí durante mi viaje de becaria argentina, en 1943. En esa oportunidad trabajé en el Cerro de Montevideo y en Durazno, Minas y San José y registré 140 piezas que figuran en el Catálogo del Instituto Nacional de Musicología de Argentina con los N°s 3590 a 3729, correspondientes a 1943. De esta colección grabé 130 piezas y escribí directamente diez rondas infantiles que no presentaban problemas para su notación. Las grabaciones realizadas en el Cerro de Montevideo de un viejo tocador de «uricungo» las hice en compañía de Lauro Ayestarán (1913 – 1966) y por su sugestión, ya que él conocía al ejecutante (Lauro aún no había comenzado a grabar la música uruguaya y no poseía aparato de grabación. Me correspondió así iniciar la grabación de la música en el país hermano y enseñar al propio Lauro el uso del equipo).18"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "title": "Cita Lauro sobre notación",
+    "content": [
+      {
+        "type": "text",
+        "value": "«...la notación es una imagen (fidelísima en los grandes musicólogos [...] pero no por ello deja de ser una imagen), es decir una transposición. (Además nuestro sistema no fija timbres sino alturas y duraciones). No es la música misma que se produce sino la que se reproduce, de la misma manera que la fotografía en el más perfecto tecnicolor de una pintura o de un paisaje no es la pintura misma o el paisaje en sí. No es el mundo absoluto y puro de la música sino una imagen de esa música.» Lauro Ayestarán, apuntes personales (citado por Coriún Aharonián en el prólogo a «Textos Breves» Vol. 196 de la colección «Clásicos Uruguayos»"
+      },
+      {
+        "type": "link",
+        "value": "«Clásicos Uruguayos»",
+        "href": "http://bibliotecadigital.bibna.gub.uy:8080/jspui/handle/123456789/72390"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "title": "Docencia",
+    "content": [
+      {
+        "type": "text",
+        "value": "Humanidades - MHN - UCA"
+      },
+      {
+        "type": "text",
+        "value": "ESQUEMA FORMACIÓN/CREACIÓN/INVESTIGACIÓN/EXTENSIÓN"
+      },
+      {
+        "type": "image",
+        "src": "esquema.jpg",
+        "caption": "Esquema de Lauro Ayestarán"
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "title": "Enlaces de interés",
+    "content": [
+      {
+        "type": "text",
+        "value": "Biografías de Lauro Ayestarán"
+      },
+      {
+        "type": "image",
+        "value": ""
+      },
+      {
+        "type": "link",
+        "value": "Ángel Ayestarán - Genealogía de la familia Ayestarán",
+        "href": "https://www.academia.edu/23904143/Genealog%C3%ADa_del_music%C3%B3logo_Lauro_Ayestar%C3%A1n_1913-1966_"
+      },
+      {
+        "type": "image",
+        "value": ""
+      },
+      {
+        "type": "link",
+        "value": "Coriún Aharonián",
+        "href": "http://www.cdm.gub.uy/lauro-ayestaran/biografia/biografia-breve"
+      },
+      {
+        "type": "image",
+        "value": ""
+      },
+      {
+        "type": "text",
+        "value": "Daniel Vidart"
+      },
+      {
+        "type": "image",
+        "value": ""
+      },
+      {
+        "type": "text",
+        "value": "Dionisio Trillo Pays"
+      },
+      {
+        "type": "image",
+        "value": ""
+      },
+      {
+        "type": "text",
+        "value": "Parlamento, discurso"
+      },
+      {
+        "type": "image",
+        "value": ""
+      },
+      {
+        "type": "text",
+        "value": "Alfredo Nicrosi Otero, revista del Museo Hist. Nacional (1994)"
+      },
+      {
+        "type": "image",
+        "value": ""
+      },
+      {
+        "type": "text",
+        "value": "Listado completo de textos de Lauro Ayestarán"
+      },
+      {
+        "type": "image",
+        "value": ""
+      },
+      {
+        "type": "text",
+        "value": "Selección de grabaciones de Lauro Ayestarán"
+      },
+      {
+        "type": "image",
+        "value": ""
+      },
+      {
+        "type": "text",
+        "value": "Maestros, colegas y discípulos"
+      },
+      {
+        "type": "image",
+        "value": ""
+      },
+      {
+        "type": "text",
+        "value": "Carlos Vega"
+      },
+      {
+        "type": "image",
+        "value": ""
+      },
+      {
+        "type": "text",
+        "value": "Curt Lange"
+      },
+      {
+        "type": "image",
+        "value": ""
+      },
+      {
+        "type": "text",
+        "value": "Violeta Parra"
+      },
+      {
+        "type": "image",
+        "value": ""
+      },
+      {
+        "type": "text",
+        "value": "Alan Lomax - Página del proyecto “Equidad Cultural”"
+      },
+      {
+        "type": "image",
+        "value": ""
+      },
+      {
+        "type": "text",
+        "value": "Charles Seeger"
+      },
+      {
+        "type": "image",
+        "value": ""
+      },
+      {
+        "type": "text",
+        "value": "Bela Bartok (Roberto López Belloso)"
+      },
+      {
+        "type": "image",
+        "value": ""
+      },
+      {
+        "type": "text",
+        "value": "Asociación mundial de…1951…hoy…"
+      },
+      {
+        "type": "image",
+        "value": ""
+      },
+      {
+        "type": "text",
+        "value": "- libro fotos CdF- "
+      },
+      {
+        "type": "image",
+        "value": ""
+      },
+      {
+        "type": "text",
+        "value": "Herkovitz"
+      },
+      {
+        "type": "image",
+        "value": ""
+      },
+      {
+        "type": "text",
+        "value": "Seeger"
+      },
+      {
+        "type": "image",
+        "value": ""
+      },
+      {
+        "type": "text",
+        "value": "-colección clásicos -textos breves"
+      },
+      {
+        "type": "image",
+        "value": ""
+      },
+      {
+        "type": "text",
+        "value": "DVD AGU Canciones y Rondas"
       }
     ]
   }
