@@ -188,6 +188,19 @@ function Section({ section, onVisible, handleAnnotationClick }) {
           isVisible ? "opacity-100" : "opacity-0"
         }`}
       >
+        {section.esYoutube && (
+          <div className="w-full z-100">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/y8MStXFcrfs?si=ODM4PyBMfIS1u4kw"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        )}
         {section.isQuestion && (
           <div className="flex flex-col justify-center items-center">
             <img src="/pregunta.svg" alt="pregunta" className="" />
@@ -234,7 +247,7 @@ function Section({ section, onVisible, handleAnnotationClick }) {
                 consulta@cdm.gub.uy
               </a> */}
               <img src="/mec.png" alt="logo" className="w-80 mt-10 mb-10" />
-              Realizado gracias al fondo concursables MEC 2022
+              Realizado gracias a los fondos concursables del MEC 2022
             </div>
           </div>
         )}
@@ -245,7 +258,7 @@ function Section({ section, onVisible, handleAnnotationClick }) {
                 isHovered && section.hover ? section.hoverImage : section.imagen
               }
               alt={section.caption || "Section image"}
-              className={`drop-shadow-xl object-cover w-4/6 md:w-5/7  ${
+              className={`drop-shadow-xl object-cover min-w-4/6 md:w-5/7  ${
                 section.imagenSola ? "max-w-4xl mx-auto" : "max-w-xl"
               } ${section.hover ? "cursor-pointer" : ""}`}
               style={section.hover ? { cursor: "pointer" } : {}}

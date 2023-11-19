@@ -36,16 +36,19 @@ function NavBar({ currentSection }) {
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-8 py-6 bg-transparent">
-      <span className="text-white text-xl">Lauro Ayestaran</span>
-      <div
-        className="rounded-full bg-white bg-opacity-10 hover:bg-opacity-20 transition-all flex items-center p-3 pl-5 pr-6 cursor-pointer font-poppins tracking-widest text-sm"
-        onClick={toggleMenu}
-      >
-        <span className="mr-4">{`${
-          currentSection == "LEGADO" ? "" : "ETAPA"
-        } ${currentSection}`}</span>
-        <img src="/menu.svg" alt="Menu Icon" width={12} height={12} />
-      </div>
+      <span className="text-white text-xl">Crónicas Musicales</span>
+      {currentSection ? (
+        <div
+          className="rounded-full bg-white bg-opacity-10 hover:bg-opacity-20 transition-all flex items-center p-3 pl-5 pr-6 cursor-pointer font-poppins tracking-widest text-sm"
+          onClick={toggleMenu}
+        >
+          <span className="mr-4">{`${
+            currentSection == "LEGADO" ? "" : "ETAPA"
+          } ${currentSection}`}</span>
+          <img src="/menu.svg" alt="Menu Icon" width={12} height={12} />
+        </div>
+      ) : null}
+
       {isMenuOpen && (
         <div
           className="fixed z-50 top-0 left-0 w-screen h-screen bg-center bg-cover text-center text-white flex flex-col md:flex-row items-stretch"

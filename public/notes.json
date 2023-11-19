@@ -68,5 +68,25 @@
         "href": "http://www.cdm.gub.uy/el-archivo-digital/micros-radiales"
       }
     ]
+  },
+  {
+    "id": "7",
+    "title": "Método",
+    "content": [
+      {
+        "type": "image",
+        "src": "micros.jpg",
+        "caption": "Lauro Ayestarán en el estudio de grabación del SODRE"
+      },
+      {
+        "type": "text",
+        "value": "Lauro Ayestarán fue nombrado Director de Programaciones del Sodre en 1959."
+      },
+      {
+        "type": "link",
+        "value": "Mirá los micros radiales de Lauro Ayestarán en la página del Centro de Documentación Músical",
+        "href": "http://www.cdm.gub.uy/el-archivo-digital/micros-radiales"
+      }
+    ]
   }
 ]
