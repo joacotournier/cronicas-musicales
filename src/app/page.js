@@ -127,30 +127,6 @@ export default function Page() {
         {showLoading && <LoadingScreen />}
         <div className="bg-main-pattern bg-cover h-screen w-screen fixed"></div>
         <div className="relative isolate pt-0 md:pl-20">
-          <div className="h-[150vh] flex items-top justify-center">
-            <div
-              className={`py-24 flex flex-row items-center justify-center sm:py-32 md:flex-row pb-40 h-[100vh]  sticky top-0 max-w-6xl transition-opacity duration-500 ease-in-out`}
-            >
-              <h2 className="text-2xl text-center max-w-6xl mt-8 tracking-tight text-white sm:text-xl">
-                Crónicas musicales
-              </h2>
-              <p
-                className={`text-xl leading-loose text-center sm:leading-loose sm:text-2xl max-w-2xl text-white opacity-70 mt-3 mb-3`}
-              >
-                «Crónicas musicales» es un espacio virtual -en proceso de
-                ampliación- que aspira a registrar algunos hechos en torno a la
-                importancia de la música y el sonido, en la vida de los seres
-                humanos. \n \n Comenzamos este camino asomándonos al viaje de
-                Lauro Ayestarán a través de la vida y la música de su lugar y su
-                momento histórico: «El viaje de Lauro». \n \n Nos deslumbramos
-                con algunos hallazgos que fueron alimentando la construcción de
-                un personaje digno de protagonizar una película, y comenzamos a
-                imaginar ese viaje: narrar audiovisual y musicalmente la vida de
-                este pionero de la musicología que recorrió y grabó casi todo el
-                Uruguay.
-              </p>
-            </div>
-          </div>
           {data &&
             data.map((section) => (
               <Section

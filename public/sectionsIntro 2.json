@@ -1,0 +1,22 @@
+[
+  {
+    "id": "b12998ba0d1e",
+    "etapa": "",
+    "titulo": "Crónicas musicales",
+    "descripcion": "«Crónicas musicales» es un espacio virtual -en proceso de ampliación- que aspira a registrar algunos hechos en torno a la importancia de la música y el sonido, en la vida de los seres humanos. \n \n Comenzamos este camino asomándonos al viaje de Lauro Ayestarán a través de la vida y la música de su lugar y su momento histórico: «El viaje de Lauro». \n \n Nos deslumbramos con algunos hallazgos que fueron alimentando la construcción de un personaje digno de  protagonizar una película, y comenzamos a imaginar ese viaje: narrar audiovisual y musicalmente la vida de este pionero de la musicología que recorrió y grabó casi todo el Uruguay.",
+    "imagenSola": false,
+    "esEtapa": false,
+    "sinTitulo": false,
+    "tituloNavegador": "Crónicas"
+  },
+  {
+    "id": "234b11114e42",
+    "etapa": "",
+    "titulo": "El viaje de Lauro",
+    "descripcion": "Sobre los autores. \n \n Un director y guionista inglés (Anthony Fletcher) y un músico uruguayo de origen italiano (Leonardo Croatto), a partir de algunos hallazgos en el archivo del Centro Nacional de Documentación Musical (CDM), comenzaron a intercambiar ideas para una posible película. Así comenzó el viaje con Lauro. \n \n Trabajaron juntos en una obra de teatro sobre inmigrantes (“Ellos”) y en esos mismos años, mientras Anthony adaptaba al teatro “La tierra purpúrea” de W. H. Hudson, y Leonardo era “Coordinador musicológico” del CDM, surgió la idea de una “road-movie/musical”. Comenzaron a imaginar paisajes, sonidos y momentos destacables de la figura de Ayestarán y su relación con la música y el ser humano.",
+    "imagenSola": false,
+    "esEtapa": false,
+    "sinTitulo": true,
+    "tituloNavegador": "Viaje"
+  }
+]
