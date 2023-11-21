@@ -8,15 +8,27 @@ function Annotations({ isOpen, annotationId, onClose }) {
   const annotationRef = useRef(null);
 
   useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        annotationRef.current &&
+        !annotationRef.current.contains(event.target)
+      ) {
+        onClose();
+      }
+    };
     if (isOpen) {
       fetch("/notes.json")
         .then((response) => response.json())
         .then((data) => setAnnotationsData(data));
       document.body.style.overflow = "hidden";
+      document.addEventListener("click", handleClickOutside);
     } else {
       document.body.style.overflow = "auto";
     }
-  }, [isOpen]);
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, [isOpen, onClose]);
 
   useEffect(() => {
     if (!annotationRef.current) return;

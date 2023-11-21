@@ -419,5 +419,71 @@
         "value": "La diversidad cultural como valor a preservar es un concepto relativamente reciente, y todavía polémico. Podría establecerse un paralelo con la biodiversidad de las especies vegetales autóctonas, portadoras de información genética que se pierde indefectiblemente cuando los territorios son ocupados por los monocultivos industriales. Así como sobreviven especies animales y vegetales en riesgo de extinción, también hay lenguas, músicas y culturas enteras, víctimas de las modificaciones del hábitat producto del desarrollo urbano e industrial. Algunos fenómenos interculturales, como la globalización, comenzaban a operar en la primera mitad del siglo XX, a partir del desarrollo tecnológico de los medios de producción y reproducción, registro y difusión. En esos procesos es determinante el aumento de las posibilidades de abarcar al mundo entero desde una posición dominante, y la necesidad de ampliación y unificación de los mercados artísticos (en especial la industria cinematográfica y la industria musical)."
       }
     ]
+  },
+  {
+    "id": "15",
+    "title": "Planilla",
+    "content": [
+      {
+        "type": "image",
+        "src": "planilla-1.jpeg",
+        "caption": " "
+      },
+      {
+        "type": "image",
+        "src": "planilla-2.jpeg",
+        "caption": " "
+      },
+      {
+        "type": "image",
+        "src": "planilla-3.jpeg",
+        "caption": " "
+      },
+      {
+        "type": "image",
+        "src": "planilla-4.jpeg",
+        "caption": " "
+      },
+      {
+        "type": "image",
+        "src": "planilla-5.jpeg",
+        "caption": " "
+      },
+      {
+        "type": "image",
+        "src": "planilla-6.jpeg",
+        "caption": " "
+      },
+      {
+        "type": "image",
+        "src": "planilla-7.jpeg",
+        "caption": " "
+      },
+      {
+        "type": "image",
+        "src": "planilla-8.jpeg",
+        "caption": " "
+      },
+      {
+        "type": "image",
+        "src": "planilla-9.jpeg",
+        "caption": " "
+      },
+      {
+        "type": "image",
+        "src": "planilla-10.jpeg",
+        "caption": " "
+      },
+      {
+        "type": "image",
+        "src": "planilla-11.jpeg",
+        "caption": " "
+      },
+      {
+        "type": "image",
+        "src": "planilla-12.jpeg",
+        "caption": " "
+      }
+    ]
   }
 ]
