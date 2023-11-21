@@ -20,7 +20,7 @@
   {
     "id": "b12998ba0d1e",
     "etapa": "",
-    "titulo": "Lauro Ayestarán (1913-1966)",
+    "titulo": "Lauro Ayestarán",
     "descripcion": "Musicólogo Uruguayo 1913-1966",
     "imagenSola": false,
     "esEtapa": false,
@@ -110,11 +110,11 @@
   {
     "id": "6aefa18a06c6",
     "etapa": "I",
-    "titulo": "Lauro comienza sus primeros registros",
-    "sobreTitulo": "Alrededor del año 1943",
-    "descripcion": "",
+    "titulo": "Primeras grabaciones",
+    "descripcion": "Alrededor del año 1943, Lauro comienza sus primeros registros.",
     "imagenSola": false,
     "esEtapa": false,
+    "sinTitulo": true,
     "tituloNavegador": "Primeras grabaciones"
   },
   {
@@ -123,7 +123,7 @@
     "titulo": "asd",
     "descripcion": "La grabación de sonido era una posibilidad tecnológica relativamente reciente que permitía ir más allá de lo que las notas escritas en un [[11, pentagrama]] pueden representar. Esos «detalles» son un elemento muy importante que caracteriza las músicas populares.",
     "imagen": "/escrituras.png",
-    "caption": "Escrituras de Arroró hechas por Lauro en pentagrama.",
+    "caption": "Transcripción de la melodía del Arroró hecha por Ayestarán en pentagrama.",
     "imagenSola": false,
     "esEtapa": false,
     "isQuestion": false,
@@ -137,7 +137,7 @@
     "audioTitulo": "Policarpo Pereira, 1943",
     "etapa": "I",
     "titulo": "Grabador de discos de acetato",
-    "descripcion": "Con el grabador de acetato, Lauro pudo registrar el sonido de las músicas que escuchaba en sus viajes. Escuchemos a Policarpo Pereira tocando «Tango de Tío Simón» [[10, grabado en acetato.]]",
+    "descripcion": "Con el grabador de acetato, Lauro pudo registrar el sonido de las músicas que escuchaba en sus viajes. Escuchemos a Policarpo Pereira tocando «Tango de Tío Simón» grabado en acetato junto a la musicóloga argentina [[10, Isabel Aretz.]]",
     "imagen": "/grabadora.png",
     "caption": "Grabador de acetato de mediados de 1930, similar a los utilizados por Lauro",
     "imagenSola": false,
@@ -176,7 +176,7 @@
     "titulo": "Su primer grabador",
     "sobreTitulo": "",
     "imagen": "/ayesta-grabador.jpg",
-    "descripcion": "¡Se estima que este grabador pesaba alrededor de 30 kilos!",
+    "caption": "¡Se estima que este grabador pesaba alrededor de 30 kilos!",
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,
@@ -199,7 +199,7 @@
     "id": "348374",
     "etapa": "I",
     "titulo": "Trabajo",
-    "descripcion": "El trabajo de Lauro Ayestarán forma parte de los pilares de esa construcción permanente que es el estudio de la [[5,cultura humana.]]",
+    "descripcion": "El trabajo de Lauro Ayestarán forma parte de los pilares de esa construcción permanente que es el estudio de la [[14, cultura humana.]]",
     "imagenSola": false,
     "esEtapa": false,
     "isQuestion": false,
@@ -251,7 +251,7 @@
     "id": "sdfioj32459834597234",
     "etapa": "I",
     "titulo": "Dosetti",
-    "descripcion": "Ayestarán recibió ayuda de colegas y amigos de todo el país, entre los que destacamos a <a href='https://fhce.edu.uy/dossetti-santiago/' target='_blank' style='color: #00CCFF;' rel='noopener noreferrer'>Santiago Dossetti</a>, un escritor y periodista radicado en Lavalleja, quien ayudó a Lauro a planificar los viajes de Lauro a Minas y Rocha. \n \n Podemos apreciar algunas de las cartas de Dossetti, donde habla de cosas concretas en el proceso: cómo llegar al lugar de la grabación y quiénes podían colaborar.",
+    "descripcion": "Ayestarán recibió ayuda de colegas y amigos de todo el país, entre los que destacamos a <a href='https://fhce.edu.uy/dossetti-santiago/' target='_blank' style='color: #00CCFF;' rel='noopener noreferrer'>Santiago Dossetti</a>, un escritor y periodista radicado en Lavalleja, quien ayudó a Lauro a planificar sus viajes a Minas y Rocha. \n \n Podemos apreciar algunas de las cartas de Dossetti, donde habla de cosas concretas en el proceso: cómo llegar al lugar de la grabación y quiénes podían colaborar.",
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,
@@ -282,7 +282,7 @@
     "etapa": "I",
     "titulo": "Ovidio M. Terra (80)",
     "sobreTitulo": "12 Octubre, 1948",
-    "descripcion": "Grabado en: Atletic Rocha Club, Rocha \n Instrumental: Bandónica \n Al final hay una cálida interacción entre Lauro y el veterano músico, a pesar de que en sus notas sobre esta grabación Lauro escribió solamente una palabra: «Mala».",
+    "descripcion": "Grabado en: Atletic Rocha Club, Rocha \n Instrumental: Bandónica \n Al final hay una cálida interacción entre Lauro y el veterano músico, en sus notas sobre esta grabación Lauro escribió solamente una palabra: «Mala».",
     "imagen": "/476.jpeg",
     "caption": "Fotografía de Raúl Huelmo",
     "imagenSola": false,
@@ -297,7 +297,7 @@
     "etapa": "I",
     "titulo": "Ricardo Máximo (Ricardito)",
     "sobreTitulo": "22 Octubre, 1949",
-    "descripcion": "Grabado en: Liceo Oficial de Sarandi de Yi, Durazno \n Instrumental: Canto y guitarra \n Grabado en una marcha. Esta marcha se tocaba en la <a href='http://contenidoseducativosdigitales.edu.uy/files/092-las-batallas-de-la-revolucion-de-1904.pdf' target='_blank' style='color: #00CCFF;' rel='noopener noreferrer'>Batalla de Tupambaé</a>, durante la revolución de 1904, la última guerra civil del país. \n \n Ricardito asistió a la cruel batalla, donde hubo más de 2300 muertos y heridos. \n \n Lauro habla al final de la grabación con Ricardito sobre ese evento. Se advierte aquí claramente la línea de investigación que incorpora la música como elemento clave en la historia y memoria del país.",
+    "descripcion": "Grabado en: Liceo Oficial de Sarandi de Yi, Durazno \n Instrumental: Canto y guitarra \n Esta marcha se tocaba en la <a href='http://contenidoseducativosdigitales.edu.uy/files/092-las-batallas-de-la-revolucion-de-1904.pdf' target='_blank' style='color: #00CCFF;' rel='noopener noreferrer'>Batalla de Tupambaé</a>, durante la revolución de 1904, la última guerra civil del país. \n \n Ricardito asistió a la cruel batalla, donde hubo más de 2300 muertos y heridos. \n \n Lauro habla al final de la grabación con Ricardito sobre ese evento. Se advierte aquí claramente la línea de investigación que incorpora la música como elemento clave en la historia y memoria del país.",
     "imagen": "/625.jpeg",
     "caption": "Fotografía de la bibloteca nacional de Uruguay",
     "imagenSola": false,
@@ -380,7 +380,7 @@
     "id": "135",
     "etapa": "II",
     "titulo": "Etapa 2",
-    "descripcion": "En esta segunda etapa, Lauro sigue recorriendo diversos departamentos de Uruguay. \n \n Inicia una serie de programas radiales en la Radio del SODRE, desde donde comparte sus hallazgos, y establece conexiones con colegas a nivel internacional. \n \n Participa en 1951, en París, del Primer Congreso Internacional de Archivos y Bibliotecas Musicales y en la Tercera Asamblea General del Consejo Internacional de la Música. En los años siguientes, es invitado a dictar conferencias en universidades de Nueva Orleans, Los Ángeles y Nueva York. En 1963 participa en la Primera Conferencia Interamericana de Musicología en Washington.",
+    "descripcion": "En esta segunda etapa, Lauro sigue recorriendo diversos departamentos de Uruguay.",
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,
@@ -389,11 +389,11 @@
   {
     "id": "180",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/722.mp3?_=56",
-    "audioTitulo": "Sin nombre",
+    "audioTitulo": "Audio",
     "etapa": "II",
     "titulo": "Martin Vigilante",
     "sobreTitulo": "23 de febrero, 1954",
-    "descripcion": "Grabado en: Playa verde, Maldonado \n Instrumental: Canto y guitarra \n Participa en 1951, en París, del Primer Congreso Internacional de Archivos y Bibliotecas Musicales y en la Tercera Asamblea General del Consejo Internacional de la Música. En los años siguientes, es invitado a dictar conferencias en universidades de Nueva Orleans, Los Ángeles y Nueva York. En 1963 participa en la Primera Conferencia Interamericana de Musicología en Washington. \n \n Aquí vemos como Lauro grabó bajo todo tipo de condiciones: lo importante era siempre encontrar y preservar la música para el futuro.",
+    "descripcion": "Grabado en: Playa verde, Maldonado \n Instrumental: Canto y guitarra \n \n Hecha en la casa de Amanda Pérez, se hizo en medio de una tormenta. La lluvia cae fuerte y Lauro se emociona, exclamando al final: ¡una grabación en plena tormenta! Aquí vemos como Lauro grabó bajo todo tipo de condiciones: lo importante era siempre encontrar y preservar la música para el futuro.",
     "caption": "Fotografía del Archivo Nacional de la Imagen - SODRE",
     "imagenSola": false,
     "esEtapa": false,
@@ -403,7 +403,7 @@
   {
     "id": "181",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/782.mp3?_=56",
-    "audioTitulo": "Sin nombre",
+    "audioTitulo": "Audio",
     "etapa": "II",
     "titulo": "Presbiter Moltracio (69)",
     "sobreTitulo": "3 Abril, 1954",
@@ -416,14 +416,22 @@
     "tituloNavegador": "Presbiter Moltracio"
   },
   {
-    "id": "683927",
+    "id": "78adh78a78hd78ads",
     "etapa": "II",
-    "titulo": "Encuentros",
-    "descripcion": "Para un científico o un artista de un país periférico, como el Uruguay, la oportunidad de concurrir a encuentros académicos en el exterior implica a la vez un reconocimiento y un desafío.",
+    "imagen": "/radio.png",
+    "imagenSola": true,
+    "esEtapa": false,
+    "tituloNavegador": "Radio"
+  },
+  {
+    "id": "9182739817293817923871928379",
+    "etapa": "II",
+    "titulo": "Etapa 2",
+    "descripcion": "Inicia una serie de programas radiales en la Radio del SODRE, desde donde comparte sus hallazgos, y establece conexiones con colegas a nivel internacional. \n \n Participa en 1951, en París, del Primer Congreso Internacional de Archivos y Bibliotecas Musicales y en la Tercera Asamblea General del Consejo Internacional de la Música. En los años siguientes, es invitado a dictar conferencias en universidades de Nueva Orleans, Los Ángeles y Nueva York. En 1963 participa en la Primera Conferencia Interamericana de Musicología en Washington.",
     "imagenSola": false,
     "esEtapa": false,
     "sinTitulo": true,
-    "tituloNavegador": "Encuentros"
+    "tituloNavegador": "Radiales"
   },
   {
     "id": "630259",
@@ -436,13 +444,15 @@
     "tituloNavegador": "Intercambios"
   },
   {
-    "id": "28937492873401",
+    "id": "683927",
     "etapa": "II",
+    "titulo": "Encuentros",
+    "descripcion": "Para un científico o un artista de un país periférico, como el Uruguay, la oportunidad de concurrir a encuentros académicos en el exterior implica a la vez un reconocimiento y un desafío.",
     "imagen": "/international-report.jpg",
-    "esZoom": true,
-    "imagenSola": true,
+    "imagenSola": false,
     "esEtapa": false,
-    "tituloNavegador": "Reporte internacional"
+    "sinTitulo": true,
+    "tituloNavegador": "Encuentros"
   },
   {
     "id": "1691114",
@@ -515,26 +525,16 @@
     "sobreTitulo": "23 Octubre, 1954",
     "descripcion": "Grabado en: “Club Social Centenario” de José Pedro Varela, Lavalleja \n Instrumental: Recita \n Se destaca la curiosidad de Lauro, mientras pregunta por los orígenes de lo que recita Florentino Miguez. Este último relata que su padre cantaba las décimas “cuando el mundo se formó”, aunque él ya no las recuerda.",
     "imagen": "/892.jpeg",
-    "caption": "Fotografía del club social centenario en Facebook",
+    "caption": "Fotografía del Club Social Centenario (Facebook)",
     "imagenSola": false,
     "esEtapa": false,
     "esAudio": true,
     "tituloNavegador": "Florentino Miguez"
   },
   {
-    "id": "187",
-    "etapa": "II",
-    "titulo": "Diapason",
-    "descripcion": "Un diapasón es un dispositivo metálico (generalmente acero) con forma de horquilla, utilizado principalmente como referencia para afinación de instrumentos musicales. \n \n En el proceso de registro sonoro, Ayestarán incluía el sonido de referencia de un “diapasón de soplo” para verificar eventuales cambios de velocidad entre grabación y reproducción. El diapasón de soplo se puede escuchar al principio de cada grabación.",
-    "imagenSola": false,
-    "esEtapa": false,
-    "sinTitulo": true,
-    "tituloNavegador": "Diapasón"
-  },
-  {
     "id": "19",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2014/11/CDM-LA-RS-1421-Gomez-Maidana-diapason.mp3?_=1",
-    "audioTitulo": "Alberto Mastra (payador), 1954",
+    "audioTitulo": "Audio",
     "etapa": "II",
     "titulo": "Diapasón",
     "descripcion": "El <a href='https://es.wikipedia.org/wiki/Diapasón' target='_blank' style='color: #00CCFF;' rel='noopener noreferrer'>diapasón</a> se puede escuchar al principio de la grabación. Un diapasón es un dispositivo metálico (generalmente acero) con forma de horquilla, utilizado principalmente como referencia para afinación de instrumentos musicales. En el proceso de registro sonoro, Ayestarán incluía el sonido de refeencia de un “diapasón de soplo” para verificar eventuales cambios de velocidad entre grabación y reproducción.",
@@ -542,7 +542,7 @@
     "imagenSola": false,
     "esEtapa": false,
     "esAudio": true,
-    "tituloNavegador": "Alberto Mastra"
+    "tituloNavegador": "Diapasón"
   },
   {
     "id": "183",
@@ -562,13 +562,13 @@
   {
     "id": "184",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/929.mp3?_=56",
-    "audioTitulo": "Sin nombre",
+    "audioTitulo": "Audio",
     "etapa": "II",
     "titulo": "Juan Colina (70)",
     "sobreTitulo": "12 Marzo, 1955",
     "descripcion": "Grabado en: Escuela Pública Nº 3 de San Carlos, Maldonado \n Instrumental: Acordeon de dos hileras \n La charla entre Colina y Lauro es tan entretenida como la música. Hablan de las fuentes de este pericón y –entre risas– del uruguayo y el amor. En esta grabación se nota como Lauro era para sus entrevistados más que un académico, un par.",
     "imagen": "/929.jpeg",
-    "caption": "Fotografía de nicelocal.uy",
+    "caption": "Foto actual de escuela pública nro 3 de San Carlos (nicelocal.uy)",
     "imagenSola": false,
     "esEtapa": false,
     "esAudio": true,
@@ -577,7 +577,7 @@
   {
     "id": "185",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/1255.mp3?_=56",
-    "audioTitulo": "Sin nombre",
+    "audioTitulo": "Audio",
     "etapa": "II",
     "titulo": "Eleuterio «El Paraguayo» López",
     "sobreTitulo": "18, Febrero, 1956",
@@ -591,10 +591,11 @@
   {
     "id": "186",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/CDM-LA-RS-1290-altura-y-ed.mp3?_=63",
-    "audioTitulo": "Sin nombre",
+    "audioTitulo": "Audio",
     "etapa": "II",
     "titulo": "Leon Aquino (60)",
     "sobreTitulo": "3 Octubre, 1956",
+    "caption": "Foto actual del liceo de Treinta y Tres (Facebook)",
     "descripcion": "Grabado en: Liceo Oficial de Enseñanza Secundaria, Treinta y Tres \n Instrumental: Acordeón de dos hileras \n León Aquino toca una milonga en el Liceo Oficial de Enseñanza Secundaria de Treinta y Tres. A Ayestarán le fascina tanto la letra, que le pide a Aquino que repita todo. \n \n En sus notas agrega: «Lo aprendió alrededor de 1912. Versa sobre un cometa: ¿el Halley? Es una décima sobre «Las señales» ¡OJO! Lleva una entrevista final en la que repite recitando toda la poesía.». \n \n El texto es muy parecido a la trova a lo divino recogida en Vega Alta (Puerto Rico) y transcrita en: Pablo Garrido: «Esotería y fervor populares de Puerto Rico», Madrid, 1953. Un ejemplo de la perspectiva de la música amplia y global de Ayestarán.",
     "imagen": "/1290.jpeg",
     "imagenSola": false,
@@ -611,15 +612,6 @@
     "tituloNavegador": "ETAPA III"
   },
   {
-    "id": "15",
-    "etapa": "III",
-    "titulo": "Programa de radio",
-    "sobreTitulo": "Programa del Sodre hacia 1960",
-    "imagenSola": false,
-    "esEtapa": false,
-    "tituloNavegador": "Programa de radio"
-  },
-  {
     "id": "456456456",
     "etapa": "III",
     "titulo": "asdasd",
@@ -628,14 +620,6 @@
     "esEtapa": false,
     "sinTitulo": true,
     "tituloNavegador": "Docencia"
-  },
-  {
-    "id": "16",
-    "etapa": "III",
-    "imagen": "/radio.png",
-    "imagenSola": true,
-    "esEtapa": false,
-    "tituloNavegador": "Radio"
   },
   {
     "id": "9837598375983475",
@@ -664,21 +648,14 @@
     "tituloNavegador": "Micro radial"
   },
   {
-    "id": "20",
+    "id": "uishdf90a0sd09",
     "etapa": "III",
-    "titulo": "Su último grabador",
+    "imagen": "/butoba.png",
+    "titulo": "Su mejor grabador",
     "sobreTitulo": "Grabador de cinta magnética",
     "imagenSola": false,
     "esEtapa": false,
-    "tituloNavegador": "Grabador de cinta"
-  },
-  {
-    "id": "21",
-    "etapa": "III",
-    "imagen": "/butoba.png",
-    "imagenSola": true,
-    "esEtapa": false,
-    "tituloNavegador": "Butoba"
+    "tituloNavegador": "Cinta magnética"
   },
   {
     "id": "22",
@@ -694,7 +671,7 @@
   {
     "id": "226",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/1779.mp3?_=56",
-    "audioTitulo": "Sin nombre",
+    "audioTitulo": "Audio",
     "etapa": "III",
     "titulo": "Gladys Furtado (12)",
     "sobreTitulo": "10 Mayo, 1958",
@@ -709,7 +686,6 @@
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2021/11/CDM-LA-RS-2128-D.mp3?_=12",
     "audioTitulo": "Estilo, 1959",
     "etapa": "III",
-    "quote": "Según lo transmitido por Basso a Ayestarán, la letra es de Roque Tajes y el músico la canta de oído desde 1915.",
     "titulo": "Nicolás Basso (62)",
     "descripcion": "Grabado en: Montevideo \n Instrumental: Canto y guitarra \n Según lo transmitido por Basso a Ayestarán, la letra es de Roque Tajes y el músico la canta de oído desde 1915.",
     "imagen": "/nicolas.jpg",
@@ -743,7 +719,7 @@
   {
     "id": "918273981723916",
     "etapa": "III",
-    "titulo": "",
+    "titulo": "Registro",
     "descripcion": "El plan de la obra indica la intención de Ayestarán de plasmar en sucesivos volúmenes el resultado de sus investigaciones.",
     "imagen": "/libro-abierto.jpg",
     "imagenSola": false,
@@ -768,7 +744,7 @@
   {
     "id": "244",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/2397.mp3?_=56",
-    "audioTitulo": "Sin nombre",
+    "audioTitulo": "Audio",
     "etapa": "III",
     "titulo": "Celanira González (62)",
     "sobreTitulo": "5 Setiembre, 1958",
@@ -781,7 +757,7 @@
   {
     "id": "246",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/2397.mp3?_=56",
-    "audioTitulo": "Sin nombre",
+    "audioTitulo": "Audio",
     "etapa": "III",
     "titulo": "Crisolda Bervejillo (84)",
     "sobreTitulo": "20 Agosto, 1960",
@@ -817,13 +793,13 @@
   {
     "id": "247",
     "url": "http://www.cdm.gub.uy/wp-content/uploads/2023/04/2504.mp3?_=56",
-    "audioTitulo": "Sin nombre",
+    "audioTitulo": "Audio",
     "etapa": "III",
     "titulo": "Jose Omar Duarte (36)",
     "sobreTitulo": "22 Setiembre, 1960",
     "descripcion": "Grabado en: Centro Rodó, Rivera \n Instrumental: Canto y guitarra \n José Omar Duarte canta una milonga dedicada al propio Ayestarán. Después de tantos años, la fama de Lauro lo precede. También es fascinante escuchar la forma de improvisar que tiene Duarte, algo que desde las tradiciones de los payadores, resuena y tiene eco en el rap de hoy en día.",
     "imagen": "/2504.jpeg",
-    "caption": "Fotografía de Facebook",
+    "caption": "Foto actual del centro Rodó de Rivera. (Facebook)",
     "imagenSola": false,
     "esEtapa": false,
     "esAudio": true,
