@@ -90,7 +90,7 @@ export default function Page() {
 
   if (error) return <div>Failed to load</div>;
 
-  /* if (!isAuthenticated) {
+  if (!isAuthenticated) {
     return (
       <div className="h-screen w-screen flex items-center justify-center bg-zinc-900">
         <div className="text-center flex gap-2 items-center">
@@ -111,7 +111,7 @@ export default function Page() {
         </div>
       </div>
     );
-  } */
+  }
 
   return (
     <AudioContext.Provider value={{ playingAudio, setPlayingAudio }}>
