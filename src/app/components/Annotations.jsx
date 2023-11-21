@@ -65,7 +65,7 @@ function Annotations({ isOpen, annotationId, onClose }) {
           switch (item.type) {
             case "text":
               return (
-                <span key={index} className="text-base max-w-sm">
+                <span key={index} className="text-base text-justify max-w-sm">
                   {item.value}
                 </span>
               );
@@ -94,7 +94,7 @@ function Annotations({ isOpen, annotationId, onClose }) {
           }
         })
       ) : (
-        <p className="text-base">{annotation.content}</p>
+        <p className="text-base text-justify">{annotation.content}</p>
       )}
     </div>
   );
